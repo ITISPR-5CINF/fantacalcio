@@ -1,7 +1,7 @@
 [
     {
         "cognome_nome": "Carnesecchi Marco",
-        "data_nascita": "01/07/2000 00:00:00",
+        "data_nascita": "2000-07-01",
         "posizione": "P",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -12,7 +12,7 @@
     },
     {
         "cognome_nome": "Musso Juan",
-        "data_nascita": "06/05/1994 00:00:00",
+        "data_nascita": "1994-05-06",
         "posizione": "P",
         "crediti_iniziali": 35,
         "crediti_finali": 35,
@@ -24,7 +24,7 @@
     },
     {
         "cognome_nome": "Rossi Francesco",
-        "data_nascita": "27/04/1991 00:00:00",
+        "data_nascita": "1991-04-27",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -35,7 +35,7 @@
     },
     {
         "cognome_nome": "Sportiello Marco",
-        "data_nascita": "10/05/1992 00:00:00",
+        "data_nascita": "1992-05-10",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -46,7 +46,7 @@
     },
     {
         "cognome_nome": "Demiral Merih",
-        "data_nascita": "05/03/1998 00:00:00",
+        "data_nascita": "1998-03-05",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -57,7 +57,7 @@
     },
     {
         "cognome_nome": "Djimsiti Berat",
-        "data_nascita": "16/02/1993 00:00:00",
+        "data_nascita": "1993-02-16",
         "posizione": "D",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -69,7 +69,7 @@
     },
     {
         "cognome_nome": "Okoli Caleb",
-        "data_nascita": "13/07/2001 00:00:00",
+        "data_nascita": "2001-07-13",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -80,7 +80,7 @@
     },
     {
         "cognome_nome": "Palomino Jos\u00c3\u00a8 Luis",
-        "data_nascita": "05/01/1990 00:00:00",
+        "data_nascita": "1990-01-05",
         "posizione": "D",
         "crediti_iniziali": 17,
         "crediti_finali": 18,
@@ -91,7 +91,7 @@
     },
     {
         "cognome_nome": "Scalvini Giorgio",
-        "data_nascita": "11/12/2003 00:00:00",
+        "data_nascita": "2003-12-11",
         "posizione": "D",
         "crediti_iniziali": 20,
         "crediti_finali": 21,
@@ -102,7 +102,7 @@
     },
     {
         "cognome_nome": "Toloi Rafael",
-        "data_nascita": "10/10/1990 00:00:00",
+        "data_nascita": "1990-10-10",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 17,
@@ -114,7 +114,7 @@
     },
     {
         "cognome_nome": "Ruggeri Matteo",
-        "data_nascita": "11/07/2002 00:00:00",
+        "data_nascita": "2002-07-11",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -125,7 +125,7 @@
     },
     {
         "cognome_nome": "Zortea Nadir",
-        "data_nascita": "19/06/1999 00:00:00",
+        "data_nascita": "1999-06-19",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 8,
@@ -136,7 +136,7 @@
     },
     {
         "cognome_nome": "Hateboer Hans",
-        "data_nascita": "09/01/1994 00:00:00",
+        "data_nascita": "1994-01-09",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -147,7 +147,7 @@
     },
     {
         "cognome_nome": "Maehle Joakim",
-        "data_nascita": "20/05/1997 00:00:00",
+        "data_nascita": "1997-05-20",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 13,
@@ -158,7 +158,7 @@
     },
     {
         "cognome_nome": "Zappacosta Davide",
-        "data_nascita": "11/06/1992 00:00:00",
+        "data_nascita": "1992-06-11",
         "posizione": "D",
         "crediti_iniziali": 17,
         "crediti_finali": 15,
@@ -169,7 +169,7 @@
     },
     {
         "cognome_nome": "De Roon Marten",
-        "data_nascita": "29/03/1991 00:00:00",
+        "data_nascita": "1991-03-29",
         "posizione": "C",
         "crediti_iniziali": 17,
         "crediti_finali": 17,
@@ -180,7 +180,7 @@
     },
     {
         "cognome_nome": "Freuler Remo",
-        "data_nascita": "15/04/1992 00:00:00",
+        "data_nascita": "1992-04-15",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -191,7 +191,7 @@
     },
     {
         "cognome_nome": "Koopmeiners Teun",
-        "data_nascita": "28/02/1998 00:00:00",
+        "data_nascita": "1998-02-28",
         "posizione": "C",
         "crediti_iniziali": 48,
         "crediti_finali": 48,
@@ -202,7 +202,7 @@
     },
     {
         "cognome_nome": "Ederson da Silva",
-        "data_nascita": "07/07/1999 00:00:00",
+        "data_nascita": "1999-07-07",
         "posizione": "C",
         "crediti_iniziali": 26,
         "crediti_finali": 26,
@@ -213,7 +213,7 @@
     },
     {
         "cognome_nome": "Malinovskyi Ruslan",
-        "data_nascita": "04/05/1993 00:00:00",
+        "data_nascita": "1993-05-04",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -224,7 +224,7 @@
     },
     {
         "cognome_nome": "Pasalic Mario",
-        "data_nascita": "09/02/1995 00:00:00",
+        "data_nascita": "1995-02-09",
         "posizione": "C",
         "crediti_iniziali": 25,
         "crediti_finali": 22,
@@ -235,7 +235,7 @@
     },
     {
         "cognome_nome": "Miranchuk Aleksej",
-        "data_nascita": "17/10/1995 00:00:00",
+        "data_nascita": "1995-10-17",
         "posizione": "C",
         "crediti_iniziali": 60,
         "crediti_finali": 58,
@@ -246,7 +246,7 @@
     },
     {
         "cognome_nome": "Boga Jeremie",
-        "data_nascita": "03/01/1997 00:00:00",
+        "data_nascita": "1997-01-03",
         "posizione": "A",
         "crediti_iniziali": 25,
         "crediti_finali": 27,
@@ -258,7 +258,7 @@
     },
     {
         "cognome_nome": "Ilicic Josip",
-        "data_nascita": "29/01/1988 00:00:00",
+        "data_nascita": "1988-01-29",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -269,7 +269,7 @@
     },
     {
         "cognome_nome": "Ciss\u00c3\u00a8 Moustapha",
-        "data_nascita": "14/09/2003 00:00:00",
+        "data_nascita": "2003-09-14",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -280,7 +280,7 @@
     },
     {
         "cognome_nome": "Muriel Luis",
-        "data_nascita": "16/04/1991 00:00:00",
+        "data_nascita": "1991-04-16",
         "posizione": "A",
         "crediti_iniziali": 27,
         "crediti_finali": 24,
@@ -291,7 +291,7 @@
     },
     {
         "cognome_nome": "Zapata Duvan",
-        "data_nascita": "01/04/1991 00:00:00",
+        "data_nascita": "1991-04-01",
         "posizione": "A",
         "crediti_iniziali": 55,
         "crediti_finali": 53,
@@ -302,7 +302,7 @@
     },
     {
         "cognome_nome": "Bardi Francesco",
-        "data_nascita": "18/01/1992 00:00:00",
+        "data_nascita": "1992-01-18",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -313,7 +313,7 @@
     },
     {
         "cognome_nome": "Molla Marco",
-        "data_nascita": "19/06/2002 00:00:00",
+        "data_nascita": "2002-06-19",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -325,7 +325,7 @@
     },
     {
         "cognome_nome": "Skorupski Lukasz",
-        "data_nascita": "05/05/1991 00:00:00",
+        "data_nascita": "1991-05-05",
         "posizione": "P",
         "crediti_iniziali": 28,
         "crediti_finali": 28,
@@ -336,7 +336,7 @@
     },
     {
         "cognome_nome": "Bonifazi Kevin",
-        "data_nascita": "19/05/1996 00:00:00",
+        "data_nascita": "1996-05-19",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -347,7 +347,7 @@
     },
     {
         "cognome_nome": "Medel Gary",
-        "data_nascita": "03/08/1987 00:00:00",
+        "data_nascita": "1987-08-03",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -358,7 +358,7 @@
     },
     {
         "cognome_nome": "Soumaoro Adama",
-        "data_nascita": "18/06/1992 00:00:00",
+        "data_nascita": "1992-06-18",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -370,7 +370,7 @@
     },
     {
         "cognome_nome": "Theate Arthur",
-        "data_nascita": "25/05/2000 00:00:00",
+        "data_nascita": "2000-05-25",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -381,7 +381,7 @@
     },
     {
         "cognome_nome": "Amey Wisdom",
-        "data_nascita": "11/05/2005 00:00:00",
+        "data_nascita": "2005-05-11",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -393,7 +393,7 @@
     },
     {
         "cognome_nome": "De Silvestri Lorenzo",
-        "data_nascita": "23/05/1988 00:00:00",
+        "data_nascita": "1988-05-23",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -404,7 +404,7 @@
     },
     {
         "cognome_nome": "Kasius Denso",
-        "data_nascita": "06/10/2002 00:00:00",
+        "data_nascita": "2002-10-06",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -415,7 +415,7 @@
     },
     {
         "cognome_nome": "Dijks Mitchell",
-        "data_nascita": "09/02/1993 00:00:00",
+        "data_nascita": "1993-02-09",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -426,7 +426,7 @@
     },
     {
         "cognome_nome": "Lykogiannis Charalampos",
-        "data_nascita": "22/10/1993 00:00:00",
+        "data_nascita": "1993-10-22",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -437,7 +437,7 @@
     },
     {
         "cognome_nome": "Cambiaso Andrea",
-        "data_nascita": "20/02/2000 00:00:00",
+        "data_nascita": "2000-02-20",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -448,7 +448,7 @@
     },
     {
         "cognome_nome": "Mbaye Ibrahima",
-        "data_nascita": "19/11/1994 00:00:00",
+        "data_nascita": "1994-11-19",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -459,7 +459,7 @@
     },
     {
         "cognome_nome": "Dominguez Nicolas",
-        "data_nascita": "28/06/1998 00:00:00",
+        "data_nascita": "1998-06-28",
         "posizione": "C",
         "crediti_iniziali": 28,
         "crediti_finali": 29,
@@ -470,7 +470,7 @@
     },
     {
         "cognome_nome": "Kingsley Michael",
-        "data_nascita": "26/08/1999 00:00:00",
+        "data_nascita": "1999-08-26",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -481,7 +481,7 @@
     },
     {
         "cognome_nome": "Schouten Jerdy",
-        "data_nascita": "12/01/1997 00:00:00",
+        "data_nascita": "1997-01-12",
         "posizione": "C",
         "crediti_iniziali": 23,
         "crediti_finali": 24,
@@ -492,7 +492,7 @@
     },
     {
         "cognome_nome": "Aebischer Michel",
-        "data_nascita": "06/01/1997 00:00:00",
+        "data_nascita": "1997-01-06",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -503,7 +503,7 @@
     },
     {
         "cognome_nome": "Ferguson Lewis",
-        "data_nascita": "24/08/1999 00:00:00",
+        "data_nascita": "1999-08-24",
         "posizione": "C",
         "crediti_iniziali": 37,
         "crediti_finali": 37,
@@ -514,7 +514,7 @@
     },
     {
         "cognome_nome": "Soriano Roberto",
-        "data_nascita": "08/02/1991 00:00:00",
+        "data_nascita": "1991-02-08",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 4,
@@ -526,7 +526,7 @@
     },
     {
         "cognome_nome": "Vignato Emanuel",
-        "data_nascita": "24/08/2000 00:00:00",
+        "data_nascita": "2000-08-24",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -538,7 +538,7 @@
     },
     {
         "cognome_nome": "Orsolini Riccardo",
-        "data_nascita": "24/01/1997 00:00:00",
+        "data_nascita": "1997-01-24",
         "posizione": "C",
         "crediti_iniziali": 67,
         "crediti_finali": 65,
@@ -549,7 +549,7 @@
     },
     {
         "cognome_nome": "Barrow Musa",
-        "data_nascita": "14/11/1998 00:00:00",
+        "data_nascita": "1998-11-14",
         "posizione": "A",
         "crediti_iniziali": 27,
         "crediti_finali": 27,
@@ -560,7 +560,7 @@
     },
     {
         "cognome_nome": "Sansone Nicola",
-        "data_nascita": "10/09/1991 00:00:00",
+        "data_nascita": "1991-09-10",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -571,7 +571,7 @@
     },
     {
         "cognome_nome": "Arnautovic Marko",
-        "data_nascita": "19/04/1989 00:00:00",
+        "data_nascita": "1989-04-19",
         "posizione": "A",
         "crediti_iniziali": 45,
         "crediti_finali": 45,
@@ -583,7 +583,7 @@
     },
     {
         "cognome_nome": "Radu Ionut",
-        "data_nascita": "28/05/1997 00:00:00",
+        "data_nascita": "1997-05-28",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -594,7 +594,7 @@
     },
     {
         "cognome_nome": "Sarr Mouhamadou",
-        "data_nascita": "05/01/1997 00:00:00",
+        "data_nascita": "1997-01-05",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -606,7 +606,7 @@
     },
     {
         "cognome_nome": "Chiriches Vlad",
-        "data_nascita": "14/11/1989 00:00:00",
+        "data_nascita": "1989-11-14",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -617,7 +617,7 @@
     },
     {
         "cognome_nome": "Ndiaye Maissa",
-        "data_nascita": "28/01/2002 00:00:00",
+        "data_nascita": "2002-01-28",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -628,7 +628,7 @@
     },
     {
         "cognome_nome": "Ravanelli Luca",
-        "data_nascita": "06/01/1997 00:00:00",
+        "data_nascita": "1997-01-06",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -639,7 +639,7 @@
     },
     {
         "cognome_nome": "Vasquez Johan",
-        "data_nascita": "22/04/1998 00:00:00",
+        "data_nascita": "1998-04-22",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -650,7 +650,7 @@
     },
     {
         "cognome_nome": "Bianchetti Matteo",
-        "data_nascita": "17/03/1993 00:00:00",
+        "data_nascita": "1993-03-17",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -661,7 +661,7 @@
     },
     {
         "cognome_nome": "Fiordaliso Alessandro",
-        "data_nascita": "20/03/1999 00:00:00",
+        "data_nascita": "1999-03-20",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -672,7 +672,7 @@
     },
     {
         "cognome_nome": "Sernicola Leonardo",
-        "data_nascita": "30/07/1997 00:00:00",
+        "data_nascita": "1997-07-30",
         "posizione": "D",
         "crediti_iniziali": 11,
         "crediti_finali": 12,
@@ -683,7 +683,7 @@
     },
     {
         "cognome_nome": "Ghiglione Paolo",
-        "data_nascita": "02/02/1997 00:00:00",
+        "data_nascita": "1997-02-02",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -694,7 +694,7 @@
     },
     {
         "cognome_nome": "Valeri Emanuele",
-        "data_nascita": "07/12/1998 00:00:00",
+        "data_nascita": "1998-12-07",
         "posizione": "D",
         "crediti_iniziali": 19,
         "crediti_finali": 19,
@@ -705,7 +705,7 @@
     },
     {
         "cognome_nome": "Baez Jaime",
-        "data_nascita": "25/04/1995 00:00:00",
+        "data_nascita": "1995-04-25",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -717,7 +717,7 @@
     },
     {
         "cognome_nome": "Pickel Charles",
-        "data_nascita": "15/05/1997 00:00:00",
+        "data_nascita": "1997-05-15",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -729,7 +729,7 @@
     },
     {
         "cognome_nome": "Castagnetti Michele",
-        "data_nascita": "27/12/1989 00:00:00",
+        "data_nascita": "1989-12-27",
         "posizione": "C",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -740,7 +740,7 @@
     },
     {
         "cognome_nome": "Valzania Luca",
-        "data_nascita": "05/03/1996 00:00:00",
+        "data_nascita": "1996-03-05",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -751,7 +751,7 @@
     },
     {
         "cognome_nome": "Bartolomei Paolo",
-        "data_nascita": "22/08/1989 00:00:00",
+        "data_nascita": "1989-08-22",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -762,7 +762,7 @@
     },
     {
         "cognome_nome": "Tenkorang Joshua",
-        "data_nascita": "26/05/2000 00:00:00",
+        "data_nascita": "2000-05-26",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -774,7 +774,7 @@
     },
     {
         "cognome_nome": "Milanese Tommaso",
-        "data_nascita": "31/07/2002 00:00:00",
+        "data_nascita": "2002-07-31",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -785,7 +785,7 @@
     },
     {
         "cognome_nome": "Zanimacchia Luca",
-        "data_nascita": "19/07/1998 00:00:00",
+        "data_nascita": "1998-07-19",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -796,7 +796,7 @@
     },
     {
         "cognome_nome": "Buonaiuto Cristian",
-        "data_nascita": "29/12/1992 00:00:00",
+        "data_nascita": "1992-12-29",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -807,7 +807,7 @@
     },
     {
         "cognome_nome": "Strizzolo Luca",
-        "data_nascita": "29/04/1992 00:00:00",
+        "data_nascita": "1992-04-29",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -818,7 +818,7 @@
     },
     {
         "cognome_nome": "Ciofani Daniel",
-        "data_nascita": "31/07/1985 00:00:00",
+        "data_nascita": "1985-07-31",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -829,7 +829,7 @@
     },
     {
         "cognome_nome": "Di Carmine Samuel",
-        "data_nascita": "29/09/1988 00:00:00",
+        "data_nascita": "1988-09-29",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -840,7 +840,7 @@
     },
     {
         "cognome_nome": "Gondo Cedric",
-        "data_nascita": "25/11/1996 00:00:00",
+        "data_nascita": "1996-11-25",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -852,7 +852,7 @@
     },
     {
         "cognome_nome": "Tsadjout Frank",
-        "data_nascita": "28/07/1999 00:00:00",
+        "data_nascita": "1999-07-28",
         "posizione": "A",
         "crediti_iniziali": 13,
         "crediti_finali": 11,
@@ -864,7 +864,7 @@
     },
     {
         "cognome_nome": "Furlan Jacopo",
-        "data_nascita": "22/02/1993 00:00:00",
+        "data_nascita": "1993-02-22",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -875,7 +875,7 @@
     },
     {
         "cognome_nome": "Perisan Samuele",
-        "data_nascita": "21/08/1997 00:00:00",
+        "data_nascita": "1997-08-21",
         "posizione": "P",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -886,7 +886,7 @@
     },
     {
         "cognome_nome": "Vicario Guglielmo",
-        "data_nascita": "07/10/1996 00:00:00",
+        "data_nascita": "1996-10-07",
         "posizione": "P",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
@@ -897,7 +897,7 @@
     },
     {
         "cognome_nome": "Ismajli Ardian",
-        "data_nascita": "30/09/1996 00:00:00",
+        "data_nascita": "1996-09-30",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -909,7 +909,7 @@
     },
     {
         "cognome_nome": "Tonelli Lorenzo",
-        "data_nascita": "17/01/1990 00:00:00",
+        "data_nascita": "1990-01-17",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -920,7 +920,7 @@
     },
     {
         "cognome_nome": "Viti Mattia",
-        "data_nascita": "24/01/2002 00:00:00",
+        "data_nascita": "2002-01-24",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -931,7 +931,7 @@
     },
     {
         "cognome_nome": "De Winter Koni",
-        "data_nascita": "12/06/2002 00:00:00",
+        "data_nascita": "2002-06-12",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -942,7 +942,7 @@
     },
     {
         "cognome_nome": "Luperto Sebastiano",
-        "data_nascita": "06/09/1996 00:00:00",
+        "data_nascita": "1996-09-06",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -953,7 +953,7 @@
     },
     {
         "cognome_nome": "Ebuhei Tyronne",
-        "data_nascita": "16/12/1995 00:00:00",
+        "data_nascita": "1995-12-16",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -965,7 +965,7 @@
     },
     {
         "cognome_nome": "Stojanovic Peter",
-        "data_nascita": "07/10/1995 00:00:00",
+        "data_nascita": "1995-10-07",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -976,7 +976,7 @@
     },
     {
         "cognome_nome": "Cacace Liberato",
-        "data_nascita": "27/09/2000 00:00:00",
+        "data_nascita": "2000-09-27",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -988,7 +988,7 @@
     },
     {
         "cognome_nome": "Parisi Fabiano",
-        "data_nascita": "09/11/2000 00:00:00",
+        "data_nascita": "2000-11-09",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
@@ -999,7 +999,7 @@
     },
     {
         "cognome_nome": "Stulac Leo",
-        "data_nascita": "26/09/1994 00:00:00",
+        "data_nascita": "1994-09-26",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1010,7 +1010,7 @@
     },
     {
         "cognome_nome": "Bandinelli Filippo",
-        "data_nascita": "29/03/1995 00:00:00",
+        "data_nascita": "1995-03-29",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -1021,7 +1021,7 @@
     },
     {
         "cognome_nome": "Haas Nicolas",
-        "data_nascita": "23/01/1996 00:00:00",
+        "data_nascita": "1996-01-23",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -1032,7 +1032,7 @@
     },
     {
         "cognome_nome": "Marin Razvan",
-        "data_nascita": "23/05/1996 00:00:00",
+        "data_nascita": "1996-05-23",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 13,
@@ -1043,7 +1043,7 @@
     },
     {
         "cognome_nome": "Henderson Liam",
-        "data_nascita": "25/04/1996 00:00:00",
+        "data_nascita": "1996-04-25",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -1054,7 +1054,7 @@
     },
     {
         "cognome_nome": "Bajrami Nedim",
-        "data_nascita": "28/02/1999 00:00:00",
+        "data_nascita": "1999-02-28",
         "posizione": "C",
         "crediti_iniziali": 18,
         "crediti_finali": 17,
@@ -1066,7 +1066,7 @@
     },
     {
         "cognome_nome": "Baldanzi Tommaso",
-        "data_nascita": "23/03/2003 00:00:00",
+        "data_nascita": "2003-03-23",
         "posizione": "C",
         "crediti_iniziali": 44,
         "crediti_finali": 42,
@@ -1077,7 +1077,7 @@
     },
     {
         "cognome_nome": "Destro Mattia",
-        "data_nascita": "20/03/1991 00:00:00",
+        "data_nascita": "1991-03-20",
         "posizione": "A",
         "crediti_iniziali": 8,
         "crediti_finali": 5,
@@ -1088,7 +1088,7 @@
     },
     {
         "cognome_nome": "Satriano Martin",
-        "data_nascita": "20/02/2001 00:00:00",
+        "data_nascita": "2001-02-20",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 15,
@@ -1100,7 +1100,7 @@
     },
     {
         "cognome_nome": "Gollini Pierluigi",
-        "data_nascita": "18/03/1995 00:00:00",
+        "data_nascita": "1995-03-18",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1111,7 +1111,7 @@
     },
     {
         "cognome_nome": "Rosati Antonio",
-        "data_nascita": "26/06/1983 00:00:00",
+        "data_nascita": "1983-06-26",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1122,7 +1122,7 @@
     },
     {
         "cognome_nome": "Terracciano Pietro",
-        "data_nascita": "08/03/1990 00:00:00",
+        "data_nascita": "1990-03-08",
         "posizione": "P",
         "crediti_iniziali": 40,
         "crediti_finali": 40,
@@ -1133,7 +1133,7 @@
     },
     {
         "cognome_nome": "Martinez Quarta Lucas",
-        "data_nascita": "10/05/1996 00:00:00",
+        "data_nascita": "1996-05-10",
         "posizione": "D",
         "crediti_iniziali": 17,
         "crediti_finali": 18,
@@ -1145,7 +1145,7 @@
     },
     {
         "cognome_nome": "Nastasic Matija",
-        "data_nascita": "28/03/1993 00:00:00",
+        "data_nascita": "1993-03-28",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1156,7 +1156,7 @@
     },
     {
         "cognome_nome": "Milenkovic Nikola",
-        "data_nascita": "12/10/1997 00:00:00",
+        "data_nascita": "1997-10-12",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 19,
@@ -1167,7 +1167,7 @@
     },
     {
         "cognome_nome": "Igor",
-        "data_nascita": "07/02/1998 00:00:00",
+        "data_nascita": "1998-02-07",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 16,
@@ -1178,7 +1178,7 @@
     },
     {
         "cognome_nome": "Biraghi Cristiano",
-        "data_nascita": "12/09/1992 00:00:00",
+        "data_nascita": "1992-09-12",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
@@ -1189,7 +1189,7 @@
     },
     {
         "cognome_nome": "Terzic Aleksa",
-        "data_nascita": "17/08/1999 00:00:00",
+        "data_nascita": "1999-08-17",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -1200,7 +1200,7 @@
     },
     {
         "cognome_nome": "Venuti Lorenzo",
-        "data_nascita": "12/04/1995 00:00:00",
+        "data_nascita": "1995-04-12",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -1211,7 +1211,7 @@
     },
     {
         "cognome_nome": "Amrabat Sofyan",
-        "data_nascita": "21/08/1996 00:00:00",
+        "data_nascita": "1996-08-21",
         "posizione": "C",
         "crediti_iniziali": 16,
         "crediti_finali": 16,
@@ -1223,7 +1223,7 @@
     },
     {
         "cognome_nome": "Duncan Alfred",
-        "data_nascita": "10/03/1993 00:00:00",
+        "data_nascita": "1993-03-10",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -1234,7 +1234,7 @@
     },
     {
         "cognome_nome": "Mandragora Rolando",
-        "data_nascita": "29/06/1997 00:00:00",
+        "data_nascita": "1997-06-29",
         "posizione": "C",
         "crediti_iniziali": 17,
         "crediti_finali": 17,
@@ -1245,7 +1245,7 @@
     },
     {
         "cognome_nome": "Benassi Marco",
-        "data_nascita": "08/09/1994 00:00:00",
+        "data_nascita": "1994-09-08",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -1256,7 +1256,7 @@
     },
     {
         "cognome_nome": "Maleh Youssef",
-        "data_nascita": "22/08/1998 00:00:00",
+        "data_nascita": "1998-08-22",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -1268,7 +1268,7 @@
     },
     {
         "cognome_nome": "Zurkowski Szymon",
-        "data_nascita": "25/09/1997 00:00:00",
+        "data_nascita": "1997-09-25",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -1279,7 +1279,7 @@
     },
     {
         "cognome_nome": "Castrovilli Gaetano",
-        "data_nascita": "17/02/1997 00:00:00",
+        "data_nascita": "1997-02-17",
         "posizione": "C",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -1290,7 +1290,7 @@
     },
     {
         "cognome_nome": "Bonaventura Giacomo",
-        "data_nascita": "22/08/1989 00:00:00",
+        "data_nascita": "1989-08-22",
         "posizione": "C",
         "crediti_iniziali": 37,
         "crediti_finali": 40,
@@ -1301,7 +1301,7 @@
     },
     {
         "cognome_nome": "Saponara Riccardo",
-        "data_nascita": "21/12/1991 00:00:00",
+        "data_nascita": "1991-12-21",
         "posizione": "C",
         "crediti_iniziali": 20,
         "crediti_finali": 20,
@@ -1312,7 +1312,7 @@
     },
     {
         "cognome_nome": "Ikon\u00c3\u00a8 Jonathan",
-        "data_nascita": "02/05/1998 00:00:00",
+        "data_nascita": "1998-05-02",
         "posizione": "C",
         "crediti_iniziali": 20,
         "crediti_finali": 20,
@@ -1324,7 +1324,7 @@
     },
     {
         "cognome_nome": "Sottil Riccardo",
-        "data_nascita": "03/06/1999 00:00:00",
+        "data_nascita": "1999-06-03",
         "posizione": "C",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -1335,7 +1335,7 @@
     },
     {
         "cognome_nome": "Gonzalez Nicolas",
-        "data_nascita": "06/04/1998 00:00:00",
+        "data_nascita": "1998-04-06",
         "posizione": "A",
         "crediti_iniziali": 45,
         "crediti_finali": 45,
@@ -1346,7 +1346,7 @@
     },
     {
         "cognome_nome": "Cabral Arthur ",
-        "data_nascita": "25/04/1998 00:00:00",
+        "data_nascita": "1998-04-25",
         "posizione": "A",
         "crediti_iniziali": 92,
         "crediti_finali": 90,
@@ -1357,7 +1357,7 @@
     },
     {
         "cognome_nome": "Jovic Luka",
-        "data_nascita": "23/12/1997 00:00:00",
+        "data_nascita": "1997-12-23",
         "posizione": "A",
         "crediti_iniziali": 45,
         "crediti_finali": 42,
@@ -1368,7 +1368,7 @@
     },
     {
         "cognome_nome": "Kokorin Aleksandr",
-        "data_nascita": "19/03/1991 00:00:00",
+        "data_nascita": "1991-03-19",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1379,7 +1379,7 @@
     },
     {
         "cognome_nome": "Cordaz Alex",
-        "data_nascita": "01/01/1983 00:00:00",
+        "data_nascita": "1983-01-01",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1390,7 +1390,7 @@
     },
     {
         "cognome_nome": "Handanovic Samir",
-        "data_nascita": "14/07/1984 00:00:00",
+        "data_nascita": "1984-07-14",
         "posizione": "P",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -1401,7 +1401,7 @@
     },
     {
         "cognome_nome": "Onana Andr\u00c3\u00a8",
-        "data_nascita": "02/04/1996 00:00:00",
+        "data_nascita": "1996-04-02",
         "posizione": "P",
         "crediti_iniziali": 47,
         "crediti_finali": 47,
@@ -1412,7 +1412,7 @@
     },
     {
         "cognome_nome": "Bastoni Alessandro",
-        "data_nascita": "13/04/1999 00:00:00",
+        "data_nascita": "1999-04-13",
         "posizione": "D",
         "crediti_iniziali": 24,
         "crediti_finali": 24,
@@ -1423,7 +1423,7 @@
     },
     {
         "cognome_nome": "De Vrij Stefan",
-        "data_nascita": "05/02/1992 00:00:00",
+        "data_nascita": "1992-02-05",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -1434,7 +1434,7 @@
     },
     {
         "cognome_nome": "Skriniar Milan",
-        "data_nascita": "11/02/1995 00:00:00",
+        "data_nascita": "1995-02-11",
         "posizione": "D",
         "crediti_iniziali": 23,
         "crediti_finali": 23,
@@ -1445,7 +1445,7 @@
     },
     {
         "cognome_nome": "Pirola Lorenzo",
-        "data_nascita": "20/02/2002 00:00:00",
+        "data_nascita": "2002-02-20",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -1456,7 +1456,7 @@
     },
     {
         "cognome_nome": "D'Ambrosio Danilo",
-        "data_nascita": "09/09/1988 00:00:00",
+        "data_nascita": "1988-09-09",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 5,
@@ -1467,7 +1467,7 @@
     },
     {
         "cognome_nome": "Dimarco Federico",
-        "data_nascita": "10/11/1997 00:00:00",
+        "data_nascita": "1997-11-10",
         "posizione": "D",
         "crediti_iniziali": 33,
         "crediti_finali": 38,
@@ -1478,7 +1478,7 @@
     },
     {
         "cognome_nome": "Bellanova Raoul",
-        "data_nascita": "17/05/2000 00:00:00",
+        "data_nascita": "2000-05-17",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -1489,7 +1489,7 @@
     },
     {
         "cognome_nome": "Darmian Matteo",
-        "data_nascita": "02/12/1989 00:00:00",
+        "data_nascita": "1989-12-02",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 17,
@@ -1500,7 +1500,7 @@
     },
     {
         "cognome_nome": "Dumfries Denzel",
-        "data_nascita": "18/04/1996 00:00:00",
+        "data_nascita": "1996-04-18",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 13,
@@ -1512,7 +1512,7 @@
     },
     {
         "cognome_nome": "Gosens Robin",
-        "data_nascita": "05/07/1994 00:00:00",
+        "data_nascita": "1994-07-05",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 17,
@@ -1524,7 +1524,7 @@
     },
     {
         "cognome_nome": "Agoume Lucien",
-        "data_nascita": "09/02/2002 00:00:00",
+        "data_nascita": "2002-02-09",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1536,7 +1536,7 @@
     },
     {
         "cognome_nome": "Asllani Kristjan",
-        "data_nascita": "09/03/2002 00:00:00",
+        "data_nascita": "2002-03-09",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 5,
@@ -1547,7 +1547,7 @@
     },
     {
         "cognome_nome": "Brozovic Marcelo",
-        "data_nascita": "16/11/1992 00:00:00",
+        "data_nascita": "1992-11-16",
         "posizione": "C",
         "crediti_iniziali": 22,
         "crediti_finali": 23,
@@ -1558,7 +1558,7 @@
     },
     {
         "cognome_nome": "Gagliardini Roberto",
-        "data_nascita": "07/04/1994 00:00:00",
+        "data_nascita": "1994-04-07",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 5,
@@ -1569,7 +1569,7 @@
     },
     {
         "cognome_nome": "Barella Nicol\u00c3\u00b2",
-        "data_nascita": "07/02/1997 00:00:00",
+        "data_nascita": "1997-02-07",
         "posizione": "C",
         "crediti_iniziali": 62,
         "crediti_finali": 62,
@@ -1580,7 +1580,7 @@
     },
     {
         "cognome_nome": "Calhanoglu Hakan",
-        "data_nascita": "08/02/1994 00:00:00",
+        "data_nascita": "1994-02-08",
         "posizione": "C",
         "crediti_iniziali": 68,
         "crediti_finali": 65,
@@ -1592,7 +1592,7 @@
     },
     {
         "cognome_nome": "Mkhitaryan Henrikh",
-        "data_nascita": "21/01/1989 00:00:00",
+        "data_nascita": "1989-01-21",
         "posizione": "C",
         "crediti_iniziali": 34,
         "crediti_finali": 27,
@@ -1603,7 +1603,7 @@
     },
     {
         "cognome_nome": "Correa Joaquin",
-        "data_nascita": "13/08/1994 00:00:00",
+        "data_nascita": "1994-08-13",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -1615,7 +1615,7 @@
     },
     {
         "cognome_nome": "Sanchez Alexis",
-        "data_nascita": "19/02/1988 00:00:00",
+        "data_nascita": "1988-02-19",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1626,7 +1626,7 @@
     },
     {
         "cognome_nome": "Dzeko Edin",
-        "data_nascita": "17/03/1986 00:00:00",
+        "data_nascita": "1986-03-17",
         "posizione": "A",
         "crediti_iniziali": 53,
         "crediti_finali": 46,
@@ -1637,7 +1637,7 @@
     },
     {
         "cognome_nome": "Lukaku Romelu",
-        "data_nascita": "13/03/1993 00:00:00",
+        "data_nascita": "1993-03-13",
         "posizione": "A",
         "crediti_iniziali": 111,
         "crediti_finali": 111,
@@ -1649,7 +1649,7 @@
     },
     {
         "cognome_nome": "Martinez Lautaro",
-        "data_nascita": "22/08/1997 00:00:00",
+        "data_nascita": "1997-08-22",
         "posizione": "A",
         "crediti_iniziali": 245,
         "crediti_finali": 245,
@@ -1660,7 +1660,7 @@
     },
     {
         "cognome_nome": "Pinamonti Andrea",
-        "data_nascita": "19/05/1999 00:00:00",
+        "data_nascita": "1999-05-19",
         "posizione": "A",
         "crediti_iniziali": 42,
         "crediti_finali": 42,
@@ -1671,7 +1671,7 @@
     },
     {
         "cognome_nome": "Perin Mattia",
-        "data_nascita": "10/11/1992 00:00:00",
+        "data_nascita": "1992-11-10",
         "posizione": "P",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -1682,7 +1682,7 @@
     },
     {
         "cognome_nome": "Pinsoglio Carlo",
-        "data_nascita": "16/03/1990 00:00:00",
+        "data_nascita": "1990-03-16",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1693,7 +1693,7 @@
     },
     {
         "cognome_nome": "Szczesny Wojciech",
-        "data_nascita": "18/04/1990 00:00:00",
+        "data_nascita": "1990-04-18",
         "posizione": "P",
         "crediti_iniziali": 58,
         "crediti_finali": 58,
@@ -1704,7 +1704,7 @@
     },
     {
         "cognome_nome": "Bonucci Leonardo",
-        "data_nascita": "01/05/1987 00:00:00",
+        "data_nascita": "1987-05-01",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -1715,7 +1715,7 @@
     },
     {
         "cognome_nome": "Bremer",
-        "data_nascita": "18/03/1997 00:00:00",
+        "data_nascita": "1997-03-18",
         "posizione": "D",
         "crediti_iniziali": 36,
         "crediti_finali": 37,
@@ -1726,7 +1726,7 @@
     },
     {
         "cognome_nome": "Gatti Federico",
-        "data_nascita": "24/06/1998 00:00:00",
+        "data_nascita": "1998-06-24",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -1737,7 +1737,7 @@
     },
     {
         "cognome_nome": "Rugani Daniele",
-        "data_nascita": "29/07/1994 00:00:00",
+        "data_nascita": "1994-07-29",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -1748,7 +1748,7 @@
     },
     {
         "cognome_nome": "Alex Sandro Lobo",
-        "data_nascita": "26/01/1991 00:00:00",
+        "data_nascita": "1991-01-26",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -1759,7 +1759,7 @@
     },
     {
         "cognome_nome": "Pellegrini Luca",
-        "data_nascita": "07/03/1999 00:00:00",
+        "data_nascita": "1999-03-07",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -1770,7 +1770,7 @@
     },
     {
         "cognome_nome": "Danilo Luiz da Silva",
-        "data_nascita": "15/07/1991 00:00:00",
+        "data_nascita": "1991-07-15",
         "posizione": "D",
         "crediti_iniziali": 38,
         "crediti_finali": 39,
@@ -1781,7 +1781,7 @@
     },
     {
         "cognome_nome": "De Sciglio Mattia",
-        "data_nascita": "20/10/1992 00:00:00",
+        "data_nascita": "1992-10-20",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 11,
@@ -1792,7 +1792,7 @@
     },
     {
         "cognome_nome": "Cuadrado Jaime",
-        "data_nascita": "26/05/1988 00:00:00",
+        "data_nascita": "1988-05-26",
         "posizione": "C",
         "crediti_iniziali": 30,
         "crediti_finali": 30,
@@ -1803,7 +1803,7 @@
     },
     {
         "cognome_nome": "Zakaria Denis",
-        "data_nascita": "20/11/1996 00:00:00",
+        "data_nascita": "1996-11-20",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1815,7 +1815,7 @@
     },
     {
         "cognome_nome": "Arthur Melo",
-        "data_nascita": "12/08/1996 00:00:00",
+        "data_nascita": "1996-08-12",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1826,7 +1826,7 @@
     },
     {
         "cognome_nome": "Locatelli Manuel",
-        "data_nascita": "08/01/1998 00:00:00",
+        "data_nascita": "1998-01-08",
         "posizione": "C",
         "crediti_iniziali": 36,
         "crediti_finali": 37,
@@ -1837,7 +1837,7 @@
     },
     {
         "cognome_nome": "Rovella Nicol\u00c3\u00b2",
-        "data_nascita": "04/12/2001 00:00:00",
+        "data_nascita": "2001-12-04",
         "posizione": "C",
         "crediti_iniziali": 16,
         "crediti_finali": 17,
@@ -1848,7 +1848,7 @@
     },
     {
         "cognome_nome": "Rabiot Adrien",
-        "data_nascita": "03/04/1995 00:00:00",
+        "data_nascita": "1995-04-03",
         "posizione": "C",
         "crediti_iniziali": 71,
         "crediti_finali": 71,
@@ -1859,7 +1859,7 @@
     },
     {
         "cognome_nome": "McKennie Weston",
-        "data_nascita": "28/08/1998 00:00:00",
+        "data_nascita": "1998-08-28",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -1870,7 +1870,7 @@
     },
     {
         "cognome_nome": "Fagioli Nicol\u00c3\u00b2",
-        "data_nascita": "12/02/2001 00:00:00",
+        "data_nascita": "2001-02-12",
         "posizione": "C",
         "crediti_iniziali": 25,
         "crediti_finali": 25,
@@ -1881,7 +1881,7 @@
     },
     {
         "cognome_nome": "Miretti Fabio",
-        "data_nascita": "03/08/2003 00:00:00",
+        "data_nascita": "2003-08-03",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -1892,7 +1892,7 @@
     },
     {
         "cognome_nome": "Pogba Paul",
-        "data_nascita": "15/03/1993 00:00:00",
+        "data_nascita": "1993-03-15",
         "posizione": "C",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -1904,7 +1904,7 @@
     },
     {
         "cognome_nome": "Chiesa Federico",
-        "data_nascita": "25/10/1997 00:00:00",
+        "data_nascita": "1997-10-25",
         "posizione": "C",
         "crediti_iniziali": 25,
         "crediti_finali": 24,
@@ -1915,7 +1915,7 @@
     },
     {
         "cognome_nome": "Di Maria Angel",
-        "data_nascita": "14/02/1988 00:00:00",
+        "data_nascita": "1988-02-14",
         "posizione": "A",
         "crediti_iniziali": 68,
         "crediti_finali": 68,
@@ -1927,7 +1927,7 @@
     },
     {
         "cognome_nome": "Kaio Jorge",
-        "data_nascita": "24/01/2002 00:00:00",
+        "data_nascita": "2002-01-24",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1938,7 +1938,7 @@
     },
     {
         "cognome_nome": "Kean Moise",
-        "data_nascita": "28/02/2000 00:00:00",
+        "data_nascita": "2000-02-28",
         "posizione": "A",
         "crediti_iniziali": 27,
         "crediti_finali": 26,
@@ -1950,7 +1950,7 @@
     },
     {
         "cognome_nome": "Vlahovic Dusan",
-        "data_nascita": "28/01/2000 00:00:00",
+        "data_nascita": "2000-01-28",
         "posizione": "A",
         "crediti_iniziali": 217,
         "crediti_finali": 217,
@@ -1961,7 +1961,7 @@
     },
     {
         "cognome_nome": "Adamonis Marius",
-        "data_nascita": "13/05/1997 00:00:00",
+        "data_nascita": "1997-05-13",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1972,7 +1972,7 @@
     },
     {
         "cognome_nome": "Luis Maximiano",
-        "data_nascita": "05/01/1999 00:00:00",
+        "data_nascita": "1999-01-05",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -1983,7 +1983,7 @@
     },
     {
         "cognome_nome": "Acerbi Francesco",
-        "data_nascita": "10/02/1988 00:00:00",
+        "data_nascita": "1988-02-10",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -1994,7 +1994,7 @@
     },
     {
         "cognome_nome": "Gila Mario",
-        "data_nascita": "29/08/2000 00:00:00",
+        "data_nascita": "2000-08-29",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2005,7 +2005,7 @@
     },
     {
         "cognome_nome": "Romagnoli Alessio",
-        "data_nascita": "12/01/1995 00:00:00",
+        "data_nascita": "1995-01-12",
         "posizione": "D",
         "crediti_iniziali": 35,
         "crediti_finali": 36,
@@ -2016,7 +2016,7 @@
     },
     {
         "cognome_nome": "Casale Nicol\u00c3\u00b2",
-        "data_nascita": "14/02/1998 00:00:00",
+        "data_nascita": "1998-02-14",
         "posizione": "D",
         "crediti_iniziali": 32,
         "crediti_finali": 33,
@@ -2027,7 +2027,7 @@
     },
     {
         "cognome_nome": "Radu Stefan",
-        "data_nascita": "22/10/1986 00:00:00",
+        "data_nascita": "1986-10-22",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2038,7 +2038,7 @@
     },
     {
         "cognome_nome": "Patric",
-        "data_nascita": "17/04/1993 00:00:00",
+        "data_nascita": "1993-04-17",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -2049,7 +2049,7 @@
     },
     {
         "cognome_nome": "Lazzari Manuel",
-        "data_nascita": "29/11/1993 00:00:00",
+        "data_nascita": "1993-11-29",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 14,
@@ -2060,7 +2060,7 @@
     },
     {
         "cognome_nome": "Kamenovic Dimitrije",
-        "data_nascita": "16/07/2000 00:00:00",
+        "data_nascita": "2000-07-16",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2071,7 +2071,7 @@
     },
     {
         "cognome_nome": "Hysaj Elseid",
-        "data_nascita": "20/02/1994 00:00:00",
+        "data_nascita": "1994-02-20",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 14,
@@ -2082,7 +2082,7 @@
     },
     {
         "cognome_nome": "Marusic Adam",
-        "data_nascita": "17/10/1992 00:00:00",
+        "data_nascita": "1992-10-17",
         "posizione": "D",
         "crediti_iniziali": 19,
         "crediti_finali": 20,
@@ -2094,7 +2094,7 @@
     },
     {
         "cognome_nome": "Cataldi Danilo",
-        "data_nascita": "06/08/1994 00:00:00",
+        "data_nascita": "1994-08-06",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 13,
@@ -2105,7 +2105,7 @@
     },
     {
         "cognome_nome": "Marcos Antonio",
-        "data_nascita": "13/06/2000 00:00:00",
+        "data_nascita": "2000-06-13",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 5,
@@ -2116,7 +2116,7 @@
     },
     {
         "cognome_nome": "Basic Toma",
-        "data_nascita": "25/11/1996 00:00:00",
+        "data_nascita": "1996-11-25",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -2127,7 +2127,7 @@
     },
     {
         "cognome_nome": "Milinkovic-Savic Sergej",
-        "data_nascita": "27/02/1995 00:00:00",
+        "data_nascita": "1995-02-27",
         "posizione": "C",
         "crediti_iniziali": 188,
         "crediti_finali": 188,
@@ -2139,7 +2139,7 @@
     },
     {
         "cognome_nome": "Luis Alberto Alconchel",
-        "data_nascita": "28/09/1992 00:00:00",
+        "data_nascita": "1992-09-28",
         "posizione": "C",
         "crediti_iniziali": 69,
         "crediti_finali": 66,
@@ -2150,7 +2150,7 @@
     },
     {
         "cognome_nome": "Romero Luka",
-        "data_nascita": "18/11/2004 00:00:00",
+        "data_nascita": "2004-11-18",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -2162,7 +2162,7 @@
     },
     {
         "cognome_nome": "Felipe Anderson",
-        "data_nascita": "15/04/1993 00:00:00",
+        "data_nascita": "1993-04-15",
         "posizione": "C",
         "crediti_iniziali": 71,
         "crediti_finali": 69,
@@ -2173,7 +2173,7 @@
     },
     {
         "cognome_nome": "Zaccagni Mattia",
-        "data_nascita": "16/06/1995 00:00:00",
+        "data_nascita": "1995-06-16",
         "posizione": "C",
         "crediti_iniziali": 149,
         "crediti_finali": 149,
@@ -2184,7 +2184,7 @@
     },
     {
         "cognome_nome": "Cancellieri Matteo",
-        "data_nascita": "12/02/2002 00:00:00",
+        "data_nascita": "2002-02-12",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -2195,7 +2195,7 @@
     },
     {
         "cognome_nome": "Moro Raul",
-        "data_nascita": "05/12/2002 00:00:00",
+        "data_nascita": "2002-12-05",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 0,
@@ -2206,7 +2206,7 @@
     },
     {
         "cognome_nome": "Pedro Rodriguez Ledesma",
-        "data_nascita": "28/07/1987 00:00:00",
+        "data_nascita": "1987-07-28",
         "posizione": "A",
         "crediti_iniziali": 40,
         "crediti_finali": 40,
@@ -2217,7 +2217,7 @@
     },
     {
         "cognome_nome": "Immobile Ciro",
-        "data_nascita": "20/02/1990 00:00:00",
+        "data_nascita": "1990-02-20",
         "posizione": "A",
         "crediti_iniziali": 248,
         "crediti_finali": 248,
@@ -2228,7 +2228,7 @@
     },
     {
         "cognome_nome": "Bleve Marco",
-        "data_nascita": "18/10/1995 00:00:00",
+        "data_nascita": "1995-10-18",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2239,7 +2239,7 @@
     },
     {
         "cognome_nome": "Brancolini Federico",
-        "data_nascita": "14/07/2001 00:00:00",
+        "data_nascita": "2001-07-14",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2250,7 +2250,7 @@
     },
     {
         "cognome_nome": "Falcone Wladimiro",
-        "data_nascita": "12/04/1995 00:00:00",
+        "data_nascita": "1995-04-12",
         "posizione": "P",
         "crediti_iniziali": 23,
         "crediti_finali": 23,
@@ -2261,7 +2261,7 @@
     },
     {
         "cognome_nome": "Dermaku Kastriot",
-        "data_nascita": "15/01/1992 00:00:00",
+        "data_nascita": "1992-01-15",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2273,7 +2273,7 @@
     },
     {
         "cognome_nome": "Tuia Alessandro",
-        "data_nascita": "08/06/1990 00:00:00",
+        "data_nascita": "1990-06-08",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -2284,7 +2284,7 @@
     },
     {
         "cognome_nome": "Calabresi Arturo",
-        "data_nascita": "17/03/1996 00:00:00",
+        "data_nascita": "1996-03-17",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2295,7 +2295,7 @@
     },
     {
         "cognome_nome": "Gendrey Valentin",
-        "data_nascita": "21/06/2000 00:00:00",
+        "data_nascita": "2000-06-21",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -2307,7 +2307,7 @@
     },
     {
         "cognome_nome": "Baschirotto Federico ",
-        "data_nascita": "02/09/1996 00:00:00",
+        "data_nascita": "1996-09-02",
         "posizione": "D",
         "crediti_iniziali": 33,
         "crediti_finali": 34,
@@ -2318,7 +2318,7 @@
     },
     {
         "cognome_nome": "Frabotta Gianluca",
-        "data_nascita": "24/06/1999 00:00:00",
+        "data_nascita": "1999-06-24",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2329,7 +2329,7 @@
     },
     {
         "cognome_nome": "Gallo Antonino",
-        "data_nascita": "05/01/2000 00:00:00",
+        "data_nascita": "2000-01-05",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -2340,7 +2340,7 @@
     },
     {
         "cognome_nome": "Bjorkengren John",
-        "data_nascita": "09/12/1998 00:00:00",
+        "data_nascita": "1998-12-09",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2351,7 +2351,7 @@
     },
     {
         "cognome_nome": "Blin Alexis",
-        "data_nascita": "16/09/1996 00:00:00",
+        "data_nascita": "1996-09-16",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -2362,7 +2362,7 @@
     },
     {
         "cognome_nome": "Hjulmand Morten",
-        "data_nascita": "25/06/1999 00:00:00",
+        "data_nascita": "1999-06-25",
         "posizione": "C",
         "crediti_iniziali": 23,
         "crediti_finali": 24,
@@ -2373,7 +2373,7 @@
     },
     {
         "cognome_nome": "Askildsen Kristoffer",
-        "data_nascita": "09/01/2001 00:00:00",
+        "data_nascita": "2001-01-09",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -2384,7 +2384,7 @@
     },
     {
         "cognome_nome": "Helgason Thorir Johann",
-        "data_nascita": "28/09/2000 00:00:00",
+        "data_nascita": "2000-09-28",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2395,7 +2395,7 @@
     },
     {
         "cognome_nome": "Majer Zan",
-        "data_nascita": "25/07/1992 00:00:00",
+        "data_nascita": "1992-07-25",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2406,7 +2406,7 @@
     },
     {
         "cognome_nome": "Listkowski Marcin",
-        "data_nascita": "10/02/1998 00:00:00",
+        "data_nascita": "1998-02-10",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2417,7 +2417,7 @@
     },
     {
         "cognome_nome": "Strefezza Gabriel",
-        "data_nascita": "18/04/1997 00:00:00",
+        "data_nascita": "1997-04-18",
         "posizione": "C",
         "crediti_iniziali": 55,
         "crediti_finali": 52,
@@ -2429,7 +2429,7 @@
     },
     {
         "cognome_nome": "Di Mariano Francesco",
-        "data_nascita": "20/04/1996 00:00:00",
+        "data_nascita": "1996-04-20",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2440,7 +2440,7 @@
     },
     {
         "cognome_nome": "Rodriguez Pablo",
-        "data_nascita": "04/08/2001 00:00:00",
+        "data_nascita": "2001-08-04",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2451,7 +2451,7 @@
     },
     {
         "cognome_nome": "Ceesay Assan",
-        "data_nascita": "17/03/1994 00:00:00",
+        "data_nascita": "1994-03-17",
         "posizione": "A",
         "crediti_iniziali": 14,
         "crediti_finali": 12,
@@ -2462,7 +2462,7 @@
     },
     {
         "cognome_nome": "Colombo Lorenzo",
-        "data_nascita": "08/03/2002 00:00:00",
+        "data_nascita": "2002-03-08",
         "posizione": "A",
         "crediti_iniziali": 19,
         "crediti_finali": 17,
@@ -2473,7 +2473,7 @@
     },
     {
         "cognome_nome": "Voelkerling Persson Joel",
-        "data_nascita": "15/01/2003 00:00:00",
+        "data_nascita": "2003-01-15",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2484,7 +2484,7 @@
     },
     {
         "cognome_nome": "Maignan Mike",
-        "data_nascita": "03/07/1995 00:00:00",
+        "data_nascita": "1995-07-03",
         "posizione": "P",
         "crediti_iniziali": 64,
         "crediti_finali": 64,
@@ -2496,7 +2496,7 @@
     },
     {
         "cognome_nome": "Mirante Antonio",
-        "data_nascita": "08/07/1983 00:00:00",
+        "data_nascita": "1983-07-08",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2507,7 +2507,7 @@
     },
     {
         "cognome_nome": "Tatarusanu Ciprian",
-        "data_nascita": "09/02/1986 00:00:00",
+        "data_nascita": "1986-02-09",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2518,7 +2518,7 @@
     },
     {
         "cognome_nome": "Gabbia Matteo",
-        "data_nascita": "21/10/1999 00:00:00",
+        "data_nascita": "1999-10-21",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2529,7 +2529,7 @@
     },
     {
         "cognome_nome": "Kjaer Simon",
-        "data_nascita": "26/03/1989 00:00:00",
+        "data_nascita": "1989-03-26",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -2540,7 +2540,7 @@
     },
     {
         "cognome_nome": "Tomori Fikayo",
-        "data_nascita": "19/12/1997 00:00:00",
+        "data_nascita": "1997-12-19",
         "posizione": "D",
         "crediti_iniziali": 30,
         "crediti_finali": 31,
@@ -2552,7 +2552,7 @@
     },
     {
         "cognome_nome": "Kalulu Pierre",
-        "data_nascita": "05/06/2000 00:00:00",
+        "data_nascita": "2000-06-05",
         "posizione": "D",
         "crediti_iniziali": 21,
         "crediti_finali": 22,
@@ -2564,7 +2564,7 @@
     },
     {
         "cognome_nome": "Calabria Davide",
-        "data_nascita": "06/12/1996 00:00:00",
+        "data_nascita": "1996-12-06",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -2575,7 +2575,7 @@
     },
     {
         "cognome_nome": "Florenzi Alessandro",
-        "data_nascita": "11/03/1991 00:00:00",
+        "data_nascita": "1991-03-11",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2586,7 +2586,7 @@
     },
     {
         "cognome_nome": "Ballo-Tour\u00c3\u00a8 Fod\u00c3\u00a8",
-        "data_nascita": "03/01/1997 00:00:00",
+        "data_nascita": "1997-01-03",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -2598,7 +2598,7 @@
     },
     {
         "cognome_nome": "Hernandez Theo",
-        "data_nascita": "06/10/1997 00:00:00",
+        "data_nascita": "1997-10-06",
         "posizione": "D",
         "crediti_iniziali": 60,
         "crediti_finali": 60,
@@ -2610,7 +2610,7 @@
     },
     {
         "cognome_nome": "Bakayoko Tiemou\u00c3\u00a8",
-        "data_nascita": "17/08/1994 00:00:00",
+        "data_nascita": "1994-08-17",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2622,7 +2622,7 @@
     },
     {
         "cognome_nome": "Bennacer Ismael",
-        "data_nascita": "01/12/1997 00:00:00",
+        "data_nascita": "1997-12-01",
         "posizione": "C",
         "crediti_iniziali": 30,
         "crediti_finali": 31,
@@ -2634,7 +2634,7 @@
     },
     {
         "cognome_nome": "Tonali Sandro",
-        "data_nascita": "08/05/2000 00:00:00",
+        "data_nascita": "2000-05-08",
         "posizione": "C",
         "crediti_iniziali": 31,
         "crediti_finali": 34,
@@ -2645,7 +2645,7 @@
     },
     {
         "cognome_nome": "Pobega Tommaso",
-        "data_nascita": "15/07/1999 00:00:00",
+        "data_nascita": "1999-07-15",
         "posizione": "C",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -2656,7 +2656,7 @@
     },
     {
         "cognome_nome": "Krunic Rade",
-        "data_nascita": "07/10/1993 00:00:00",
+        "data_nascita": "1993-10-07",
         "posizione": "C",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -2667,7 +2667,7 @@
     },
     {
         "cognome_nome": "Saelemaekers Alexis",
-        "data_nascita": "27/06/1999 00:00:00",
+        "data_nascita": "1999-06-27",
         "posizione": "C",
         "crediti_iniziali": 15,
         "crediti_finali": 14,
@@ -2678,7 +2678,7 @@
     },
     {
         "cognome_nome": "Adli Yacine",
-        "data_nascita": "29/07/2000 00:00:00",
+        "data_nascita": "2000-07-29",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 2,
@@ -2690,7 +2690,7 @@
     },
     {
         "cognome_nome": "Diaz Brahim",
-        "data_nascita": "03/08/1999 00:00:00",
+        "data_nascita": "1999-08-03",
         "posizione": "C",
         "crediti_iniziali": 45,
         "crediti_finali": 43,
@@ -2702,7 +2702,7 @@
     },
     {
         "cognome_nome": "Messias Junior",
-        "data_nascita": "13/05/1991 00:00:00",
+        "data_nascita": "1991-05-13",
         "posizione": "C",
         "crediti_iniziali": 20,
         "crediti_finali": 18,
@@ -2713,7 +2713,7 @@
     },
     {
         "cognome_nome": "Maldini Daniel",
-        "data_nascita": "11/10/2001 00:00:00",
+        "data_nascita": "2001-10-11",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -2725,7 +2725,7 @@
     },
     {
         "cognome_nome": "Leao Rafael",
-        "data_nascita": "10/06/1999 00:00:00",
+        "data_nascita": "1999-06-10",
         "posizione": "A",
         "crediti_iniziali": 178,
         "crediti_finali": 178,
@@ -2737,7 +2737,7 @@
     },
     {
         "cognome_nome": "Rebic Ante",
-        "data_nascita": "21/09/1993 00:00:00",
+        "data_nascita": "1993-09-21",
         "posizione": "A",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -2748,7 +2748,7 @@
     },
     {
         "cognome_nome": "Giroud Oliver",
-        "data_nascita": "30/09/1986 00:00:00",
+        "data_nascita": "1986-09-30",
         "posizione": "A",
         "crediti_iniziali": 152,
         "crediti_finali": 152,
@@ -2759,7 +2759,7 @@
     },
     {
         "cognome_nome": "Ibrahimovic Zlatan",
-        "data_nascita": "03/10/1981 00:00:00",
+        "data_nascita": "1981-10-03",
         "posizione": "A",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -2770,7 +2770,7 @@
     },
     {
         "cognome_nome": "Lazetic Marko",
-        "data_nascita": "22/01/2004 00:00:00",
+        "data_nascita": "2004-01-22",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2781,7 +2781,7 @@
     },
     {
         "cognome_nome": "Origi Divock",
-        "data_nascita": "18/04/1995 00:00:00",
+        "data_nascita": "1995-04-18",
         "posizione": "A",
         "crediti_iniziali": 13,
         "crediti_finali": 10,
@@ -2793,7 +2793,7 @@
     },
     {
         "cognome_nome": "Cragno Alessio",
-        "data_nascita": "28/06/1994 00:00:00",
+        "data_nascita": "1994-06-28",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2804,7 +2804,7 @@
     },
     {
         "cognome_nome": "Di Gregorio Michele",
-        "data_nascita": "27/07/1997 00:00:00",
+        "data_nascita": "1997-07-27",
         "posizione": "P",
         "crediti_iniziali": 25,
         "crediti_finali": 25,
@@ -2815,7 +2815,7 @@
     },
     {
         "cognome_nome": "Lamanna Eugenio",
-        "data_nascita": "07/08/1989 00:00:00",
+        "data_nascita": "1989-08-07",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2826,7 +2826,7 @@
     },
     {
         "cognome_nome": "Sorrentino Alessandro",
-        "data_nascita": "03/04/2002 00:00:00",
+        "data_nascita": "2002-04-03",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2837,7 +2837,7 @@
     },
     {
         "cognome_nome": "Antov Valentin",
-        "data_nascita": "09/11/2000 00:00:00",
+        "data_nascita": "2000-11-09",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2848,7 +2848,7 @@
     },
     {
         "cognome_nome": "Bettella Davide",
-        "data_nascita": "07/04/2000 00:00:00",
+        "data_nascita": "2000-04-07",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2859,7 +2859,7 @@
     },
     {
         "cognome_nome": "Marrone Luca",
-        "data_nascita": "28/03/1990 00:00:00",
+        "data_nascita": "1990-03-28",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2870,7 +2870,7 @@
     },
     {
         "cognome_nome": "Paletta Gabriel",
-        "data_nascita": "15/02/1986 00:00:00",
+        "data_nascita": "1986-02-15",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2882,7 +2882,7 @@
     },
     {
         "cognome_nome": "Ranocchia Andrea",
-        "data_nascita": "16/02/1988 00:00:00",
+        "data_nascita": "1988-02-16",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2893,7 +2893,7 @@
     },
     {
         "cognome_nome": "Donati Giulio",
-        "data_nascita": "05/02/1990 00:00:00",
+        "data_nascita": "1990-02-05",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -2904,7 +2904,7 @@
     },
     {
         "cognome_nome": "Caldirola Luca",
-        "data_nascita": "01/02/1991 00:00:00",
+        "data_nascita": "1991-02-01",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -2915,7 +2915,7 @@
     },
     {
         "cognome_nome": "Carboni Andrea",
-        "data_nascita": "04/02/2001 00:00:00",
+        "data_nascita": "2001-02-04",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2926,7 +2926,7 @@
     },
     {
         "cognome_nome": "Sampirisi Mario",
-        "data_nascita": "31/10/1992 00:00:00",
+        "data_nascita": "1992-10-31",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2937,7 +2937,7 @@
     },
     {
         "cognome_nome": "Pereira Pedro",
-        "data_nascita": "22/01/1998 00:00:00",
+        "data_nascita": "1998-01-22",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2948,7 +2948,7 @@
     },
     {
         "cognome_nome": "Carlos Augusto",
-        "data_nascita": "07/01/1999 00:00:00",
+        "data_nascita": "1999-01-07",
         "posizione": "D",
         "crediti_iniziali": 36,
         "crediti_finali": 36,
@@ -2959,7 +2959,7 @@
     },
     {
         "cognome_nome": "Birindelli Samuele",
-        "data_nascita": "19/07/1999 00:00:00",
+        "data_nascita": "1999-07-19",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -2970,7 +2970,7 @@
     },
     {
         "cognome_nome": "D'Alessandro Marco",
-        "data_nascita": "17/02/1991 00:00:00",
+        "data_nascita": "1991-02-17",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -2981,7 +2981,7 @@
     },
     {
         "cognome_nome": "Molina Salvatore",
-        "data_nascita": "01/01/1992 00:00:00",
+        "data_nascita": "1992-01-01",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -2992,7 +2992,7 @@
     },
     {
         "cognome_nome": "Barberis Andrea",
-        "data_nascita": "11/12/1993 00:00:00",
+        "data_nascita": "1993-12-11",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3003,7 +3003,7 @@
     },
     {
         "cognome_nome": "Mazzitelli Luca",
-        "data_nascita": "15/11/1995 00:00:00",
+        "data_nascita": "1995-11-15",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3014,7 +3014,7 @@
     },
     {
         "cognome_nome": "Scozzarella Matteo",
-        "data_nascita": "05/06/1988 00:00:00",
+        "data_nascita": "1988-06-05",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3025,7 +3025,7 @@
     },
     {
         "cognome_nome": "Colpani Andrea",
-        "data_nascita": "11/05/1999 00:00:00",
+        "data_nascita": "1999-05-11",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -3036,7 +3036,7 @@
     },
     {
         "cognome_nome": "Machin Jos\u00c3\u00a8",
-        "data_nascita": "14/08/1996 00:00:00",
+        "data_nascita": "1996-08-14",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -3048,7 +3048,7 @@
     },
     {
         "cognome_nome": "Pessina Matteo",
-        "data_nascita": "21/04/1997 00:00:00",
+        "data_nascita": "1997-04-21",
         "posizione": "C",
         "crediti_iniziali": 27,
         "crediti_finali": 27,
@@ -3059,7 +3059,7 @@
     },
     {
         "cognome_nome": "Sensi Stefano",
-        "data_nascita": "05/08/1995 00:00:00",
+        "data_nascita": "1995-08-05",
         "posizione": "C",
         "crediti_iniziali": 33,
         "crediti_finali": 33,
@@ -3070,7 +3070,7 @@
     },
     {
         "cognome_nome": "Valoti Mattia",
-        "data_nascita": "06/09/1993 00:00:00",
+        "data_nascita": "1993-09-06",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -3081,7 +3081,7 @@
     },
     {
         "cognome_nome": "Vignato Samuele",
-        "data_nascita": "24/02/2004 00:00:00",
+        "data_nascita": "2004-02-24",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3093,7 +3093,7 @@
     },
     {
         "cognome_nome": "Ciurria Patrick",
-        "data_nascita": "09/02/1995 00:00:00",
+        "data_nascita": "1995-02-09",
         "posizione": "C",
         "crediti_iniziali": 27,
         "crediti_finali": 25,
@@ -3104,7 +3104,7 @@
     },
     {
         "cognome_nome": "Gytkjaer Christian",
-        "data_nascita": "06/05/1990 00:00:00",
+        "data_nascita": "1990-05-06",
         "posizione": "A",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -3115,7 +3115,7 @@
     },
     {
         "cognome_nome": "Mota Dany",
-        "data_nascita": "02/05/1998 00:00:00",
+        "data_nascita": "1998-05-02",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 8,
@@ -3127,7 +3127,7 @@
     },
     {
         "cognome_nome": "Marfella Davide",
-        "data_nascita": "15/09/1999 00:00:00",
+        "data_nascita": "1999-09-15",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3138,7 +3138,7 @@
     },
     {
         "cognome_nome": "Meret Alex",
-        "data_nascita": "22/03/1997 00:00:00",
+        "data_nascita": "1997-03-22",
         "posizione": "P",
         "crediti_iniziali": 65,
         "crediti_finali": 65,
@@ -3149,7 +3149,7 @@
     },
     {
         "cognome_nome": "Ostigard Leo",
-        "data_nascita": "28/11/1999 00:00:00",
+        "data_nascita": "1999-11-28",
         "posizione": "D",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -3160,7 +3160,7 @@
     },
     {
         "cognome_nome": "Rrahmani Amir",
-        "data_nascita": "24/02/1994 00:00:00",
+        "data_nascita": "1994-02-24",
         "posizione": "D",
         "crediti_iniziali": 39,
         "crediti_finali": 39,
@@ -3172,7 +3172,7 @@
     },
     {
         "cognome_nome": "Juan Jesus Nunes",
-        "data_nascita": "10/06/1991 00:00:00",
+        "data_nascita": "1991-06-10",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -3183,7 +3183,7 @@
     },
     {
         "cognome_nome": "Di Lorenzo Giovanni",
-        "data_nascita": "04/08/1993 00:00:00",
+        "data_nascita": "1993-08-04",
         "posizione": "D",
         "crediti_iniziali": 50,
         "crediti_finali": 50,
@@ -3194,7 +3194,7 @@
     },
     {
         "cognome_nome": "Zanoli Alessandro",
-        "data_nascita": "03/10/2000 00:00:00",
+        "data_nascita": "2000-10-03",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -3205,7 +3205,7 @@
     },
     {
         "cognome_nome": "Mario Rui Duarte",
-        "data_nascita": "27/05/1991 00:00:00",
+        "data_nascita": "1991-05-27",
         "posizione": "D",
         "crediti_iniziali": 36,
         "crediti_finali": 36,
@@ -3216,7 +3216,7 @@
     },
     {
         "cognome_nome": "Olivera Mathias",
-        "data_nascita": "31/10/1997 00:00:00",
+        "data_nascita": "1997-10-31",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -3228,7 +3228,7 @@
     },
     {
         "cognome_nome": "Demme Diego",
-        "data_nascita": "21/11/1991 00:00:00",
+        "data_nascita": "1991-11-21",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -3240,7 +3240,7 @@
     },
     {
         "cognome_nome": "Lobotka Stanislav",
-        "data_nascita": "25/11/1994 00:00:00",
+        "data_nascita": "1994-11-25",
         "posizione": "C",
         "crediti_iniziali": 42,
         "crediti_finali": 44,
@@ -3251,7 +3251,7 @@
     },
     {
         "cognome_nome": "Zambo Anguissa Andr\u00c3\u00a8",
-        "data_nascita": "16/11/1995 00:00:00",
+        "data_nascita": "1995-11-16",
         "posizione": "C",
         "crediti_iniziali": 36,
         "crediti_finali": 38,
@@ -3262,7 +3262,7 @@
     },
     {
         "cognome_nome": "Elmas Eljif",
-        "data_nascita": "24/09/1999 00:00:00",
+        "data_nascita": "1999-09-24",
         "posizione": "C",
         "crediti_iniziali": 40,
         "crediti_finali": 40,
@@ -3273,7 +3273,7 @@
     },
     {
         "cognome_nome": "Gaetano Gianluca",
-        "data_nascita": "05/05/2000 00:00:00",
+        "data_nascita": "2000-05-05",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3284,7 +3284,7 @@
     },
     {
         "cognome_nome": "Ruiz Fabian",
-        "data_nascita": "03/04/1996 00:00:00",
+        "data_nascita": "1996-04-03",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3295,7 +3295,7 @@
     },
     {
         "cognome_nome": "Zielinski Piotr",
-        "data_nascita": "20/05/1994 00:00:00",
+        "data_nascita": "1994-05-20",
         "posizione": "C",
         "crediti_iniziali": 61,
         "crediti_finali": 61,
@@ -3306,7 +3306,7 @@
     },
     {
         "cognome_nome": "Kvaratskhelia Khvicha",
-        "data_nascita": "12/02/2001 00:00:00",
+        "data_nascita": "2001-02-12",
         "posizione": "C",
         "crediti_iniziali": 261,
         "crediti_finali": 261,
@@ -3317,7 +3317,7 @@
     },
     {
         "cognome_nome": "Politano Matteo",
-        "data_nascita": "03/08/1993 00:00:00",
+        "data_nascita": "1993-08-03",
         "posizione": "C",
         "crediti_iniziali": 35,
         "crediti_finali": 36,
@@ -3328,7 +3328,7 @@
     },
     {
         "cognome_nome": "Lozano Hirving",
-        "data_nascita": "30/07/1995 00:00:00",
+        "data_nascita": "1995-07-30",
         "posizione": "A",
         "crediti_iniziali": 38,
         "crediti_finali": 38,
@@ -3339,7 +3339,7 @@
     },
     {
         "cognome_nome": "Ounas Adam",
-        "data_nascita": "11/11/1996 00:00:00",
+        "data_nascita": "1996-11-11",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3351,7 +3351,7 @@
     },
     {
         "cognome_nome": "Osimhen Victor",
-        "data_nascita": "29/12/1998 00:00:00",
+        "data_nascita": "1998-12-29",
         "posizione": "A",
         "crediti_iniziali": 487,
         "crediti_finali": 487,
@@ -3362,7 +3362,7 @@
     },
     {
         "cognome_nome": "Petagna Andrea",
-        "data_nascita": "30/06/1995 00:00:00",
+        "data_nascita": "1995-06-30",
         "posizione": "A",
         "crediti_iniziali": 33,
         "crediti_finali": 31,
@@ -3373,7 +3373,7 @@
     },
     {
         "cognome_nome": "Boer Pietro",
-        "data_nascita": "12/05/2002 00:00:00",
+        "data_nascita": "2002-05-12",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3384,7 +3384,7 @@
     },
     {
         "cognome_nome": "Rui Patricio",
-        "data_nascita": "15/02/1988 00:00:00",
+        "data_nascita": "1988-02-15",
         "posizione": "P",
         "crediti_iniziali": 55,
         "crediti_finali": 55,
@@ -3395,7 +3395,7 @@
     },
     {
         "cognome_nome": "Svilar Mile",
-        "data_nascita": "27/08/1999 00:00:00",
+        "data_nascita": "1999-08-27",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3407,7 +3407,7 @@
     },
     {
         "cognome_nome": "Ibanez Roger",
-        "data_nascita": "23/11/1998 00:00:00",
+        "data_nascita": "1998-11-23",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -3419,7 +3419,7 @@
     },
     {
         "cognome_nome": "Kumbulla Marash",
-        "data_nascita": "08/02/2000 00:00:00",
+        "data_nascita": "2000-02-08",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -3431,7 +3431,7 @@
     },
     {
         "cognome_nome": "Mancini Gianluca",
-        "data_nascita": "17/04/1996 00:00:00",
+        "data_nascita": "1996-04-17",
         "posizione": "D",
         "crediti_iniziali": 30,
         "crediti_finali": 31,
@@ -3442,7 +3442,7 @@
     },
     {
         "cognome_nome": "Smalling Chris",
-        "data_nascita": "22/11/1989 00:00:00",
+        "data_nascita": "1989-11-22",
         "posizione": "D",
         "crediti_iniziali": 45,
         "crediti_finali": 46,
@@ -3453,7 +3453,7 @@
     },
     {
         "cognome_nome": "Celik Zeki",
-        "data_nascita": "17/02/1997 00:00:00",
+        "data_nascita": "1997-02-17",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -3464,7 +3464,7 @@
     },
     {
         "cognome_nome": "Karsdorp Rick",
-        "data_nascita": "11/02/1995 00:00:00",
+        "data_nascita": "1995-02-11",
         "posizione": "D",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -3475,7 +3475,7 @@
     },
     {
         "cognome_nome": "Calafiori Riccardo",
-        "data_nascita": "19/05/2002 00:00:00",
+        "data_nascita": "2002-05-19",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3486,7 +3486,7 @@
     },
     {
         "cognome_nome": "Spinazzola Leonardo",
-        "data_nascita": "25/03/1993 00:00:00",
+        "data_nascita": "1993-03-25",
         "posizione": "D",
         "crediti_iniziali": 25,
         "crediti_finali": 25,
@@ -3497,7 +3497,7 @@
     },
     {
         "cognome_nome": "Vina Matias",
-        "data_nascita": "09/11/1997 00:00:00",
+        "data_nascita": "1997-11-09",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3509,7 +3509,7 @@
     },
     {
         "cognome_nome": "Zalewski Nicola",
-        "data_nascita": "23/01/2002 00:00:00",
+        "data_nascita": "2002-01-23",
         "posizione": "C",
         "crediti_iniziali": 16,
         "crediti_finali": 17,
@@ -3520,7 +3520,7 @@
     },
     {
         "cognome_nome": "Matic Nemanja",
-        "data_nascita": "01/08/1988 00:00:00",
+        "data_nascita": "1988-08-01",
         "posizione": "C",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -3532,7 +3532,7 @@
     },
     {
         "cognome_nome": "Cristante Bryan",
-        "data_nascita": "03/03/1995 00:00:00",
+        "data_nascita": "1995-03-03",
         "posizione": "C",
         "crediti_iniziali": 18,
         "crediti_finali": 19,
@@ -3544,7 +3544,7 @@
     },
     {
         "cognome_nome": "Darboe Ebrima",
-        "data_nascita": "06/06/2001 00:00:00",
+        "data_nascita": "2001-06-06",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3555,7 +3555,7 @@
     },
     {
         "cognome_nome": "Diawara Amadou",
-        "data_nascita": "17/07/1997 00:00:00",
+        "data_nascita": "1997-07-17",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3567,7 +3567,7 @@
     },
     {
         "cognome_nome": "Bove Edoardo",
-        "data_nascita": "16/05/2002 00:00:00",
+        "data_nascita": "2002-05-16",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3578,7 +3578,7 @@
     },
     {
         "cognome_nome": "Veretout Jordan",
-        "data_nascita": "01/03/1993 00:00:00",
+        "data_nascita": "1993-03-01",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3589,7 +3589,7 @@
     },
     {
         "cognome_nome": "Pellegrini Lorenzo",
-        "data_nascita": "19/06/1996 00:00:00",
+        "data_nascita": "1996-06-19",
         "posizione": "C",
         "crediti_iniziali": 40,
         "crediti_finali": 33,
@@ -3600,7 +3600,7 @@
     },
     {
         "cognome_nome": "Volpato Cristian",
-        "data_nascita": "15/11/2003 00:00:00",
+        "data_nascita": "2003-11-15",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3612,7 +3612,7 @@
     },
     {
         "cognome_nome": "Carles Perez",
-        "data_nascita": "16/02/1998 00:00:00",
+        "data_nascita": "1998-02-16",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3623,7 +3623,7 @@
     },
     {
         "cognome_nome": "El Shaarawy Stephan",
-        "data_nascita": "27/10/1992 00:00:00",
+        "data_nascita": "1992-10-27",
         "posizione": "C",
         "crediti_iniziali": 25,
         "crediti_finali": 24,
@@ -3635,7 +3635,7 @@
     },
     {
         "cognome_nome": "Zaniolo Nicol\u00c3\u00b2",
-        "data_nascita": "02/07/1999 00:00:00",
+        "data_nascita": "1999-07-02",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3646,7 +3646,7 @@
     },
     {
         "cognome_nome": "Afena-Gyan Felix",
-        "data_nascita": "19/01/2003 00:00:00",
+        "data_nascita": "2003-01-19",
         "posizione": "A",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -3657,7 +3657,7 @@
     },
     {
         "cognome_nome": "Dybala Paulo",
-        "data_nascita": "15/11/1993 00:00:00",
+        "data_nascita": "1993-11-15",
         "posizione": "A",
         "crediti_iniziali": 239,
         "crediti_finali": 239,
@@ -3669,7 +3669,7 @@
     },
     {
         "cognome_nome": "Abraham Tammy",
-        "data_nascita": "02/10/1997 00:00:00",
+        "data_nascita": "1997-10-02",
         "posizione": "A",
         "crediti_iniziali": 98,
         "crediti_finali": 98,
@@ -3680,7 +3680,7 @@
     },
     {
         "cognome_nome": "Shomurodov Eldor",
-        "data_nascita": "29/06/1995 00:00:00",
+        "data_nascita": "1995-06-29",
         "posizione": "A",
         "crediti_iniziali": 17,
         "crediti_finali": 16,
@@ -3691,7 +3691,7 @@
     },
     {
         "cognome_nome": "Fiorillo Vincenzo",
-        "data_nascita": "13/01/1990 00:00:00",
+        "data_nascita": "1990-01-13",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3702,7 +3702,7 @@
     },
     {
         "cognome_nome": "Russo Antonio",
-        "data_nascita": "01/02/2000 00:00:00",
+        "data_nascita": "2000-02-01",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3713,7 +3713,7 @@
     },
     {
         "cognome_nome": "Sepe Luigi",
-        "data_nascita": "08/05/1991 00:00:00",
+        "data_nascita": "1991-05-08",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3724,7 +3724,7 @@
     },
     {
         "cognome_nome": "Fazio Federico",
-        "data_nascita": "17/03/1987 00:00:00",
+        "data_nascita": "1987-03-17",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -3736,7 +3736,7 @@
     },
     {
         "cognome_nome": "Gyomber Norbert",
-        "data_nascita": "03/07/1992 00:00:00",
+        "data_nascita": "1992-07-03",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -3747,7 +3747,7 @@
     },
     {
         "cognome_nome": "Lovato Matteo",
-        "data_nascita": "14/02/2000 00:00:00",
+        "data_nascita": "2000-02-14",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -3758,7 +3758,7 @@
     },
     {
         "cognome_nome": "Radovanovic Ivan",
-        "data_nascita": "29/08/1988 00:00:00",
+        "data_nascita": "1988-08-29",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3769,7 +3769,7 @@
     },
     {
         "cognome_nome": "Gagliolo Riccardo",
-        "data_nascita": "28/04/1990 00:00:00",
+        "data_nascita": "1990-04-28",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3781,7 +3781,7 @@
     },
     {
         "cognome_nome": "Veseli Frederic",
-        "data_nascita": "20/11/1992 00:00:00",
+        "data_nascita": "1992-11-20",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3793,7 +3793,7 @@
     },
     {
         "cognome_nome": "Jaroszynski Pawel",
-        "data_nascita": "02/10/1994 00:00:00",
+        "data_nascita": "1994-10-02",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3804,7 +3804,7 @@
     },
     {
         "cognome_nome": "Kechrida Wajdi",
-        "data_nascita": "05/11/1995 00:00:00",
+        "data_nascita": "1995-11-05",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3816,7 +3816,7 @@
     },
     {
         "cognome_nome": "Mazzocchi Pasquale",
-        "data_nascita": "27/07/1995 00:00:00",
+        "data_nascita": "1995-07-27",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
@@ -3827,7 +3827,7 @@
     },
     {
         "cognome_nome": "Sambia Junior",
-        "data_nascita": "07/09/1996 00:00:00",
+        "data_nascita": "1996-09-07",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -3839,7 +3839,7 @@
     },
     {
         "cognome_nome": "Bradaric Domagoj",
-        "data_nascita": "10/12/1999 00:00:00",
+        "data_nascita": "1999-12-10",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 15,
@@ -3850,7 +3850,7 @@
     },
     {
         "cognome_nome": "Bohinen Emil",
-        "data_nascita": "12/03/1999 00:00:00",
+        "data_nascita": "1999-03-12",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -3861,7 +3861,7 @@
     },
     {
         "cognome_nome": "Capezzi Leonardo",
-        "data_nascita": "28/03/1995 00:00:00",
+        "data_nascita": "1995-03-28",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3872,7 +3872,7 @@
     },
     {
         "cognome_nome": "Coulibaly Lassana",
-        "data_nascita": "10/04/1996 00:00:00",
+        "data_nascita": "1996-04-10",
         "posizione": "C",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -3883,7 +3883,7 @@
     },
     {
         "cognome_nome": "Coulibaly Mamadou",
-        "data_nascita": "03/02/1999 00:00:00",
+        "data_nascita": "1999-02-03",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3894,7 +3894,7 @@
     },
     {
         "cognome_nome": "Ribery Frank",
-        "data_nascita": "07/04/1983 00:00:00",
+        "data_nascita": "1983-04-07",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3905,7 +3905,7 @@
     },
     {
         "cognome_nome": "Valencia Diego",
-        "data_nascita": "14/01/2000 00:00:00",
+        "data_nascita": "2000-01-14",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3916,7 +3916,7 @@
     },
     {
         "cognome_nome": "Botheim Erik",
-        "data_nascita": "10/01/2000 00:00:00",
+        "data_nascita": "2000-01-10",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 3,
@@ -3927,7 +3927,7 @@
     },
     {
         "cognome_nome": "Mikael",
-        "data_nascita": "28/05/1999 00:00:00",
+        "data_nascita": "1999-05-28",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3938,7 +3938,7 @@
     },
     {
         "cognome_nome": "Audero Emil",
-        "data_nascita": "18/01/1997 00:00:00",
+        "data_nascita": "1997-01-18",
         "posizione": "P",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -3950,7 +3950,7 @@
     },
     {
         "cognome_nome": "Ravaglia Nicola",
-        "data_nascita": "12/12/1988 00:00:00",
+        "data_nascita": "1988-12-12",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -3961,7 +3961,7 @@
     },
     {
         "cognome_nome": "Colley Omar",
-        "data_nascita": "24/10/1992 00:00:00",
+        "data_nascita": "1992-10-24",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -3972,7 +3972,7 @@
     },
     {
         "cognome_nome": "Ferrari Alex",
-        "data_nascita": "01/07/1994 00:00:00",
+        "data_nascita": "1994-07-01",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -3983,7 +3983,7 @@
     },
     {
         "cognome_nome": "Bersezynski Bartosz",
-        "data_nascita": "12/07/1992 00:00:00",
+        "data_nascita": "1992-07-12",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -3994,7 +3994,7 @@
     },
     {
         "cognome_nome": "Conti Andrea",
-        "data_nascita": "02/03/1994 00:00:00",
+        "data_nascita": "1994-03-02",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4005,18 +4005,18 @@
     },
     {
         "cognome_nome": "Depaoli Fabio",
-        "data_nascita": "24/04/1997 00:00:00",
+        "data_nascita": "1997-04-24",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Augello Tommaso",
-        "data_nascita": "30/08/1994 00:00:00",
+        "data_nascita": "1994-08-30",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -4027,7 +4027,7 @@
     },
     {
         "cognome_nome": "Murru Nicola",
-        "data_nascita": "16/12/1994 00:00:00",
+        "data_nascita": "1994-12-16",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -4038,7 +4038,7 @@
     },
     {
         "cognome_nome": "Rincon Tomas",
-        "data_nascita": "13/01/1988 00:00:00",
+        "data_nascita": "1988-01-13",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -4049,7 +4049,7 @@
     },
     {
         "cognome_nome": "Yepes Gerard",
-        "data_nascita": "25/08/2002 00:00:00",
+        "data_nascita": "2002-08-25",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4060,7 +4060,7 @@
     },
     {
         "cognome_nome": "Vieira Ronaldo",
-        "data_nascita": "19/07/1998 00:00:00",
+        "data_nascita": "1998-07-19",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -4072,7 +4072,7 @@
     },
     {
         "cognome_nome": "Verre Valerio",
-        "data_nascita": "11/01/1994 00:00:00",
+        "data_nascita": "1994-01-11",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4083,7 +4083,7 @@
     },
     {
         "cognome_nome": "Sabiri Abdelhamid",
-        "data_nascita": "28/11/1996 00:00:00",
+        "data_nascita": "1996-11-28",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 7,
@@ -4095,7 +4095,7 @@
     },
     {
         "cognome_nome": "Candreva Antonio",
-        "data_nascita": "28/02/1987 00:00:00",
+        "data_nascita": "1987-02-28",
         "posizione": "C",
         "crediti_iniziali": 27,
         "crediti_finali": 26,
@@ -4106,7 +4106,7 @@
     },
     {
         "cognome_nome": "Leris Mehdi",
-        "data_nascita": "23/05/1998 00:00:00",
+        "data_nascita": "1998-05-23",
         "posizione": "C",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -4118,7 +4118,7 @@
     },
     {
         "cognome_nome": "Damsgaard Mikkel",
-        "data_nascita": "03/07/2000 00:00:00",
+        "data_nascita": "2000-07-03",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4129,7 +4129,7 @@
     },
     {
         "cognome_nome": "Gabbiadini Manolo",
-        "data_nascita": "26/11/1991 00:00:00",
+        "data_nascita": "1991-11-26",
         "posizione": "A",
         "crediti_iniziali": 23,
         "crediti_finali": 23,
@@ -4140,7 +4140,7 @@
     },
     {
         "cognome_nome": "Bonazzoli Federico",
-        "data_nascita": "21/05/1997 00:00:00",
+        "data_nascita": "1997-05-21",
         "posizione": "A",
         "crediti_iniziali": 9,
         "crediti_finali": 9,
@@ -4151,7 +4151,7 @@
     },
     {
         "cognome_nome": "Caputo Francesco",
-        "data_nascita": "06/08/1987 00:00:00",
+        "data_nascita": "1987-08-06",
         "posizione": "A",
         "crediti_iniziali": 35,
         "crediti_finali": 33,
@@ -4162,7 +4162,7 @@
     },
     {
         "cognome_nome": "Quagliarella Fabio",
-        "data_nascita": "31/01/1983 00:00:00",
+        "data_nascita": "1983-01-31",
         "posizione": "A",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -4173,7 +4173,7 @@
     },
     {
         "cognome_nome": "Consigli Andrea",
-        "data_nascita": "27/01/1987 00:00:00",
+        "data_nascita": "1987-01-27",
         "posizione": "P",
         "crediti_iniziali": 20,
         "crediti_finali": 20,
@@ -4184,7 +4184,7 @@
     },
     {
         "cognome_nome": "Pegolo Gianluca",
-        "data_nascita": "25/03/1981 00:00:00",
+        "data_nascita": "1981-03-25",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4195,7 +4195,7 @@
     },
     {
         "cognome_nome": "Satalino Giacomo",
-        "data_nascita": "20/05/1999 00:00:00",
+        "data_nascita": "1999-05-20",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4206,7 +4206,7 @@
     },
     {
         "cognome_nome": "Erlic Martin",
-        "data_nascita": "24/01/1998 00:00:00",
+        "data_nascita": "1998-01-24",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -4217,7 +4217,7 @@
     },
     {
         "cognome_nome": "Ferrari Gianmarco",
-        "data_nascita": "15/05/1992 00:00:00",
+        "data_nascita": "1992-05-15",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -4228,7 +4228,7 @@
     },
     {
         "cognome_nome": "Ruan Tressoldi",
-        "data_nascita": "07/06/1999 00:00:00",
+        "data_nascita": "1999-06-07",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -4239,7 +4239,7 @@
     },
     {
         "cognome_nome": "Ayhan Kaan",
-        "data_nascita": "10/11/1994 00:00:00",
+        "data_nascita": "1994-11-10",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4251,7 +4251,7 @@
     },
     {
         "cognome_nome": "Marchizza Riccardo",
-        "data_nascita": "26/03/1998 00:00:00",
+        "data_nascita": "1998-03-26",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -4262,7 +4262,7 @@
     },
     {
         "cognome_nome": "Muldur Mert",
-        "data_nascita": "03/04/1999 00:00:00",
+        "data_nascita": "1999-04-03",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -4274,7 +4274,7 @@
     },
     {
         "cognome_nome": "Toljan Jeremy",
-        "data_nascita": "08/08/1994 00:00:00",
+        "data_nascita": "1994-08-08",
         "posizione": "D",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -4286,7 +4286,7 @@
     },
     {
         "cognome_nome": "Kyriakopoulos Georgios",
-        "data_nascita": "05/02/1996 00:00:00",
+        "data_nascita": "1996-02-05",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 15,
@@ -4297,7 +4297,7 @@
     },
     {
         "cognome_nome": "Rogerio",
-        "data_nascita": "13/01/1998 00:00:00",
+        "data_nascita": "1998-01-13",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -4308,7 +4308,7 @@
     },
     {
         "cognome_nome": "Harroui Abdou",
-        "data_nascita": "13/01/1998 00:00:00",
+        "data_nascita": "1998-01-13",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -4320,7 +4320,7 @@
     },
     {
         "cognome_nome": "Matheus Henrique",
-        "data_nascita": "19/12/1997 00:00:00",
+        "data_nascita": "1997-12-19",
         "posizione": "C",
         "crediti_iniziali": 17,
         "crediti_finali": 15,
@@ -4331,7 +4331,7 @@
     },
     {
         "cognome_nome": "Lopez Maxime",
-        "data_nascita": "04/12/1997 00:00:00",
+        "data_nascita": "1997-12-04",
         "posizione": "C",
         "crediti_iniziali": 18,
         "crediti_finali": 19,
@@ -4343,7 +4343,7 @@
     },
     {
         "cognome_nome": "Obiang Pedro",
-        "data_nascita": "27/03/1992 00:00:00",
+        "data_nascita": "1992-03-27",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 11,
@@ -4355,7 +4355,7 @@
     },
     {
         "cognome_nome": "Frattesi Davide",
-        "data_nascita": "22/09/1999 00:00:00",
+        "data_nascita": "1999-09-22",
         "posizione": "C",
         "crediti_iniziali": 69,
         "crediti_finali": 69,
@@ -4366,7 +4366,7 @@
     },
     {
         "cognome_nome": "Thorstvedt Kristian",
-        "data_nascita": "13/03/1999 00:00:00",
+        "data_nascita": "1999-03-13",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4377,7 +4377,7 @@
     },
     {
         "cognome_nome": "Traor\u00c3\u00a8 Hamed ",
-        "data_nascita": "18/02/2000 00:00:00",
+        "data_nascita": "2000-02-18",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4388,7 +4388,7 @@
     },
     {
         "cognome_nome": "Ceide Emil Konradsen",
-        "data_nascita": "03/09/2001 00:00:00",
+        "data_nascita": "2001-09-03",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -4399,7 +4399,7 @@
     },
     {
         "cognome_nome": "Berardi Domenico",
-        "data_nascita": "01/08/1994 00:00:00",
+        "data_nascita": "1994-08-01",
         "posizione": "A",
         "crediti_iniziali": 215,
         "crediti_finali": 215,
@@ -4410,7 +4410,7 @@
     },
     {
         "cognome_nome": "Defrel Gregoire",
-        "data_nascita": "17/06/1991 00:00:00",
+        "data_nascita": "1991-06-17",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -4421,7 +4421,7 @@
     },
     {
         "cognome_nome": "Oddei Brian",
-        "data_nascita": "18/09/2002 00:00:00",
+        "data_nascita": "2002-09-18",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4433,7 +4433,7 @@
     },
     {
         "cognome_nome": "Raspadori Giacomo",
-        "data_nascita": "18/02/2000 00:00:00",
+        "data_nascita": "2000-02-18",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -4444,7 +4444,7 @@
     },
     {
         "cognome_nome": "Alvarez Agustin",
-        "data_nascita": "19/05/2001 00:00:00",
+        "data_nascita": "2001-05-19",
         "posizione": "A",
         "crediti_iniziali": 7,
         "crediti_finali": 6,
@@ -4455,7 +4455,7 @@
     },
     {
         "cognome_nome": "Scamacca Gianluca",
-        "data_nascita": "01/01/1999 00:00:00",
+        "data_nascita": "1999-01-01",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4466,7 +4466,7 @@
     },
     {
         "cognome_nome": "Provedel Ivan",
-        "data_nascita": "17/03/1994 00:00:00",
+        "data_nascita": "1994-03-17",
         "posizione": "P",
         "crediti_iniziali": 68,
         "crediti_finali": 68,
@@ -4477,7 +4477,7 @@
     },
     {
         "cognome_nome": "Zoet Jeroen",
-        "data_nascita": "06/01/1991 00:00:00",
+        "data_nascita": "1991-01-06",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4488,7 +4488,7 @@
     },
     {
         "cognome_nome": "Zovko Petar",
-        "data_nascita": "25/03/2002 00:00:00",
+        "data_nascita": "2002-03-25",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4499,7 +4499,7 @@
     },
     {
         "cognome_nome": "Bertola Nicol\u00c3\u00b2",
-        "data_nascita": "23/03/2003 00:00:00",
+        "data_nascita": "2003-03-23",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4510,7 +4510,7 @@
     },
     {
         "cognome_nome": "Caldara Mattia",
-        "data_nascita": "05/05/1994 00:00:00",
+        "data_nascita": "1994-05-05",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4521,7 +4521,7 @@
     },
     {
         "cognome_nome": "Hristov Petko",
-        "data_nascita": "01/03/1999 00:00:00",
+        "data_nascita": "1999-03-01",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4532,7 +4532,7 @@
     },
     {
         "cognome_nome": "Kiwior Jacub",
-        "data_nascita": "15/02/2000 00:00:00",
+        "data_nascita": "2000-02-15",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4543,7 +4543,7 @@
     },
     {
         "cognome_nome": "Nikolaou Dimitrios",
-        "data_nascita": "13/10/1998 00:00:00",
+        "data_nascita": "1998-10-13",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4554,7 +4554,7 @@
     },
     {
         "cognome_nome": "Amian Kelvin",
-        "data_nascita": "08/02/1998 00:00:00",
+        "data_nascita": "1998-02-08",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -4566,7 +4566,7 @@
     },
     {
         "cognome_nome": "Holm Emil",
-        "data_nascita": "13/05/2000 00:00:00",
+        "data_nascita": "2000-05-13",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4577,7 +4577,7 @@
     },
     {
         "cognome_nome": "Vignali Luca",
-        "data_nascita": "11/01/1996 00:00:00",
+        "data_nascita": "1996-01-11",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4588,7 +4588,7 @@
     },
     {
         "cognome_nome": "Reca Arkadiusz",
-        "data_nascita": "17/06/1995 00:00:00",
+        "data_nascita": "1995-06-17",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 16,
@@ -4599,7 +4599,7 @@
     },
     {
         "cognome_nome": "Ferrer Salva",
-        "data_nascita": "21/01/1998 00:00:00",
+        "data_nascita": "1998-01-21",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 4,
@@ -4610,7 +4610,7 @@
     },
     {
         "cognome_nome": "Bastoni Simone",
-        "data_nascita": "05/11/1996 00:00:00",
+        "data_nascita": "1996-11-05",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 16,
@@ -4621,7 +4621,7 @@
     },
     {
         "cognome_nome": "Sala Jacopo",
-        "data_nascita": "05/12/1991 00:00:00",
+        "data_nascita": "1991-12-05",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 4,
@@ -4632,7 +4632,7 @@
     },
     {
         "cognome_nome": "Bourabia Mehdi",
-        "data_nascita": "07/08/1991 00:00:00",
+        "data_nascita": "1991-08-07",
         "posizione": "C",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -4644,7 +4644,7 @@
     },
     {
         "cognome_nome": "Ekdal Albin",
-        "data_nascita": "28/07/1989 00:00:00",
+        "data_nascita": "1989-07-28",
         "posizione": "C",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -4655,7 +4655,7 @@
     },
     {
         "cognome_nome": "Le\u00c3\u00b2 Sena",
-        "data_nascita": "31/12/1995 00:00:00",
+        "data_nascita": "1995-12-31",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4666,7 +4666,7 @@
     },
     {
         "cognome_nome": "Nguiamba Aurelien",
-        "data_nascita": "18/01/1999 00:00:00",
+        "data_nascita": "1999-01-18",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4678,7 +4678,7 @@
     },
     {
         "cognome_nome": "Sher Aimar",
-        "data_nascita": "20/12/2002 00:00:00",
+        "data_nascita": "2002-12-20",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4690,7 +4690,7 @@
     },
     {
         "cognome_nome": "Kornvig Emil",
-        "data_nascita": "21/04/2000 00:00:00",
+        "data_nascita": "2000-04-21",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4701,7 +4701,7 @@
     },
     {
         "cognome_nome": "Maggiore Giulio",
-        "data_nascita": "12/03/1998 00:00:00",
+        "data_nascita": "1998-03-12",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4712,7 +4712,7 @@
     },
     {
         "cognome_nome": "Gyasi Emmanuel",
-        "data_nascita": "11/01/1994 00:00:00",
+        "data_nascita": "1994-01-11",
         "posizione": "C",
         "crediti_iniziali": 11,
         "crediti_finali": 10,
@@ -4724,7 +4724,7 @@
     },
     {
         "cognome_nome": "Agudelo Kevin",
-        "data_nascita": "14/11/1998 00:00:00",
+        "data_nascita": "1998-11-14",
         "posizione": "C",
         "crediti_iniziali": 16,
         "crediti_finali": 14,
@@ -4735,7 +4735,7 @@
     },
     {
         "cognome_nome": "Antiste Janis",
-        "data_nascita": "18/08/2002 00:00:00",
+        "data_nascita": "2002-08-18",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4747,7 +4747,7 @@
     },
     {
         "cognome_nome": "Podgoreanu Suf",
-        "data_nascita": "20/01/2002 00:00:00",
+        "data_nascita": "2002-01-20",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4759,7 +4759,7 @@
     },
     {
         "cognome_nome": "Verde Daniele",
-        "data_nascita": "20/06/1996 00:00:00",
+        "data_nascita": "1996-06-20",
         "posizione": "A",
         "crediti_iniziali": 16,
         "crediti_finali": 16,
@@ -4770,7 +4770,7 @@
     },
     {
         "cognome_nome": "Nzola M'Bala",
-        "data_nascita": "18/08/1996 00:00:00",
+        "data_nascita": "1996-08-18",
         "posizione": "A",
         "crediti_iniziali": 175,
         "crediti_finali": 175,
@@ -4782,7 +4782,7 @@
     },
     {
         "cognome_nome": "Strelec David",
-        "data_nascita": "04/04/2001 00:00:00",
+        "data_nascita": "2001-04-04",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4793,7 +4793,7 @@
     },
     {
         "cognome_nome": "Berisha Etrit",
-        "data_nascita": "10/03/1989 00:00:00",
+        "data_nascita": "1989-03-10",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4805,7 +4805,7 @@
     },
     {
         "cognome_nome": "Gemello Luca",
-        "data_nascita": "03/07/2000 00:00:00",
+        "data_nascita": "2000-07-03",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4816,7 +4816,7 @@
     },
     {
         "cognome_nome": "Milinkovic-Savic Vanja",
-        "data_nascita": "20/02/1997 00:00:00",
+        "data_nascita": "1997-02-20",
         "posizione": "P",
         "crediti_iniziali": 34,
         "crediti_finali": 34,
@@ -4828,7 +4828,7 @@
     },
     {
         "cognome_nome": "Zima David",
-        "data_nascita": "08/11/2000 00:00:00",
+        "data_nascita": "2000-11-08",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -4839,7 +4839,7 @@
     },
     {
         "cognome_nome": "Izzo Armando",
-        "data_nascita": "02/03/1992 00:00:00",
+        "data_nascita": "1992-03-02",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -4850,7 +4850,7 @@
     },
     {
         "cognome_nome": "Buongiorno Alessandro",
-        "data_nascita": "06/06/1999 00:00:00",
+        "data_nascita": "1999-06-06",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -4861,7 +4861,7 @@
     },
     {
         "cognome_nome": "Djidji Koffi",
-        "data_nascita": "30/11/1992 00:00:00",
+        "data_nascita": "1992-11-30",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -4873,7 +4873,7 @@
     },
     {
         "cognome_nome": "Rodriguez Ricardo",
-        "data_nascita": "25/08/1992 00:00:00",
+        "data_nascita": "1992-08-25",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 17,
@@ -4885,7 +4885,7 @@
     },
     {
         "cognome_nome": "Aina Ola",
-        "data_nascita": "08/10/1996 00:00:00",
+        "data_nascita": "1996-10-08",
         "posizione": "D",
         "crediti_iniziali": 9,
         "crediti_finali": 8,
@@ -4897,7 +4897,7 @@
     },
     {
         "cognome_nome": "Bayeye Brian",
-        "data_nascita": "30/06/2000 00:00:00",
+        "data_nascita": "2000-06-30",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -4908,7 +4908,7 @@
     },
     {
         "cognome_nome": "Singo Wilfried Stephane",
-        "data_nascita": "25/12/2000 00:00:00",
+        "data_nascita": "2000-12-25",
         "posizione": "D",
         "crediti_iniziali": 18,
         "crediti_finali": 17,
@@ -4919,7 +4919,7 @@
     },
     {
         "cognome_nome": "Vojvoda Mergim",
-        "data_nascita": "01/02/1995 00:00:00",
+        "data_nascita": "1995-02-01",
         "posizione": "D",
         "crediti_iniziali": 9,
         "crediti_finali": 8,
@@ -4931,7 +4931,7 @@
     },
     {
         "cognome_nome": "Ricci Samuele",
-        "data_nascita": "21/08/2001 00:00:00",
+        "data_nascita": "2001-08-21",
         "posizione": "C",
         "crediti_iniziali": 27,
         "crediti_finali": 28,
@@ -4942,7 +4942,7 @@
     },
     {
         "cognome_nome": "Linetty Karol",
-        "data_nascita": "02/02/1995 00:00:00",
+        "data_nascita": "1995-02-02",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -4953,7 +4953,7 @@
     },
     {
         "cognome_nome": "Lukic Sasa",
-        "data_nascita": "13/08/1996 00:00:00",
+        "data_nascita": "1996-08-13",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4964,7 +4964,7 @@
     },
     {
         "cognome_nome": "Radonjic Nemanja",
-        "data_nascita": "15/02/1996 00:00:00",
+        "data_nascita": "1996-02-15",
         "posizione": "C",
         "crediti_iniziali": 25,
         "crediti_finali": 23,
@@ -4975,18 +4975,18 @@
     },
     {
         "cognome_nome": "Verdi Simone",
-        "data_nascita": "12/07/1992 00:00:00",
+        "data_nascita": "1992-07-12",
         "posizione": "C",
         "crediti_iniziali": 15,
         "crediti_finali": 15,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Edera Simone",
-        "data_nascita": "09/01/1997 00:00:00",
+        "data_nascita": "1997-01-09",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -4997,7 +4997,7 @@
     },
     {
         "cognome_nome": "Seck Demba",
-        "data_nascita": "10/02/2001 00:00:00",
+        "data_nascita": "2001-02-10",
         "posizione": "A",
         "crediti_iniziali": 6,
         "crediti_finali": 7,
@@ -5008,7 +5008,7 @@
     },
     {
         "cognome_nome": "Pellegri Pietro",
-        "data_nascita": "17/03/2001 00:00:00",
+        "data_nascita": "2001-03-17",
         "posizione": "A",
         "crediti_iniziali": 12,
         "crediti_finali": 10,
@@ -5019,7 +5019,7 @@
     },
     {
         "cognome_nome": "Sanabria Antonio",
-        "data_nascita": "04/03/1996 00:00:00",
+        "data_nascita": "1996-03-04",
         "posizione": "A",
         "crediti_iniziali": 70,
         "crediti_finali": 68,
@@ -5031,7 +5031,7 @@
     },
     {
         "cognome_nome": "Zaza Simone",
-        "data_nascita": "25/06/1991 00:00:00",
+        "data_nascita": "1991-06-25",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5042,7 +5042,7 @@
     },
     {
         "cognome_nome": "Gasparini Manuel",
-        "data_nascita": "19/05/2002 00:00:00",
+        "data_nascita": "2002-05-19",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5053,7 +5053,7 @@
     },
     {
         "cognome_nome": "Padelli Daniele",
-        "data_nascita": "25/10/1985 00:00:00",
+        "data_nascita": "1985-10-25",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5064,7 +5064,7 @@
     },
     {
         "cognome_nome": "Silvestri Marco",
-        "data_nascita": "02/03/1991 00:00:00",
+        "data_nascita": "1991-03-02",
         "posizione": "P",
         "crediti_iniziali": 32,
         "crediti_finali": 32,
@@ -5075,7 +5075,7 @@
     },
     {
         "cognome_nome": "Benkovic Filip",
-        "data_nascita": "13/07/1997 00:00:00",
+        "data_nascita": "1997-07-13",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5086,7 +5086,7 @@
     },
     {
         "cognome_nome": "Bijol Jaka",
-        "data_nascita": "05/02/1999 00:00:00",
+        "data_nascita": "1999-02-05",
         "posizione": "D",
         "crediti_iniziali": 17,
         "crediti_finali": 18,
@@ -5097,7 +5097,7 @@
     },
     {
         "cognome_nome": "Nuytinck Bram",
-        "data_nascita": "04/05/1990 00:00:00",
+        "data_nascita": "1990-05-04",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 13,
@@ -5108,7 +5108,7 @@
     },
     {
         "cognome_nome": "Becao Rodrigo",
-        "data_nascita": "19/01/1996 00:00:00",
+        "data_nascita": "1996-01-19",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 23,
@@ -5119,7 +5119,7 @@
     },
     {
         "cognome_nome": "Ebosele Festy",
-        "data_nascita": "02/08/2002 00:00:00",
+        "data_nascita": "2002-08-02",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -5131,7 +5131,7 @@
     },
     {
         "cognome_nome": "Soppy Brandon",
-        "data_nascita": "21/02/2002 00:00:00",
+        "data_nascita": "2002-02-21",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -5143,7 +5143,7 @@
     },
     {
         "cognome_nome": "Molina Nahuel",
-        "data_nascita": "02/12/1997 00:00:00",
+        "data_nascita": "1997-12-02",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5154,7 +5154,7 @@
     },
     {
         "cognome_nome": "Buta Leonardo",
-        "data_nascita": "05/06/2002 00:00:00",
+        "data_nascita": "2002-06-05",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5165,7 +5165,7 @@
     },
     {
         "cognome_nome": "Masina Adam",
-        "data_nascita": "02/01/1994 00:00:00",
+        "data_nascita": "1994-01-02",
         "posizione": "D",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -5177,7 +5177,7 @@
     },
     {
         "cognome_nome": "Udogie Destiny",
-        "data_nascita": "28/11/2002 00:00:00",
+        "data_nascita": "2002-11-28",
         "posizione": "D",
         "crediti_iniziali": 34,
         "crediti_finali": 34,
@@ -5189,7 +5189,7 @@
     },
     {
         "cognome_nome": "Walace Souza",
-        "data_nascita": "04/04/1995 00:00:00",
+        "data_nascita": "1995-04-04",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -5200,7 +5200,7 @@
     },
     {
         "cognome_nome": "Arslan Tolgay",
-        "data_nascita": "16/08/1990 00:00:00",
+        "data_nascita": "1990-08-16",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -5211,7 +5211,7 @@
     },
     {
         "cognome_nome": "Jajalo Mato",
-        "data_nascita": "25/05/1988 00:00:00",
+        "data_nascita": "1988-05-25",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5223,7 +5223,7 @@
     },
     {
         "cognome_nome": "Makengo Jean-Victor",
-        "data_nascita": "12/06/1998 00:00:00",
+        "data_nascita": "1998-06-12",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5235,7 +5235,7 @@
     },
     {
         "cognome_nome": "Lovric Sandi",
-        "data_nascita": "28/03/1998 00:00:00",
+        "data_nascita": "1998-03-28",
         "posizione": "C",
         "crediti_iniziali": 33,
         "crediti_finali": 33,
@@ -5247,7 +5247,7 @@
     },
     {
         "cognome_nome": "Samardzic Lazar",
-        "data_nascita": "24/02/2002 00:00:00",
+        "data_nascita": "2002-02-24",
         "posizione": "C",
         "crediti_iniziali": 21,
         "crediti_finali": 19,
@@ -5259,7 +5259,7 @@
     },
     {
         "cognome_nome": "Pereyra Roberto",
-        "data_nascita": "07/01/1991 00:00:00",
+        "data_nascita": "1991-01-07",
         "posizione": "C",
         "crediti_iniziali": 52,
         "crediti_finali": 49,
@@ -5270,7 +5270,7 @@
     },
     {
         "cognome_nome": "Deulofeu Gerard",
-        "data_nascita": "13/03/1994 00:00:00",
+        "data_nascita": "1994-03-13",
         "posizione": "A",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -5281,7 +5281,7 @@
     },
     {
         "cognome_nome": "Success Isaac",
-        "data_nascita": "07/01/1996 00:00:00",
+        "data_nascita": "1996-01-07",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -5292,7 +5292,7 @@
     },
     {
         "cognome_nome": "Beto ",
-        "data_nascita": "31/01/1998 00:00:00",
+        "data_nascita": "1998-01-31",
         "posizione": "A",
         "crediti_iniziali": 90,
         "crediti_finali": 90,
@@ -5304,7 +5304,7 @@
     },
     {
         "cognome_nome": "Nestorovski Ilija",
-        "data_nascita": "12/03/1990 00:00:00",
+        "data_nascita": "1990-03-12",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -5315,51 +5315,51 @@
     },
     {
         "cognome_nome": "Berardi Alessandro",
-        "data_nascita": "16/01/1991 00:00:00",
+        "data_nascita": "1991-01-16",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Montip\u00c3\u00b2 Lorenzo",
-        "data_nascita": "20/02/1996 00:00:00",
+        "data_nascita": "1996-02-20",
         "posizione": "P",
         "crediti_iniziali": 21,
         "crediti_finali": 21,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Coppola Diego",
-        "data_nascita": "28/12/2003 00:00:00",
+        "data_nascita": "2003-12-28",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Dawidowicz Pawel",
-        "data_nascita": "20/05/1995 00:00:00",
+        "data_nascita": "1995-05-20",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Polonia"
         ]
     },
     {
         "cognome_nome": "Gunter Koray",
-        "data_nascita": "16/08/1994 00:00:00",
+        "data_nascita": "1994-08-16",
         "posizione": "D",
         "crediti_iniziali": 9,
         "crediti_finali": 9,
@@ -5371,29 +5371,29 @@
     },
     {
         "cognome_nome": "Magnani Giangiacomo",
-        "data_nascita": "04/10/1995 00:00:00",
+        "data_nascita": "1995-10-04",
         "posizione": "D",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Ceccherini Federico",
-        "data_nascita": "11/05/1992 00:00:00",
+        "data_nascita": "1992-05-11",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 14,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Amione Bruno",
-        "data_nascita": "03/01/2002 00:00:00",
+        "data_nascita": "2002-01-03",
         "posizione": "D",
         "crediti_iniziali": 11,
         "crediti_finali": 12,
@@ -5404,77 +5404,77 @@
     },
     {
         "cognome_nome": "Retsos Panagiotis",
-        "data_nascita": "09/08/1998 00:00:00",
+        "data_nascita": "1998-08-09",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Grecia"
         ]
     },
     {
         "cognome_nome": "Doig Josh",
-        "data_nascita": "18/05/2002 00:00:00",
+        "data_nascita": "2002-05-18",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Scozia"
         ]
     },
     {
         "cognome_nome": "Faraoni Davide",
-        "data_nascita": "25/10/1991 00:00:00",
+        "data_nascita": "1991-10-25",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 16,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Lazovic Darko",
-        "data_nascita": "15/09/1990 00:00:00",
+        "data_nascita": "1990-09-15",
         "posizione": "C",
         "crediti_iniziali": 44,
         "crediti_finali": 47,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Serbia"
         ]
     },
     {
         "cognome_nome": "Hongla Martin",
-        "data_nascita": "16/03/1998 00:00:00",
+        "data_nascita": "1998-03-16",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Camerun"
         ]
     },
     {
         "cognome_nome": "Veloso Miguel",
-        "data_nascita": "11/05/1986 00:00:00",
+        "data_nascita": "1986-05-11",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Portogallo"
         ]
     },
     {
         "cognome_nome": "Tameze Adrien",
-        "data_nascita": "04/02/1994 00:00:00",
+        "data_nascita": "1994-02-04",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 13,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Francia",
             "Camerun"
@@ -5482,7 +5482,7 @@
     },
     {
         "cognome_nome": "Ilic Ivan",
-        "data_nascita": "17/03/2001 00:00:00",
+        "data_nascita": "2001-03-17",
         "posizione": "C",
         "crediti_iniziali": 23,
         "crediti_finali": 23,
@@ -5493,7 +5493,7 @@
     },
     {
         "cognome_nome": "Barak Antonin",
-        "data_nascita": "03/12/1994 00:00:00",
+        "data_nascita": "1994-12-03",
         "posizione": "C",
         "crediti_iniziali": 28,
         "crediti_finali": 25,
@@ -5504,18 +5504,18 @@
     },
     {
         "cognome_nome": "Praszelik Mateusz",
-        "data_nascita": "26/09/2000 00:00:00",
+        "data_nascita": "2000-09-26",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Polonia"
         ]
     },
     {
         "cognome_nome": "Caprari Gianluca",
-        "data_nascita": "30/07/1993 00:00:00",
+        "data_nascita": "1993-07-30",
         "posizione": "A",
         "crediti_iniziali": 40,
         "crediti_finali": 40,
@@ -5526,11 +5526,11 @@
     },
     {
         "cognome_nome": "Djuric Milan",
-        "data_nascita": "22/05/1990 00:00:00",
+        "data_nascita": "1990-05-22",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 8,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Bosnia Erzegovina",
             "Italia"
@@ -5538,29 +5538,29 @@
     },
     {
         "cognome_nome": "Henry Thomas",
-        "data_nascita": "20/09/1994 00:00:00",
+        "data_nascita": "1994-09-20",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Francia"
         ]
     },
     {
         "cognome_nome": "Lasagna Kevin",
-        "data_nascita": "10/08/1992 00:00:00",
+        "data_nascita": "1992-08-10",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 8,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Piccoli Roberto",
-        "data_nascita": "27/01/2001 00:00:00",
+        "data_nascita": "2001-01-27",
         "posizione": "A",
         "crediti_iniziali": 8,
         "crediti_finali": 7,
@@ -5571,7 +5571,7 @@
     },
     {
         "cognome_nome": "Simeone Giovanni",
-        "data_nascita": "05/07/1995 00:00:00",
+        "data_nascita": "1995-07-05",
         "posizione": "A",
         "crediti_iniziali": 25,
         "crediti_finali": 22,
@@ -5583,7 +5583,7 @@
     },
     {
         "cognome_nome": "Ranocchia Filippo",
-        "data_nascita": "14/01/2001 00:00:00",
+        "data_nascita": "2001-01-14",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -5594,7 +5594,7 @@
     },
     {
         "cognome_nome": "Dod\u00c3\u00b2",
-        "data_nascita": "17/11/1998 00:00:00",
+        "data_nascita": "1998-11-17",
         "posizione": "D",
         "crediti_iniziali": 22,
         "crediti_finali": 22,
@@ -5605,18 +5605,18 @@
     },
     {
         "cognome_nome": "Cortinovis Alessandro",
-        "data_nascita": "25/01/2001 00:00:00",
+        "data_nascita": "2001-01-25",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Ascacibar Santiago",
-        "data_nascita": "25/02/1997 00:00:00",
+        "data_nascita": "1997-02-25",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5627,7 +5627,7 @@
     },
     {
         "cognome_nome": "Bistrovic Kristjan",
-        "data_nascita": "09/04/1998 00:00:00",
+        "data_nascita": "1998-04-09",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5638,7 +5638,7 @@
     },
     {
         "cognome_nome": "Ciezkowski Dorian",
-        "data_nascita": "22/03/2001 00:00:00",
+        "data_nascita": "2001-03-22",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5649,7 +5649,7 @@
     },
     {
         "cognome_nome": "Zanotti Mattia",
-        "data_nascita": "11/01/2003 00:00:00",
+        "data_nascita": "2003-01-11",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5660,7 +5660,7 @@
     },
     {
         "cognome_nome": "Casadei Cesare",
-        "data_nascita": "10/01/2003 00:00:00",
+        "data_nascita": "2003-01-10",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5671,7 +5671,7 @@
     },
     {
         "cognome_nome": "Contini Nikita",
-        "data_nascita": "21/05/1996 00:00:00",
+        "data_nascita": "1996-05-21",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5683,7 +5683,7 @@
     },
     {
         "cognome_nome": "Cavion Michele",
-        "data_nascita": "08/12/1994 00:00:00",
+        "data_nascita": "1994-12-08",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5694,7 +5694,7 @@
     },
     {
         "cognome_nome": "Murillo Jeison",
-        "data_nascita": "27/05/1992 00:00:00",
+        "data_nascita": "1992-05-27",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -5705,7 +5705,7 @@
     },
     {
         "cognome_nome": "Kovalenko Viktor",
-        "data_nascita": "14/02/1996 00:00:00",
+        "data_nascita": "1996-02-14",
         "posizione": "C",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -5716,7 +5716,7 @@
     },
     {
         "cognome_nome": "Micai Alessandro",
-        "data_nascita": "24/07/1993 00:00:00",
+        "data_nascita": "1993-07-24",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5727,7 +5727,7 @@
     },
     {
         "cognome_nome": "Capradossi Elio",
-        "data_nascita": "11/03/1996 00:00:00",
+        "data_nascita": "1996-03-11",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5739,18 +5739,18 @@
     },
     {
         "cognome_nome": "Chiesa Mattia",
-        "data_nascita": "16/07/2000 00:00:00",
+        "data_nascita": "2000-07-16",
         "posizione": "P",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Quagliata Giacomo",
-        "data_nascita": "19/02/2000 00:00:00",
+        "data_nascita": "2000-02-19",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -5761,7 +5761,7 @@
     },
     {
         "cognome_nome": "Kim Min-jae",
-        "data_nascita": "15/11/1996 00:00:00",
+        "data_nascita": "1996-11-15",
         "posizione": "D",
         "crediti_iniziali": 48,
         "crediti_finali": 49,
@@ -5772,7 +5772,7 @@
     },
     {
         "cognome_nome": "Okereke David",
-        "data_nascita": "29/08/1997 00:00:00",
+        "data_nascita": "1997-08-29",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -5783,7 +5783,7 @@
     },
     {
         "cognome_nome": "Bondo Warren",
-        "data_nascita": "15/09/2003 00:00:00",
+        "data_nascita": "2003-09-15",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5795,7 +5795,7 @@
     },
     {
         "cognome_nome": "Leverbe Maxime",
-        "data_nascita": "15/02/1997 00:00:00",
+        "data_nascita": "1997-02-15",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5806,7 +5806,7 @@
     },
     {
         "cognome_nome": "Ebosse Enzo",
-        "data_nascita": "11/12/1998 00:00:00",
+        "data_nascita": "1998-12-11",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5818,7 +5818,7 @@
     },
     {
         "cognome_nome": "De Luca Manuel",
-        "data_nascita": "17/07/1998 00:00:00",
+        "data_nascita": "1998-07-17",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5829,7 +5829,7 @@
     },
     {
         "cognome_nome": "Perez Nehuen",
-        "data_nascita": "24/06/2000 00:00:00",
+        "data_nascita": "2000-06-24",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 16,
@@ -5840,7 +5840,7 @@
     },
     {
         "cognome_nome": "De Ketelaere Charles",
-        "data_nascita": "10/03/2001 00:00:00",
+        "data_nascita": "2001-03-10",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 8,
@@ -5851,7 +5851,7 @@
     },
     {
         "cognome_nome": "Samek Daniel",
-        "data_nascita": "19/02/2004 00:00:00",
+        "data_nascita": "2004-02-19",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5862,7 +5862,7 @@
     },
     {
         "cognome_nome": "Soul\u00c3\u00a8 Matias",
-        "data_nascita": "15/04/2003 00:00:00",
+        "data_nascita": "2003-04-15",
         "posizione": "A",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -5874,7 +5874,7 @@
     },
     {
         "cognome_nome": "Horvath Krisztofer",
-        "data_nascita": "08/01/2002 00:00:00",
+        "data_nascita": "2002-01-08",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -5885,7 +5885,7 @@
     },
     {
         "cognome_nome": "Di Francesco Federico",
-        "data_nascita": "14/06/1994 00:00:00",
+        "data_nascita": "1994-06-14",
         "posizione": "A",
         "crediti_iniziali": 15,
         "crediti_finali": 15,
@@ -5896,7 +5896,7 @@
     },
     {
         "cognome_nome": "Pafundi Simone",
-        "data_nascita": "14/03/2006 00:00:00",
+        "data_nascita": "2006-03-14",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5907,7 +5907,7 @@
     },
     {
         "cognome_nome": "Zerbin Alessio",
-        "data_nascita": "03/03/1999 00:00:00",
+        "data_nascita": "1999-03-03",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -5918,7 +5918,7 @@
     },
     {
         "cognome_nome": "Gonzalez Joan",
-        "data_nascita": "01/02/2002 00:00:00",
+        "data_nascita": "2002-02-01",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -5929,7 +5929,7 @@
     },
     {
         "cognome_nome": "Vecino Matias",
-        "data_nascita": "24/08/1991 00:00:00",
+        "data_nascita": "1991-08-24",
         "posizione": "C",
         "crediti_iniziali": 10,
         "crediti_finali": 11,
@@ -5941,7 +5941,7 @@
     },
     {
         "cognome_nome": "Djuricic Filip",
-        "data_nascita": "30/01/1992 00:00:00",
+        "data_nascita": "1992-01-30",
         "posizione": "C",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -5952,7 +5952,7 @@
     },
     {
         "cognome_nome": "Lazaro Valentino",
-        "data_nascita": "24/03/1996 00:00:00",
+        "data_nascita": "1996-03-24",
         "posizione": "D",
         "crediti_iniziali": 6,
         "crediti_finali": 7,
@@ -5963,7 +5963,7 @@
     },
     {
         "cognome_nome": "Kastanos Grigoris",
-        "data_nascita": "30/01/1998 00:00:00",
+        "data_nascita": "1998-01-30",
         "posizione": "C",
         "crediti_iniziali": 11,
         "crediti_finali": 11,
@@ -5974,7 +5974,7 @@
     },
     {
         "cognome_nome": "Bagnolini Nicola",
-        "data_nascita": "14/03/2004 00:00:00",
+        "data_nascita": "2004-03-14",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5985,7 +5985,7 @@
     },
     {
         "cognome_nome": "Russo Alessandro",
-        "data_nascita": "31/03/2001 00:00:00",
+        "data_nascita": "2001-03-31",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -5996,18 +5996,18 @@
     },
     {
         "cognome_nome": "Perilli Simone",
-        "data_nascita": "07/01/1995 00:00:00",
+        "data_nascita": "1995-01-07",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Lookman Ademola",
-        "data_nascita": "20/10/1997 00:00:00",
+        "data_nascita": "1997-10-20",
         "posizione": "A",
         "crediti_iniziali": 135,
         "crediti_finali": 140,
@@ -6019,7 +6019,7 @@
     },
     {
         "cognome_nome": "Banda Lameck",
-        "data_nascita": "29/01/2001 00:00:00",
+        "data_nascita": "2001-01-29",
         "posizione": "A",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -6030,7 +6030,7 @@
     },
     {
         "cognome_nome": "Cambiaghi Nicol\u00c3\u00b2",
-        "data_nascita": "28/12/2000 00:00:00",
+        "data_nascita": "2000-12-28",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
@@ -6041,7 +6041,7 @@
     },
     {
         "cognome_nome": "Wijnaldum Georginio",
-        "data_nascita": "11/11/1990 00:00:00",
+        "data_nascita": "1990-11-11",
         "posizione": "C",
         "crediti_iniziali": 34,
         "crediti_finali": 34,
@@ -6053,7 +6053,7 @@
     },
     {
         "cognome_nome": "Marlon",
-        "data_nascita": "07/09/1995 00:00:00",
+        "data_nascita": "1995-09-07",
         "posizione": "D",
         "crediti_iniziali": 9,
         "crediti_finali": 9,
@@ -6064,7 +6064,7 @@
     },
     {
         "cognome_nome": "Aiwu Emanuel",
-        "data_nascita": "25/12/2000 00:00:00",
+        "data_nascita": "2000-12-25",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -6075,7 +6075,7 @@
     },
     {
         "cognome_nome": "Villar Gonzalo",
-        "data_nascita": "23/03/1998 00:00:00",
+        "data_nascita": "1998-03-23",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6086,7 +6086,7 @@
     },
     {
         "cognome_nome": "Lammers Sam",
-        "data_nascita": "30/04/1997 00:00:00",
+        "data_nascita": "1997-04-30",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 15,
@@ -6097,7 +6097,7 @@
     },
     {
         "cognome_nome": "Cetin Mert",
-        "data_nascita": "01/01/1997 00:00:00",
+        "data_nascita": "1997-01-01",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6108,7 +6108,7 @@
     },
     {
         "cognome_nome": "Piana Edoardo",
-        "data_nascita": "29/09/2003 00:00:00",
+        "data_nascita": "2003-09-29",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6119,7 +6119,7 @@
     },
     {
         "cognome_nome": "Ilkhan Emirhan",
-        "data_nascita": "01/06/2004 00:00:00",
+        "data_nascita": "2004-06-01",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -6130,7 +6130,7 @@
     },
     {
         "cognome_nome": "Urbanski Kasper",
-        "data_nascita": "07/09/2004 00:00:00",
+        "data_nascita": "2004-09-07",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6141,7 +6141,7 @@
     },
     {
         "cognome_nome": "Raimondo Antonio",
-        "data_nascita": "18/03/2004 00:00:00",
+        "data_nascita": "2004-03-18",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6152,7 +6152,7 @@
     },
     {
         "cognome_nome": "Degli Innocenti Duccio",
-        "data_nascita": "28/04/2003 00:00:00",
+        "data_nascita": "2003-04-28",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6163,7 +6163,7 @@
     },
     {
         "cognome_nome": "Crociata Giovanni",
-        "data_nascita": "11/08/1997 00:00:00",
+        "data_nascita": "1997-08-11",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6174,7 +6174,7 @@
     },
     {
         "cognome_nome": "Fazzini Jacopo",
-        "data_nascita": "16/03/2003 00:00:00",
+        "data_nascita": "2003-03-16",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -6185,7 +6185,7 @@
     },
     {
         "cognome_nome": "Acella Christian",
-        "data_nascita": "07/07/2002 00:00:00",
+        "data_nascita": "2002-07-07",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6196,7 +6196,7 @@
     },
     {
         "cognome_nome": "Bianco Alessandro",
-        "data_nascita": "01/10/2002 00:00:00",
+        "data_nascita": "2002-10-01",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6207,7 +6207,7 @@
     },
     {
         "cognome_nome": "Bertini Marco",
-        "data_nascita": "07/08/2002 00:00:00",
+        "data_nascita": "2002-08-07",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6218,7 +6218,7 @@
     },
     {
         "cognome_nome": "Tripi Filippo",
-        "data_nascita": "06/01/2002 00:00:00",
+        "data_nascita": "2002-01-06",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6229,7 +6229,7 @@
     },
     {
         "cognome_nome": "Motoc Andrei",
-        "data_nascita": "01/04/2002 00:00:00",
+        "data_nascita": "2002-04-01",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6241,7 +6241,7 @@
     },
     {
         "cognome_nome": "Kristoffersen Julian",
-        "data_nascita": "10/05/1997 00:00:00",
+        "data_nascita": "1997-05-10",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6252,7 +6252,7 @@
     },
     {
         "cognome_nome": "Trimboli Simone",
-        "data_nascita": "19/04/2002 00:00:00",
+        "data_nascita": "2002-04-19",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6263,7 +6263,7 @@
     },
     {
         "cognome_nome": "D'Andrea Luca",
-        "data_nascita": "06/09/2004 00:00:00",
+        "data_nascita": "2004-09-06",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -6274,7 +6274,7 @@
     },
     {
         "cognome_nome": "Ellertsson Mikael Egill",
-        "data_nascita": "11/03/2002 00:00:00",
+        "data_nascita": "2002-03-11",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6285,7 +6285,7 @@
     },
     {
         "cognome_nome": "Escalante Gonzalo",
-        "data_nascita": "27/03/1993 00:00:00",
+        "data_nascita": "1993-03-27",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6297,7 +6297,7 @@
     },
     {
         "cognome_nome": "Abankwah James",
-        "data_nascita": "16/01/2004 00:00:00",
+        "data_nascita": "2004-01-16",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6309,7 +6309,7 @@
     },
     {
         "cognome_nome": "Guessand Axel",
-        "data_nascita": "06/11/2004 00:00:00",
+        "data_nascita": "2004-11-06",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6321,29 +6321,29 @@
     },
     {
         "cognome_nome": "Sulemana Ibrahim",
-        "data_nascita": "22/05/2003 00:00:00",
+        "data_nascita": "2003-05-22",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Ghana"
         ]
     },
     {
         "cognome_nome": "Terracciano Filippo",
-        "data_nascita": "08/02/2003 00:00:00",
+        "data_nascita": "2003-02-08",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Italia"
         ]
     },
     {
         "cognome_nome": "Sirigu Salvatore",
-        "data_nascita": "12/01/1987 00:00:00",
+        "data_nascita": "1987-01-12",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6354,7 +6354,7 @@
     },
     {
         "cognome_nome": "Dragowski Bartlomiej",
-        "data_nascita": "19/08/1997 00:00:00",
+        "data_nascita": "1997-08-19",
         "posizione": "P",
         "crediti_iniziali": 24,
         "crediti_finali": 24,
@@ -6365,7 +6365,7 @@
     },
     {
         "cognome_nome": "Kostic Filip",
-        "data_nascita": "01/11/1992 00:00:00",
+        "data_nascita": "1992-11-01",
         "posizione": "C",
         "crediti_iniziali": 47,
         "crediti_finali": 47,
@@ -6376,7 +6376,7 @@
     },
     {
         "cognome_nome": "Vilhena Tonny",
-        "data_nascita": "03/01/1995 00:00:00",
+        "data_nascita": "1995-01-03",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -6388,7 +6388,7 @@
     },
     {
         "cognome_nome": "Vlasic Nikola",
-        "data_nascita": "04/10/1997 00:00:00",
+        "data_nascita": "1997-10-04",
         "posizione": "C",
         "crediti_iniziali": 36,
         "crediti_finali": 36,
@@ -6399,7 +6399,7 @@
     },
     {
         "cognome_nome": "Lochoshvili Luka",
-        "data_nascita": "29/05/1998 00:00:00",
+        "data_nascita": "1998-05-29",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -6410,7 +6410,7 @@
     },
     {
         "cognome_nome": "Dessers Cyriel",
-        "data_nascita": "08/12/1994 00:00:00",
+        "data_nascita": "1994-12-08",
         "posizione": "A",
         "crediti_iniziali": 28,
         "crediti_finali": 26,
@@ -6422,7 +6422,7 @@
     },
     {
         "cognome_nome": "Mar\u00c3\u00ac Pablo",
-        "data_nascita": "31/08/1993 00:00:00",
+        "data_nascita": "1993-08-31",
         "posizione": "D",
         "crediti_iniziali": 15,
         "crediti_finali": 15,
@@ -6433,7 +6433,7 @@
     },
     {
         "cognome_nome": "Bronn Dylan",
-        "data_nascita": "19/06/1995 00:00:00",
+        "data_nascita": "1995-06-19",
         "posizione": "D",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -6445,7 +6445,7 @@
     },
     {
         "cognome_nome": "Saro Gianluca",
-        "data_nascita": "25/06/2000 00:00:00",
+        "data_nascita": "2000-06-25",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6456,7 +6456,7 @@
     },
     {
         "cognome_nome": "Romagna Filippo",
-        "data_nascita": "26/05/1997 00:00:00",
+        "data_nascita": "1997-05-26",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6467,7 +6467,7 @@
     },
     {
         "cognome_nome": "Adopo Michel Ndary",
-        "data_nascita": "19/07/2000 00:00:00",
+        "data_nascita": "2000-07-19",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -6479,7 +6479,7 @@
     },
     {
         "cognome_nome": "Kouam\u00c3\u00a8 Christian",
-        "data_nascita": "06/12/1997 00:00:00",
+        "data_nascita": "1997-12-06",
         "posizione": "A",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -6490,7 +6490,7 @@
     },
     {
         "cognome_nome": "Cerofolini Michele",
-        "data_nascita": "04/01/1999 00:00:00",
+        "data_nascita": "1999-01-04",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6501,7 +6501,7 @@
     },
     {
         "cognome_nome": "Normann Mathias",
-        "data_nascita": "28/05/1996 00:00:00",
+        "data_nascita": "1996-05-28",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6512,18 +6512,18 @@
     },
     {
         "cognome_nome": "Cabal Juan",
-        "data_nascita": "08/01/2001 00:00:00",
+        "data_nascita": "2001-01-08",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Colombia"
         ]
     },
     {
         "cognome_nome": "Schuurs Perr",
-        "data_nascita": "26/11/1999 00:00:00",
+        "data_nascita": "1999-11-26",
         "posizione": "D",
         "crediti_iniziali": 35,
         "crediti_finali": 36,
@@ -6534,7 +6534,7 @@
     },
     {
         "cognome_nome": "Lucum\u00c3\u00ac Jhon",
-        "data_nascita": "26/06/1998 00:00:00",
+        "data_nascita": "1998-06-26",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -6545,7 +6545,7 @@
     },
     {
         "cognome_nome": "Grassi Alberto",
-        "data_nascita": "07/03/1995 00:00:00",
+        "data_nascita": "1995-03-07",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 4,
@@ -6556,7 +6556,7 @@
     },
     {
         "cognome_nome": "Sosa Joaquin",
-        "data_nascita": "10/01/2002 00:00:00",
+        "data_nascita": "2002-01-10",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6568,7 +6568,7 @@
     },
     {
         "cognome_nome": "Dia Boulaye",
-        "data_nascita": "16/11/1996 00:00:00",
+        "data_nascita": "1996-11-16",
         "posizione": "A",
         "crediti_iniziali": 80,
         "crediti_finali": 80,
@@ -6580,7 +6580,7 @@
     },
     {
         "cognome_nome": "Ndombel\u00c3\u00a8 Tanguy",
-        "data_nascita": "28/12/1996 00:00:00",
+        "data_nascita": "1996-12-28",
         "posizione": "C",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -6592,11 +6592,11 @@
     },
     {
         "cognome_nome": "Hien Isak",
-        "data_nascita": "13/01/1999 00:00:00",
+        "data_nascita": "1999-01-13",
         "posizione": "D",
         "crediti_iniziali": 16,
         "crediti_finali": 17,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Svezia",
             "Burkina Faso"
@@ -6604,7 +6604,7 @@
     },
     {
         "cognome_nome": "Ehizibue Kingsley",
-        "data_nascita": "25/05/1995 00:00:00",
+        "data_nascita": "1995-05-25",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -6616,7 +6616,7 @@
     },
     {
         "cognome_nome": "Pongracic Marin",
-        "data_nascita": "11/09/1997 00:00:00",
+        "data_nascita": "1997-09-11",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -6628,7 +6628,7 @@
     },
     {
         "cognome_nome": "Ranieri Luca",
-        "data_nascita": "23/04/1999 00:00:00",
+        "data_nascita": "1999-04-23",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6639,7 +6639,7 @@
     },
     {
         "cognome_nome": "Umtiti Samuel",
-        "data_nascita": "14/11/1993 00:00:00",
+        "data_nascita": "1993-11-14",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -6651,7 +6651,7 @@
     },
     {
         "cognome_nome": "Pezzella Giuseppe",
-        "data_nascita": "29/11/1997 00:00:00",
+        "data_nascita": "1997-11-29",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -6662,7 +6662,7 @@
     },
     {
         "cognome_nome": "Milik Arkadiusz",
-        "data_nascita": "28/02/1994 00:00:00",
+        "data_nascita": "1994-02-28",
         "posizione": "A",
         "crediti_iniziali": 40,
         "crediti_finali": 40,
@@ -6673,18 +6673,18 @@
     },
     {
         "cognome_nome": "Kallon Yayah",
-        "data_nascita": "30/06/2001 00:00:00",
+        "data_nascita": "2001-06-30",
         "posizione": "A",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Sierra Leone"
         ]
     },
     {
         "cognome_nome": "Hojlund Rasmus",
-        "data_nascita": "04/02/2003 00:00:00",
+        "data_nascita": "2003-02-04",
         "posizione": "A",
         "crediti_iniziali": 155,
         "crediti_finali": 155,
@@ -6695,7 +6695,7 @@
     },
     {
         "cognome_nome": "Belotti Andrea",
-        "data_nascita": "20/12/1993 00:00:00",
+        "data_nascita": "1993-12-20",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 17,
@@ -6706,7 +6706,7 @@
     },
     {
         "cognome_nome": "Moro Nikola",
-        "data_nascita": "12/03/1998 00:00:00",
+        "data_nascita": "1998-03-12",
         "posizione": "C",
         "crediti_iniziali": 13,
         "crediti_finali": 14,
@@ -6717,7 +6717,7 @@
     },
     {
         "cognome_nome": "Daniliuc Flavius",
-        "data_nascita": "27/04/2001 00:00:00",
+        "data_nascita": "2001-04-27",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -6728,7 +6728,7 @@
     },
     {
         "cognome_nome": "Ujkani Samir",
-        "data_nascita": "05/07/1988 00:00:00",
+        "data_nascita": "1988-07-05",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6740,7 +6740,7 @@
     },
     {
         "cognome_nome": "Thiaw Malick",
-        "data_nascita": "08/08/2001 00:00:00",
+        "data_nascita": "2001-08-08",
         "posizione": "D",
         "crediti_iniziali": 14,
         "crediti_finali": 15,
@@ -6752,7 +6752,7 @@
     },
     {
         "cognome_nome": "Winks Harry",
-        "data_nascita": "02/02/1996 00:00:00",
+        "data_nascita": "1996-02-02",
         "posizione": "C",
         "crediti_iniziali": 9,
         "crediti_finali": 9,
@@ -6763,7 +6763,7 @@
     },
     {
         "cognome_nome": "Guarino Gabriele",
-        "data_nascita": "14/04/2004 00:00:00",
+        "data_nascita": "2004-04-14",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -6774,7 +6774,7 @@
     },
     {
         "cognome_nome": "Garbett Matthew",
-        "data_nascita": "13/04/2002 00:00:00",
+        "data_nascita": "2002-04-13",
         "posizione": "C",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6786,7 +6786,7 @@
     },
     {
         "cognome_nome": "Zirkzee Joshua",
-        "data_nascita": "22/05/2001 00:00:00",
+        "data_nascita": "2001-05-22",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -6798,7 +6798,7 @@
     },
     {
         "cognome_nome": "Camara Mady",
-        "data_nascita": "28/02/1997 00:00:00",
+        "data_nascita": "1997-02-28",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -6809,7 +6809,7 @@
     },
     {
         "cognome_nome": "Laurient\u00c3\u00a8 Armand",
-        "data_nascita": "04/12/1998 00:00:00",
+        "data_nascita": "1998-12-04",
         "posizione": "A",
         "crediti_iniziali": 175,
         "crediti_finali": 175,
@@ -6821,7 +6821,7 @@
     },
     {
         "cognome_nome": "Paredes Leandro",
-        "data_nascita": "29/06/1994 00:00:00",
+        "data_nascita": "1994-06-29",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -6832,7 +6832,7 @@
     },
     {
         "cognome_nome": "Oudin Remi",
-        "data_nascita": "18/11/1996 00:00:00",
+        "data_nascita": "1996-11-18",
         "posizione": "C",
         "crediti_iniziali": 5,
         "crediti_finali": 4,
@@ -6843,7 +6843,7 @@
     },
     {
         "cognome_nome": "Sanca Leandro",
-        "data_nascita": "04/01/2000 00:00:00",
+        "data_nascita": "2000-01-04",
         "posizione": "A",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6855,7 +6855,7 @@
     },
     {
         "cognome_nome": "Pjaca Marko",
-        "data_nascita": "06/05/1995 00:00:00",
+        "data_nascita": "1995-05-06",
         "posizione": "A",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -6866,7 +6866,7 @@
     },
     {
         "cognome_nome": "Dest Sergino",
-        "data_nascita": "03/11/2000 00:00:00",
+        "data_nascita": "2000-11-03",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 5,
@@ -6878,7 +6878,7 @@
     },
     {
         "cognome_nome": "Vranckx Aster",
-        "data_nascita": "04/10/2002 00:00:00",
+        "data_nascita": "2002-10-04",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -6890,7 +6890,7 @@
     },
     {
         "cognome_nome": "Piatek Krzysztof",
-        "data_nascita": "01/07/1995 00:00:00",
+        "data_nascita": "1995-07-01",
         "posizione": "A",
         "crediti_iniziali": 32,
         "crediti_finali": 29,
@@ -6901,7 +6901,7 @@
     },
     {
         "cognome_nome": "Walukiewicz Sebastian",
-        "data_nascita": "05/04/2000 00:00:00",
+        "data_nascita": "2000-04-05",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -6912,11 +6912,11 @@
     },
     {
         "cognome_nome": "Hrustic Ajdin",
-        "data_nascita": "05/07/1996 00:00:00",
+        "data_nascita": "1996-07-05",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Australia",
             "Bosnia Erzegovina"
@@ -6924,7 +6924,7 @@
     },
     {
         "cognome_nome": "Hendry Jack",
-        "data_nascita": "07/05/1995 00:00:00",
+        "data_nascita": "1995-05-07",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6935,7 +6935,7 @@
     },
     {
         "cognome_nome": "Posch Stefan",
-        "data_nascita": "14/05/1997 00:00:00",
+        "data_nascita": "1997-05-14",
         "posizione": "D",
         "crediti_iniziali": 38,
         "crediti_finali": 39,
@@ -6946,7 +6946,7 @@
     },
     {
         "cognome_nome": "Karamoh Yann",
-        "data_nascita": "08/07/1998 00:00:00",
+        "data_nascita": "1998-07-08",
         "posizione": "A",
         "crediti_iniziali": 14,
         "crediti_finali": 14,
@@ -6958,7 +6958,7 @@
     },
     {
         "cognome_nome": "Akpa Akpro Jean-Daniel",
-        "data_nascita": "11/10/1992 00:00:00",
+        "data_nascita": "1992-10-11",
         "posizione": "C",
         "crediti_iniziali": 7,
         "crediti_finali": 8,
@@ -6970,7 +6970,7 @@
     },
     {
         "cognome_nome": "Ferrarini Gabriele",
-        "data_nascita": "09/04/2000 00:00:00",
+        "data_nascita": "2000-04-09",
         "posizione": "D",
         "crediti_iniziali": 0,
         "crediti_finali": 0,
@@ -6981,7 +6981,7 @@
     },
     {
         "cognome_nome": "Meit\u00c3\u00a8 Soualiho",
-        "data_nascita": "17/03/1994 00:00:00",
+        "data_nascita": "1994-03-17",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 9,
@@ -6993,7 +6993,7 @@
     },
     {
         "cognome_nome": "Ampadu Ethan",
-        "data_nascita": "14/09/2000 00:00:00",
+        "data_nascita": "2000-09-14",
         "posizione": "D",
         "crediti_iniziali": 13,
         "crediti_finali": 14,
@@ -7005,7 +7005,7 @@
     },
     {
         "cognome_nome": "Pussetto Ignacio",
-        "data_nascita": "21/12/1995 00:00:00",
+        "data_nascita": "1995-12-21",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7016,7 +7016,7 @@
     },
     {
         "cognome_nome": "Fares Mohamed",
-        "data_nascita": "15/02/1996 00:00:00",
+        "data_nascita": "1996-02-15",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7028,7 +7028,7 @@
     },
     {
         "cognome_nome": "Carboni Valentin",
-        "data_nascita": "05/03/2005 00:00:00",
+        "data_nascita": "2005-03-05",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7040,7 +7040,7 @@
     },
     {
         "cognome_nome": "Iling-Junior Samuel",
-        "data_nascita": "04/10/2003 00:00:00",
+        "data_nascita": "2003-10-04",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -7051,7 +7051,7 @@
     },
     {
         "cognome_nome": "Montevago Daniele",
-        "data_nascita": "18/03/2003 00:00:00",
+        "data_nascita": "2003-03-18",
         "posizione": "A",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -7062,7 +7062,7 @@
     },
     {
         "cognome_nome": "Tahirovic Benjamin",
-        "data_nascita": "03/03/2003 00:00:00",
+        "data_nascita": "2003-03-03",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -7074,7 +7074,7 @@
     },
     {
         "cognome_nome": "Moutinho Joao",
-        "data_nascita": "12/01/1998 00:00:00",
+        "data_nascita": "1998-01-12",
         "posizione": "D",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -7085,7 +7085,7 @@
     },
     {
         "cognome_nome": "Solbakken Ola",
-        "data_nascita": "07/09/1998 00:00:00",
+        "data_nascita": "1998-09-07",
         "posizione": "A",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -7096,7 +7096,7 @@
     },
     {
         "cognome_nome": "Ochoa Guillermo",
-        "data_nascita": "13/07/1985 00:00:00",
+        "data_nascita": "1985-07-13",
         "posizione": "P",
         "crediti_iniziali": 28,
         "crediti_finali": 28,
@@ -7108,7 +7108,7 @@
     },
     {
         "cognome_nome": "Vasquez Devis",
-        "data_nascita": "12/05/1998 00:00:00",
+        "data_nascita": "1998-05-12",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7119,7 +7119,7 @@
     },
     {
         "cognome_nome": "Pyyhtia Niklas",
-        "data_nascita": "25/09/2003 00:00:00",
+        "data_nascita": "2003-09-25",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7130,7 +7130,7 @@
     },
     {
         "cognome_nome": "Nicolussi Caviglia Hans",
-        "data_nascita": "18/06/2000 00:00:00",
+        "data_nascita": "2000-06-18",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -7141,7 +7141,7 @@
     },
     {
         "cognome_nome": "Esposito Salvatore",
-        "data_nascita": "06/10/2000 00:00:00",
+        "data_nascita": "2000-10-06",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 5,
@@ -7152,7 +7152,7 @@
     },
     {
         "cognome_nome": "Paoletti Flavio",
-        "data_nascita": "16/01/2003 00:00:00",
+        "data_nascita": "2003-01-16",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7163,7 +7163,7 @@
     },
     {
         "cognome_nome": "Turk Martin",
-        "data_nascita": "21/08/2003 00:00:00",
+        "data_nascita": "2003-08-21",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7174,11 +7174,11 @@
     },
     {
         "cognome_nome": "Zeefuik Deyovaisio",
-        "data_nascita": "11/03/1998 00:00:00",
+        "data_nascita": "1998-03-11",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Olanda",
             "Suriname"
@@ -7186,11 +7186,11 @@
     },
     {
         "cognome_nome": "Braaf Jayden",
-        "data_nascita": "31/08/2002 00:00:00",
+        "data_nascita": "2002-08-31",
         "posizione": "A",
         "crediti_iniziali": 6,
         "crediti_finali": 7,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Olanda",
             "Suriname"
@@ -7198,7 +7198,7 @@
     },
     {
         "cognome_nome": "Cassandro Tommaso",
-        "data_nascita": "09/01/2000 00:00:00",
+        "data_nascita": "2000-01-09",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7209,7 +7209,7 @@
     },
     {
         "cognome_nome": "Ravaglia Federico",
-        "data_nascita": "11/11/1999 00:00:00",
+        "data_nascita": "1999-11-11",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7220,7 +7220,7 @@
     },
     {
         "cognome_nome": "Cipot Tio",
-        "data_nascita": "20/04/2003 00:00:00",
+        "data_nascita": "2003-04-20",
         "posizione": "C",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -7231,7 +7231,7 @@
     },
     {
         "cognome_nome": "Krollis Raimonds",
-        "data_nascita": "28/10/2001 00:00:00",
+        "data_nascita": "2001-10-28",
         "posizione": "A",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -7242,11 +7242,11 @@
     },
     {
         "cognome_nome": "Ngonge Cyril",
-        "data_nascita": "26/05/2000 00:00:00",
+        "data_nascita": "2000-05-26",
         "posizione": "A",
         "crediti_iniziali": 18,
         "crediti_finali": 18,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Belgio",
             "Repubblica Democratica Del Congo"
@@ -7254,7 +7254,7 @@
     },
     {
         "cognome_nome": "Marchetti Federico",
-        "data_nascita": "07/02/1983 00:00:00",
+        "data_nascita": "1983-02-07",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7265,7 +7265,7 @@
     },
     {
         "cognome_nome": "Carboni Franco",
-        "data_nascita": "04/04/2003 00:00:00",
+        "data_nascita": "2003-04-04",
         "posizione": "D",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7277,7 +7277,7 @@
     },
     {
         "cognome_nome": "Troost-Ekong William",
-        "data_nascita": "01/09/1993 00:00:00",
+        "data_nascita": "1993-09-01",
         "posizione": "D",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -7289,7 +7289,7 @@
     },
     {
         "cognome_nome": "Crnigoj Domen",
-        "data_nascita": "18/11/1995 00:00:00",
+        "data_nascita": "1995-11-18",
         "posizione": "C",
         "crediti_iniziali": 6,
         "crediti_finali": 6,
@@ -7300,7 +7300,7 @@
     },
     {
         "cognome_nome": "Wisniewski Przemyslaw",
-        "data_nascita": "27/07/1998 00:00:00",
+        "data_nascita": "1998-07-27",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -7311,7 +7311,7 @@
     },
     {
         "cognome_nome": "Brekalo Josip",
-        "data_nascita": "23/06/1998 00:00:00",
+        "data_nascita": "1998-06-23",
         "posizione": "A",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -7322,7 +7322,7 @@
     },
     {
         "cognome_nome": "Malagrida Lorenzo",
-        "data_nascita": "24/10/2003 00:00:00",
+        "data_nascita": "2003-10-24",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7333,18 +7333,18 @@
     },
     {
         "cognome_nome": "Duda Ondrej",
-        "data_nascita": "05/12/1994 00:00:00",
+        "data_nascita": "1994-12-05",
         "posizione": "C",
         "crediti_iniziali": 13,
         "crediti_finali": 11,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Slovacchia"
         ]
     },
     {
         "cognome_nome": "Cuisance Michael",
-        "data_nascita": "16/08/1999 00:00:00",
+        "data_nascita": "1999-08-16",
         "posizione": "C",
         "crediti_iniziali": 8,
         "crediti_finali": 8,
@@ -7355,18 +7355,18 @@
     },
     {
         "cognome_nome": "Gaich Adolfo",
-        "data_nascita": "26/02/1999 00:00:00",
+        "data_nascita": "1999-02-26",
         "posizione": "A",
         "crediti_iniziali": 14,
         "crediti_finali": 12,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Argentina"
         ]
     },
     {
         "cognome_nome": "Vivaldo Semedo",
-        "data_nascita": "28/01/2005 00:00:00",
+        "data_nascita": "2005-01-28",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7378,7 +7378,7 @@
     },
     {
         "cognome_nome": "Thauvin Florian",
-        "data_nascita": "26/01/1993 00:00:00",
+        "data_nascita": "1993-01-26",
         "posizione": "A",
         "crediti_iniziali": 12,
         "crediti_finali": 12,
@@ -7389,7 +7389,7 @@
     },
     {
         "cognome_nome": "Llorente Diego",
-        "data_nascita": "16/08/1993 00:00:00",
+        "data_nascita": "1993-08-16",
         "posizione": "D",
         "crediti_iniziali": 10,
         "crediti_finali": 10,
@@ -7400,7 +7400,7 @@
     },
     {
         "cognome_nome": "Gravillon Andrew",
-        "data_nascita": "08/02/1998 00:00:00",
+        "data_nascita": "1998-02-08",
         "posizione": "D",
         "crediti_iniziali": 12,
         "crediti_finali": 13,
@@ -7412,7 +7412,7 @@
     },
     {
         "cognome_nome": "Galdames Pablo",
-        "data_nascita": "30/12/1996 00:00:00",
+        "data_nascita": "1996-12-30",
         "posizione": "C",
         "crediti_iniziali": 3,
         "crediti_finali": 3,
@@ -7423,7 +7423,7 @@
     },
     {
         "cognome_nome": "Ceccaroni Pietro",
-        "data_nascita": "21/12/1995 00:00:00",
+        "data_nascita": "1995-12-21",
         "posizione": "D",
         "crediti_iniziali": 5,
         "crediti_finali": 6,
@@ -7434,18 +7434,18 @@
     },
     {
         "cognome_nome": "ABILDGAARD Oliver",
-        "data_nascita": "10/06/1996 00:00:00",
+        "data_nascita": "1996-06-10",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
-        "squadra": "Verona",
+        "squadra": "Hellas Verona",
         "nazionalita": [
             "Danimarca"
         ]
     },
     {
         "cognome_nome": "Romagnoli Simone",
-        "data_nascita": "09/02/1990 00:00:00",
+        "data_nascita": "1990-02-09",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -7456,7 +7456,7 @@
     },
     {
         "cognome_nome": "Faticanti Giacomo",
-        "data_nascita": "31/07/2004 00:00:00",
+        "data_nascita": "2004-07-31",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7467,7 +7467,7 @@
     },
     {
         "cognome_nome": "Jes\u00c3\u00a8 Rodriguez",
-        "data_nascita": "26/02/1993 00:00:00",
+        "data_nascita": "1993-02-26",
         "posizione": "A",
         "crediti_iniziali": 7,
         "crediti_finali": 7,
@@ -7478,7 +7478,7 @@
     },
     {
         "cognome_nome": "Gineitis Gvidas",
-        "data_nascita": "15/04/2004 00:00:00",
+        "data_nascita": "2004-04-15",
         "posizione": "C",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7489,7 +7489,7 @@
     },
     {
         "cognome_nome": "Oikonomou Marios",
-        "data_nascita": "06/10/1992 00:00:00",
+        "data_nascita": "1992-10-06",
         "posizione": "D",
         "crediti_iniziali": 2,
         "crediti_finali": 2,
@@ -7500,7 +7500,7 @@
     },
     {
         "cognome_nome": "Vorlicky Lukas",
-        "data_nascita": "18/01/2002 00:00:00",
+        "data_nascita": "2002-01-18",
         "posizione": "A",
         "crediti_iniziali": 1,
         "crediti_finali": 1,
@@ -7511,7 +7511,7 @@
     },
     {
         "cognome_nome": "Barrenechea Enzo",
-        "data_nascita": "22/05/2001 00:00:00",
+        "data_nascita": "2001-05-22",
         "posizione": "C",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -7522,7 +7522,7 @@
     },
     {
         "cognome_nome": "Zeegelaar Marvin",
-        "data_nascita": "12/08/1990 00:00:00",
+        "data_nascita": "1990-08-12",
         "posizione": "D",
         "crediti_iniziali": 4,
         "crediti_finali": 4,
@@ -7534,7 +7534,7 @@
     },
     {
         "cognome_nome": "Martinelli Tommaso",
-        "data_nascita": "06/01/2006 00:00:00",
+        "data_nascita": "2006-01-06",
         "posizione": "P",
         "crediti_iniziali": 1,
         "crediti_finali": 1,

@@ -6,7 +6,7 @@
 """Script per importare i dati dei giocatori dal CSV scaricato dal sito del Fantacalcio."""
 
 from csv import QUOTE_NONE, reader
-from datetime import date
+from datetime import datetime
 from enum import Enum
 from json import dumps
 from pathlib import Path
@@ -32,7 +32,7 @@ class Giocatore:
     def __init__(
         self,
         cognome_nome: str,
-        data_nascita: date,
+        data_nascita: datetime,
         posizione: Posizione,
         crediti_iniziali: int,
         crediti_finali: int,
@@ -50,7 +50,7 @@ class Giocatore:
     def to_dict(self):
         return {
             "cognome_nome": self.cognome_nome,
-            "data_nascita": self.data_nascita,
+            "data_nascita": self.data_nascita.strftime("%Y-%m-%d"),
             "posizione": self.posizione.value,
             "crediti_iniziali": self.crediti_iniziali,
             "crediti_finali": self.crediti_finali,
@@ -65,6 +65,10 @@ TYPO_NAZIONI = {
     "Kenia": "Kenya",
     "Maroccco": "Marocco",
     "Slovenis": "Slovenia",
+}
+
+NOME_SQUADRA = {
+    "Verona": "Hellas Verona",
 }
 
 def main():
@@ -107,11 +111,14 @@ def main():
                 TYPO_NAZIONI.get(i.title(), i.title()) for i in nazionalita_raw.split(";")
             ]
 
+            # Correggi il nome della squadra
+            squadra = NOME_SQUADRA.get(squadra, squadra)
+
             # Aggiungi il giocatore alla lista
             giocatori.append(
                 Giocatore(
                     cognome_nome,
-                    data_nascita,
+                    datetime.strptime(data_nascita, "%d/%m/%Y %H:%M:%S"),
                     Posizione(ruolo),
                     int(crediti_iniziali),
                     int(crediti_finali),

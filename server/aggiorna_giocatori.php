@@ -33,29 +33,48 @@ while ($row = $result->fetch_assoc()) {
 	$squadre[$row["nome"]] = $row["squadra_id"];
 }
 
-for ($i = 0; $i < count($json); $i++) {
-	$cognome_nome = $json[$i]["cognome_nome"];
-	$data_nascita = $json[$i]["data_nascita"];
-	$posizione = $json[$i]["posizione"];
-	$crediti_iniziali = $json[$i]["crediti_iniziali"];
-	$crediti_finali = $json[$i]["crediti_finali"];
-	$squadra = $json[$i]["squadra"];
-	$nazionalita = $json[$i]["nazionalita"];
+// Elimina tutti i giocatori
+$sql = "DELETE FROM giocatori";
+$result = $connect->query($sql);
+$error = $connect->error;
+if ($error) {
+	echo "Errore durante l'eliminazione dei giocatori: $error";
+	exit(1);
+}
+
+foreach ($json as $giocatore) {
+	$cognome_nome = $giocatore["cognome_nome"];
+	$data_nascita = $giocatore["data_nascita"];
+	$posizione = $giocatore["posizione"];
+	$crediti_iniziali = $giocatore["crediti_iniziali"];
+	$crediti_finali = $giocatore["crediti_finali"];
+	$squadra = $giocatore["squadra"];
+	$nazionalita = $giocatore["nazionalita"];
 
 	//Squadra è una stringa, quindi devo convertirla in id
 	$squadra_id = $squadre[$squadra];
 
-	$sql = "INSERT INTO giocatori (cognome_nome, data_nascita, posizione, crediti_iniziali, crediti_finali, squadra_id) VALUES ('$cognome_nome', '$data_nascita', '$posizione', '$crediti_iniziali', '$crediti_finali', '$squadra_id')";
+	$sql = "INSERT INTO giocatori (cognome_nome, data_nascita, posizione, crediti_iniziali, crediti_finali, squadra_id) VALUES ('$cognome_nome', STR_TO_DATE('$data_nascita', '%Y-%m-%d'), '$posizione', '$crediti_iniziali', '$crediti_finali', '$squadra_id')";
 	$result = $connect->query($sql);
+	$error = $connect->error;
+	if ($error) {
+		echo "Errore durante l'aggiunta di $cognome_nome: $error";
+		exit(1);
+	}
 
 	// Aggiungere le nazionalità (array di string) nella tabella nazionalita_giocatori
 	$giocatore_id = $connect->insert_id;
 	for ($j = 0; $j < count($nazionalita); $j++) {
-		$nazionalita_id = $nazionalita[$j];
-		$sql = "INSERT INTO nazionalita_giocatori (giocatore_id, nazionalita_id) VALUES ('$giocatore_id', '$nazionalita_id')";
+		$nazione = $nazionalita[$j];
+		$sql = "INSERT INTO nazionalita_giocatori (giocatore_id, nazione) VALUES ('$giocatore_id', '$nazione')";
 		$result = $connect->query($sql);
+		$error = $connect->error;
+		if ($error) {
+			echo "Errore durante l'aggiunta della nazionalità di $cognome_nome $nazione: $error";
+			exit(1);
+		}
 	}
 
-	print("Aggiunto giocatore: $cognome_nome");
+	print("Aggiunto giocatore: $cognome_nome\n");
 }
 ?>
