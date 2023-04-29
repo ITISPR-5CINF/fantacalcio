@@ -51,6 +51,15 @@
 		exit(1);
 	}
 
+	// Aggiorna l'enum delle nazioni
+	$sql = 'ALTER TABLE nazionalita_giocatori MODIFY COLUMN nazione ENUM("'.implode('", "', $json["nazioni"]).'");';
+	$result = $connect->query($sql);
+	$error = $connect->error;
+	if ($error) {
+		echo "Errore durante l'aggiornamento delle nazioni: $error";
+		exit(1);
+	}
+
 	// Prepara lo statement per l'inserimento dei giocatori
 	$sql = "INSERT INTO giocatori (cognome_nome, data_nascita, posizione, crediti_iniziali, crediti_finali, squadra_id) " .
 		"VALUES (?, STR_TO_DATE(?, '%Y-%m-%d'), ?, ?, ?, ?)";
@@ -60,6 +69,15 @@
 		exit(1);
 	}
 	$statement->bind_param("ssssii", $cognome_nome, $data_nascita, $posizione, $crediti_iniziali, $crediti_finali, $squadra_id);
+
+	// Prepara lo statement per l'inserimento delle nazionalità
+	$sql = "INSERT INTO nazionalita_giocatori (giocatore_id, nazione) VALUES (?, ?)";
+	$statement_nazionalita = $connect->prepare($sql);
+	if (!$statement_nazionalita) {
+		echo "Errore durante la preparazione dello statement: $mysqli->error";
+		exit(1);
+	}
+	$statement_nazionalita->bind_param("is", $giocatore_id, $nazione);
 
 	print("<table>");
 	print("    <tr>");
@@ -73,7 +91,7 @@
 	print("    </tr>");
 
 	// Aggiungi i giocatori
-	foreach ($json as $giocatore) {
+	foreach ($json["giocatori"] as $giocatore) {
 		$cognome_nome = $giocatore["cognome_nome"];
 		$data_nascita = $giocatore["data_nascita"];
 		$posizione = $giocatore["posizione"];
@@ -102,9 +120,8 @@
 		$giocatore_id = $statement->insert_id;
 		for ($j = 0; $j < count($nazionalita); $j++) {
 			$nazione = $nazionalita[$j];
-			$sql = "INSERT INTO nazionalita_giocatori (giocatore_id, nazione) VALUES ('$giocatore_id', '$nazione')";
-			$result = $connect->query($sql);
-			$error = $connect->error;
+			$statement_nazionalita->execute();
+			$error = $statement_nazionalita->error;
 			if ($error) {
 				echo "Errore durante l'aggiunta della nazionalità di $cognome_nome $nazione: $error";
 				exit(1);
@@ -118,11 +135,7 @@
 		print("        <td>$crediti_iniziali</td>");
 		print("        <td>$crediti_finali</td>");
 		print("        <td>$squadra</td>");
-		print("        <td>");
-		foreach ($nazionalita as $nazione) {
-			print("$nazione, ");
-		}
-		print("</td>");
+		print("        <td>".implode(", ", $nazionalita)."</td>");
 		print("    </tr>");
 	}
 

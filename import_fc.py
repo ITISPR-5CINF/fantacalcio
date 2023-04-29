@@ -8,14 +8,15 @@
 from csv import QUOTE_NONE, reader
 from datetime import datetime
 from enum import Enum
-from json import dumps
+from json import dump
 from pathlib import Path
 from typing import List
 
-API_URL_BASE = "https://webuser.itis.pr.it/~sbarezzi/fantacalcio/server"
+FILE_ENCODING = "utf-8"
 
 # Percorso del file CSV scaricato dal sito del Fantacalcio
 # Basta scaricare il file e metterlo nella stessa cartella di questo script
+# https://www.fantacalcio.it/app-fantaasta
 CSV_FILE = Path(__file__).parent / "Lista-FantaAsta-Fantacalcio.csv"
 
 JSON_FILE = Path(__file__).parent / "giocatori.json"
@@ -62,6 +63,7 @@ class Giocatore:
 # dizionario corregge gli errori conosciuti
 TYPO_NAZIONI = {
     "Coresa Del Sud": "Corea Del Sud",
+    "Costa D''Avorio": "Costa D'Avorio",
     "Kenia": "Kenya",
     "Maroccco": "Marocco",
     "Slovenis": "Slovenia",
@@ -75,7 +77,7 @@ def main():
     giocatori = []
     nazioni = set()
 
-    with open(CSV_FILE, "r", newline='') as csvfile:
+    with open(CSV_FILE, "r", newline='', encoding=FILE_ENCODING) as csvfile:
         # Leggi il CSV
         csv_reader = reader(csvfile, delimiter=',', quoting=QUOTE_NONE)
 
@@ -102,7 +104,7 @@ def main():
                 _, # Fantamedia
             ) = row
 
-            if is_venduto == 1:
+            if is_venduto == "1":
                 # Il giocatore non è più in rosa, ignoralo
                 continue
 
@@ -130,9 +132,12 @@ def main():
             # Aggiungi le nazionalità del giocatore alla lista
             nazioni.update(nazionalita)
 
-    print("Tutte le nazionalità:")
-    print(",".join([f"'{i}'" for i in sorted(nazioni)]))
+    data = {
+        "giocatori": [i.to_dict() for i in giocatori],
+        "nazioni": sorted(nazioni),
+    }
 
-    JSON_FILE.write_text(dumps([i.to_dict() for i in giocatori]))
+    with JSON_FILE.open("w", encoding=FILE_ENCODING) as f:
+        dump(data, f, ensure_ascii=False, indent=4)
 
 main()
