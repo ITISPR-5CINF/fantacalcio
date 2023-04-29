@@ -1,7 +1,7 @@
 <?php
 
-require "base.php";
-require __DIR__."/../database/database.php";
+require_once "base.php";
+require_once __DIR__."/../database/database.php";
 
 /**
  * Classe che rappresenta un giocatore di una squadra.
@@ -27,8 +27,21 @@ class Giocatore implements Base {
         $this->nazionalita = $nazionalita;
     }
 
+    function to_assoc_array() {
+        return array(
+            "giocatore_id" => $this->giocatore_id,
+            "cognome_nome" => $this->cognome_nome,
+            "data_nascita" => $this->data_nascita,
+            "posizione" => $this->posizione,
+            "crediti_iniziali" => $this->crediti_iniziali,
+            "crediti_finali" => $this->crediti_finali,
+            "squadra_id" => $this->squadra_id,
+            "nazionalita" => $this->nazionalita,
+        );
+    }
+
     function to_json() {
-        return json_encode($this);
+        return json_encode(to_assoc_array());
     }
 
     /**
