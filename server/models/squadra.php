@@ -91,5 +91,28 @@ class Squadra implements Base {
             $squadra["anno_fondazione"]
         );
     }
+
+    static function get_all() {
+        $conn = Database::get_connection();
+        if ($conn->connect_error) {
+            return null;
+        }
+
+        $sql = "SELECT squadre.squadra_id AS squadra_id FROM squadre";
+        $query = $conn->query($sql);
+        if (!$query) {
+            return null;
+        }
+
+        $squadre = array();
+
+        while ($row = $query->fetch_assoc()) {
+            $squadre[] = Squadra::from_id($row["squadra_id"]);
+        }
+
+        $conn->close();
+
+        return $squadre;
+    }
 }
 ?>

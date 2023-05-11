@@ -1,7 +1,7 @@
 const API_URL = "https://webuser.itis.pr.it/~sBAREZZI/fantacalcio/server"
 
-let infoSquadra = document.getElementById("info_squadra");
-let listaGiocatori = document.getElementById("lista_giocatori");
+let infoSquadraElement = document.getElementById("info_squadra");
+let listaGiocatoriElement = document.getElementById("lista_giocatori");
 
 async function main() {
 	let params = new URLSearchParams(window.location.search);
@@ -14,20 +14,13 @@ async function main() {
 
 	let	response = await fetch(`${API_URL}/get_squadra.php?squadra_id=${squadra_id}`);
 	if (!response.ok) {
-		infoSquadra.innerHTML = `Errore ${response.status}: ${response.statusText}`;
+		listaSquadreElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
 		return;
 	}
 
-	let json = await response.json();
+	let squadra = await response.json();
 
-	if (!json["success"]) {
-		infoSquadra.innerHTML = "Errore";
-		return;
-	}
-
-	let squadra = json["result"];
-
-	infoSquadra.innerHTML = `
+	listaSquadreElement.innerHTML = `
 		<h2>${squadra.nome}</h2>
 		<p>Nome: ${squadra.nome}</p>
 		<p>Città: ${squadra.citta}</p>
@@ -36,20 +29,13 @@ async function main() {
 
 	response = await fetch(`${API_URL}/get_giocatori.php?squadra_id=${squadra_id}`);
 	if (!response.ok) {
-		listaGiocatori.innerHTML = `Errore ${response.status}: ${response.statusText}`;
+		listaGiocatoriElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
 		return;
 	}
 
-	json = await response.json();
+	giocatori = await response.json();
 
-	if (!json["success"]) {
-		listaGiocatori.innerHTML = "Errore";
-		return;
-	}
-
-	let giocatori = json["result"];
-
-	listaGiocatori.innerHTML = `
+	let html = `
 		<h2>Giocatori</h2>
 		<table>
 			<tr>
@@ -63,7 +49,7 @@ async function main() {
 	`;
 
 	for (let giocatore of giocatori) {
-		listaGiocatori.innerHTML += `
+		html += `
 			<tr>
 				<td>${giocatore.cognome_nome}</td>
 				<td>${giocatore.data_nascita}</td>
@@ -73,9 +59,12 @@ async function main() {
 				<td>${giocatore.nazionalita}</td>
 			</tr>
 		`;
+		
 	}
 
-	listaGiocatori.innerHTML += "</table>";
+	html += "</table>";
+
+	listaGiocatoriElement.innerHTML = html;
 }
 
 main();

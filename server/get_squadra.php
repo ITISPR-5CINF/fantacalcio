@@ -13,8 +13,5 @@ if ($squadra == null) {
     return;
 }
 
-print(json_encode(array(
-    "success" => true,
-    "result" => $squadra->to_assoc_array(),
-)));
+print(json_encode($squadra));
 ?>

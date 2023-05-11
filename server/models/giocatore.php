@@ -95,5 +95,27 @@ class Giocatore implements Base {
             $nazionalita
         );
     }
+
+    static function get_all() {
+        $conn = Database::get_connection();
+        if ($conn->connect_error) {
+            return null;
+        }
+
+        $sql = "SELECT * FROM giocatori";
+        $query = $conn->query($sql);
+        if (!$query) {
+            return null;
+        }
+
+        $giocatori = array();
+        while ($row = $query->fetch_assoc()) {
+            $giocatori[] = Giocatore::from_id($row['giocatore_id']);
+        }
+
+        $conn->close();
+
+        return $giocatori;
+    }
 }
 ?>

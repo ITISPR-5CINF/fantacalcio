@@ -1,27 +1,25 @@
 <?php 
+require_once "models/giocatore.php";
 require_once "models/squadra.php";
 
-if (!isset($_GET['squadra_id'])) {
-    die("No id provided");
+if (isset($_GET['squadra_id'])) {
+    $squadra_id = $_GET['squadra_id'];
+    $squadra = Squadra::from_id($squadra_id);
+
+    if ($squadra == null) {
+        http_response_code(400);
+        return;
+    }
+
+    $giocatori = $squadra->get_giocatori();
+} else {
+    $giocatori = Giocatore::get_all();
 }
-
-$squadra_id = $_GET['squadra_id'];
-$squadra = Squadra::from_id($squadra_id);
-
-if ($squadra == null) {
-    http_response_code(404);
-    return;
-}
-
-$giocatori = $squadra->get_giocatori();
 
 if ($giocatori == null) {
     http_response_code(500);
     return;
 }
 
-print(json_encode(array(
-    "success" => true,
-    "result" => $giocatori,
-)));
+print(json_encode($giocatori));
 ?>
