@@ -106,26 +106,26 @@ CREATE TABLE `squadre` (
 --
 
 INSERT INTO `squadre` (`squadra_id`, `nome`, `citta`, `anno_fondazione`) VALUES
-(2, 'Milan', 'Milano', 1899),
-(3, 'Monza', 'Monza', 1912),
-(4, 'Atalanta', 'Bergamo', 1907),
-(5, 'Bologna', 'Bologna', 1909),
-(6, 'Cremonese', 'Cremona', 1903),
-(7, 'Empoli', 'Empoli', 1920),
-(8, 'Fiorentina', 'Firenze', 1926),
-(9, 'Hellas Verona', 'Verona', 1903),
-(10, 'Inter', 'Milano', 1908),
-(11, 'Juventus', 'Torino', 1897),
-(12, 'Lazio', 'Roma', 1900),
-(13, 'Lecce', 'Lecce', 1908),
-(14, 'Napoli', 'Napoli', 1926),
-(15, 'Roma', 'Roma', 1927),
-(16, 'Salernitana', 'Salerno', 1919),
-(17, 'Sampdoria', 'Genova', 1946),
-(18, 'Sassuolo', 'Modena', 1920),
-(19, 'Spezia', 'La Spezia', 1906),
-(20, 'Torino', 'Torino', 1906),
-(21, 'Udinese', 'Udine', 1896);
+(1, 'Milan', 'Milano', 1899),
+(2, 'Monza', 'Monza', 1912),
+(3, 'Atalanta', 'Bergamo', 1907),
+(4, 'Bologna', 'Bologna', 1909),
+(5, 'Cremonese', 'Cremona', 1903),
+(6, 'Empoli', 'Empoli', 1920),
+(7, 'Fiorentina', 'Firenze', 1926),
+(8, 'Hellas Verona', 'Verona', 1903),
+(9, 'Inter', 'Milano', 1908),
+(10, 'Juventus', 'Torino', 1897),
+(11, 'Lazio', 'Roma', 1900),
+(12, 'Lecce', 'Lecce', 1908),
+(13, 'Napoli', 'Napoli', 1926),
+(14, 'Roma', 'Roma', 1927),
+(15, 'Salernitana', 'Salerno', 1919),
+(16, 'Sampdoria', 'Genova', 1946),
+(17, 'Sassuolo', 'Modena', 1920),
+(18, 'Spezia', 'La Spezia', 1906),
+(29, 'Torino', 'Torino', 1906),
+(20, 'Udinese', 'Udine', 1896);
 
 -- --------------------------------------------------------
 
@@ -218,7 +218,7 @@ ALTER TABLE `giocatori`
 -- AUTO_INCREMENT per la tabella `squadre`
 --
 ALTER TABLE `squadre`
-  MODIFY `squadra_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `squadra_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT per la tabella `utenti`
