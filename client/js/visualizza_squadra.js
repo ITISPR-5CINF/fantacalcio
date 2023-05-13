@@ -14,13 +14,13 @@ async function main() {
 
 	let	response = await fetch(`${API_URL}/get_squadra.php?squadra_id=${squadra_id}`);
 	if (!response.ok) {
-		listaSquadreElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
+		infoSquadraElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
 		return;
 	}
 
 	let squadra = await response.json();
 
-	listaSquadreElement.innerHTML = `
+	infoSquadraElement.innerHTML = `
 		<h2>${squadra.nome}</h2>
 		<p>Nome: ${squadra.nome}</p>
 		<p>Città: ${squadra.citta}</p>
@@ -59,7 +59,6 @@ async function main() {
 				<td>${giocatore.nazionalita}</td>
 			</tr>
 		`;
-		
 	}
 
 	html += "</table>";

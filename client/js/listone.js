@@ -5,14 +5,29 @@ let listaGiocatoriElement = document.getElementById("lista_giocatori");
 async function main() {
     let	response = await fetch(`${API_URL}/get_giocatori.php`);
 	if (!response.ok) {
-		listaSquadreElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
+		listaGiocatoriElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
 		return;
 	}
 
-    giocatori = await response.json();
+    let giocatori = await response.json();
+
+	// Ottieni info sulle squadre
+	response = await fetch(`${API_URL}/get_squadre.php`);
+	if (!response.ok) {
+		listaGiocatoriElement.innerHTML = `Errore ${response.status}: ${response.statusText}`;
+		return;
+	}
+
+	let squadre = await response.json();
+
+	let squadra_id_to_nome = {};
+	for (let squadra of squadre) {
+		squadra_id_to_nome[squadra.squadra_id] = squadra.nome;
+	}
+
+	console.log(squadra_id_to_nome);
 
     let html = `
-		<h2>Giocatori</h2>
 		<table>
 			<tr>
 				<th>Cognome Nome</th>
@@ -21,6 +36,7 @@ async function main() {
 				<th>Crediti iniziali</th>
 				<th>Crediti finali</th>
 				<th>Nazionalità</th>
+				<th>Squadra</th>
 			</tr>
 	`;
 
@@ -33,6 +49,7 @@ async function main() {
 				<td>${giocatore.crediti_iniziali}</td>
 				<td>${giocatore.crediti_finali}</td>
 				<td>${giocatore.nazionalita}</td>
+				<td>${squadra_id_to_nome[giocatore.squadra_id]}</td>
 			</tr>
 		`;
 	}
