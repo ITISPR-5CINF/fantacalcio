@@ -15,16 +15,16 @@
 		exit("Errore connessione: " . $connect->connect_error);
 	}
 
-	$uploadOk = 1;
+	$upload_ok = 1;
 
 	// Check file size
 	if ($_FILES["fileToUpload"]["size"] > 500000) {
 		echo "Sorry, your file is too large.";
-		$uploadOk = 0;
+		$upload_ok = 0;
 	}
 
-	// Check if $uploadOk is set to 0 by an error
-	if ($uploadOk == 0) {
+	// Check if $upload_ok is set to 0 by an error
+	if ($upload_ok == 0) {
 		echo "Sorry, your file was not uploaded.";
 		exit(1);
 	}

@@ -21,5 +21,5 @@ if ($giocatori == null) {
     return;
 }
 
-print(json_encode($giocatori));
+print($giocatori->to_json());
 ?>

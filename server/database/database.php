@@ -1,16 +1,18 @@
 <?php
 class Database {
-    private $host = "localhost";
-    private $user = "fantacalcio";
-    private $password = "fantacalcio";
-    private $db = "fantacalcio";
+    private static $host = "localhost";
+    private static $user = "fantacalcio";
+    private static $password = "fantacalcio";
+    private static $db = "fantacalcio";
 
     static function get_connection() {
         $db = new Database();
-        $conn = new mysqli($db->host, $db->user, $db->password, $db->db);
+        $conn = new mysqli(Database::$host, Database::$user, Database::$password, Database::$db);
+
         if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
+            return null;
         }
+
         return $conn;
     }
 }

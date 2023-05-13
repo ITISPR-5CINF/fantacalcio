@@ -7,7 +7,7 @@ require_once __DIR__."/../database/database.php";
 /**
  * Classe che rappresenta una squadra di Serie A TIM.
  */
-class Squadra implements Base {
+class Squadra extends Base {
     public $squadra_id;
     public $nome;
     public $citta;
@@ -20,22 +20,9 @@ class Squadra implements Base {
         $this->anno_fondazione = $anno_fondazione;
     }
 
-    function to_assoc_array() {
-        return array(
-            "squadra_id" => $this->squadra_id,
-            "nome" => $this->nome,
-            "citta" => $this->citta,
-            "anno_fondazione" => $this->anno_fondazione,
-        );
-    }
-
-    function to_json() {
-        return json_encode(to_assoc_array());
-    }
-
     function get_giocatori() {
         $conn = Database::get_connection();
-        if ($conn->connect_error) {
+        if (!$conn) {
             return null;
         }
 
@@ -65,7 +52,7 @@ class Squadra implements Base {
         $squadra_id = intval($squadra_id);
 
         $conn = Database::get_connection();
-        if ($conn->connect_error) {
+        if (!$conn) {
             return null;
         }
 
@@ -94,7 +81,7 @@ class Squadra implements Base {
 
     static function get_all() {
         $conn = Database::get_connection();
-        if ($conn->connect_error) {
+        if (!$conn) {
             return null;
         }
 

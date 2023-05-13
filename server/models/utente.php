@@ -6,7 +6,7 @@ require_once __DIR__."/../database/database.php";
 /**
  * Classe che rappresenta un utente del sito.
  */
-class Utente implements Base {
+class Utente extends Base {
 	public $utente_id;
 	public $username;
 	public $nome;
@@ -21,20 +21,6 @@ class Utente implements Base {
 		$this->email = $email;
 	}
 
-	function to_assoc_array() {
-		return array(
-			"utente_id" => $this->utente_id,
-			"username" => $this->username,
-			"nome" => $this->nome,
-			"cognome" => $this->cognome,
-			"email" => $this->email,
-		);
-	}
-
-	function to_json() {
-		return json_encode(to_assoc_array());
-	}
-
 	/**
 	 * Restituisce un utente dato il suo id.
 	 * @param $utente_id id del giocatore da cercare
@@ -44,13 +30,17 @@ class Utente implements Base {
 		$utente_id = intval($utente_id);
 
 		$conn = Database::get_connection();
-		if ($conn->connect_error) {
+		if (!$conn) {
 			return null;
 		}
 
 		$sql = "SELECT * FROM utenti WHERE utenti.utente_id = $utente_id";
 		$query = $conn->query($sql);
 		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows == 0) {
 			return null;
 		}
 
@@ -66,6 +56,89 @@ class Utente implements Base {
 		$conn->close();
 
 		return $utente;
-	}	
+	}
+
+	static function from_username($username) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT * FROM utenti WHERE utenti.username = '$username'";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows == 0) {
+			return null;
+		}
+
+		$row = $query->fetch_assoc();
+		$utente = new Utente(
+			$row['utente_id'],
+			$row['username'],
+			$row['nome'],
+			$row['cognome'],
+			$row['email'],
+		);
+
+		$conn->close();
+
+		return $utente;
+	}
+
+	static function login($username, $password) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT * FROM utenti WHERE utenti.username = '$username' AND utenti.password = '$password'";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows == 0) {
+			return null;
+		}
+
+		$row = $query->fetch_assoc();
+		$utente = new Utente(
+			$row['utente_id'],
+			$row['username'],
+			$row['nome'],
+			$row['cognome'],
+			$row['email'],
+		);
+
+		$conn->close();
+
+		return $utente;
+	}
+
+	static function register(
+		$username,
+		$password,
+		$nome,
+		$cognome,
+		$email
+	) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "INSERT INTO utenti (username, password, nome, cognome, email) VALUES ('$username', '$password', '$nome', '$cognome', '$email')";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		$conn->close();
+
+		return Utente::from_username($username);
+	}
 }
 ?>

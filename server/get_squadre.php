@@ -8,5 +8,5 @@ if ($squadre == null) {
     return;
 }
 
-print(json_encode($squadre));
+print($squadre->to_json());
 ?>

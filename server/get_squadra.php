@@ -13,5 +13,5 @@ if ($squadra == null) {
     return;
 }
 
-print(json_encode($squadra));
+print($squadra->to_json());
 ?>
