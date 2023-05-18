@@ -1,10 +1,28 @@
+@import url("../fonts/switzer/css/switzer.css");
+
 html,
 body {
 	margin: 0;
 	width: 100%;
 	max-width: 100%;
+	background-color: #fbfbfd;
+	font-family: 'Switzer', sans-serif;
 }
 
 #main-content {
 	padding: 0px 24px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
 }

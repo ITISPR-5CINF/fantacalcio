@@ -1,8 +1,8 @@
+import { API_URL } from "../js/lib.js";
+
 const topbarElement = document.getElementById("topbar");
 
-const API_URL = "https://webuser.itis.pr.it/~sBAREZZI/fantacalcio/server"
-
-const ROOT = "https://webuser.itis.pr.it/~sBAREZZI/fantacalcio/client"
+const ROOT = "/~sBAREZZI/fantacalcio/client"
 
 const PAGES = {
     "Home": `${ROOT}/`,
@@ -10,7 +10,7 @@ const PAGES = {
     "Listone": `${ROOT}/listone.html`,
 }
 
-async function showLogin() {
+export async function showLogin() {
 	// Crea un dialogo per poter fare login
 	let dialog = document.createElement("dialog");
 	dialog.innerHTML = `
@@ -43,8 +43,7 @@ async function showLogin() {
 		if (response.ok) {
 			dialog.close();
 			location.reload();
-		}
-		else {
+		} else {
 			alert("Credenziali errate");
 		}
 	});
@@ -65,7 +64,7 @@ async function showLogin() {
 	});
 }
 
-async function doLogout() {
+export async function doLogout() {
 	await fetch(`${API_URL}/logout.php`);
 
 	window.location.reload();
@@ -76,7 +75,6 @@ async function injectTopbar() {
 	let loginInfo = null;
 
 	let response = await fetch(`${API_URL}/get_login_info.php`);
-
 	if (response.ok) {
 		loginInfo = await response.json();
 	}
@@ -92,11 +90,12 @@ async function injectTopbar() {
 			}
 
 			#topbar li {
+				display: inline-block;
 				float: left;
 			}
 
 			#topbar li a {
-				display: block;
+				display: inline-block;
 				color: white;
 				text-align: center;
 				padding: 14px 16px;
@@ -120,40 +119,28 @@ async function injectTopbar() {
 			`).join("")}
 
 			${loginInfo ? `
-				<li style="float:right"><a href="javascript:doLogout()">Logout</a></li>
+				<li style="float:right;">
+					<a href="${ROOT}/account_info.html" class="${
+						window.location.pathname === `${ROOT}/account_info.html` ? "active" : ""
+					}">${loginInfo.nome} ${loginInfo.cognome}</a>
+					<a id="logoutButton">Logout</a>
+				</li>
 			` : `
-				<li style="float:right"><a href="javascript:showLogin()">Login</a></li>
+				<li style="float:right"><a id="loginButton">Login</a></li>
 			`}
 		</ul>
 	`;
 
-	// Aggiungi un dialogo per poter fare login
-	// Allinea al pulsante di login
-	if (!loginInfo) {
-		let loginButton = document.querySelector("#topbar a[href$='login.html']");
+	// Aggiungi un listener al pulsante di login
+	let loginButton = document.getElementById("loginButton");
+	if (loginButton) {
+		loginButton.addEventListener("click", showLogin);
+	}
 
-		loginButton.addEventListener("click", async () => {
-			let username = prompt("Username");
-			let password = prompt("Password");
-
-			if (!username || !password) {
-				return;
-			}
-
-			let response = await fetch(`${API_URL}/login.php`, {
-				method: "POST",
-				body: JSON.stringify({
-					username,
-					password,
-				}),
-			});
-
-			if (response.ok) {
-				window.location.reload();
-			} else {
-				alert("Credenziali errate");
-			}
-		});
+	// Aggiungi un listener al pulsante di logout
+	let logoutButton = document.getElementById("logoutButton");
+	if (logoutButton) {
+		logoutButton.addEventListener("click", doLogout);
 	}
 }
 

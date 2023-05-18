@@ -1,16 +1,17 @@
 <?php
-require_once "database/database.php";
 require_once "models/utente.php";
 
 session_start();
 
-if (!isset($_POST['username']) || !isset($_POST['password'])) {
+$data = json_decode(file_get_contents('php://input'), true);
+
+if (!isset($data['username']) || !isset($data['password'])) {
     http_response_code(400);
     return;
 }
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $data['username'];
+$password = $data['password'];
 
 $utente = Utente::login($username, $password);
 if (!$utente) {
@@ -19,4 +20,6 @@ if (!$utente) {
 }
 
 $_SESSION['utente_id'] = $utente->utente_id;
+
+print($utente->to_json());
 ?>

@@ -1,4 +1,4 @@
-const API_URL = "https://webuser.itis.pr.it/~sBAREZZI/fantacalcio/server"
+import { API_URL } from "./lib.js";
 
 const IMG_ROOT = "https://sport.virgilio.it/img/loghi"
 const FIX_SQUADRA_IMG = {
@@ -20,18 +20,16 @@ async function main() {
 	squadre.sort((a, b) => a.nome.localeCompare(b.nome));
 
 	let html = `
-		<h2>Squadre</h2>
-		
+		<h2>Squadre Serie A TIM</h2>
+
 		<div class="grid-container">
 	`;
 
 	for (let squadra of squadre) {
 		html += `
-			<a href="visualizza_squadra.html?squadra_id=${squadra.squadra_id}">	
-				<div class="grid-item">
-					<img src="${IMG_ROOT}/${FIX_SQUADRA_IMG[squadra.nome] || squadra.nome.toLowerCase()}.svg" alt="${squadra.nome}">
-					<p>${squadra.nome}</p>
-				</div>
+			<a class="grid-item" href="visualizza_squadra.html?squadra_id=${squadra.squadra_id}">	
+				<img src="${IMG_ROOT}/${FIX_SQUADRA_IMG[squadra.nome] || squadra.nome.toLowerCase()}.svg" alt="${squadra.nome}">
+				<p>${squadra.nome}</p>
 			</a>
 		`;
 	}

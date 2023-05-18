@@ -1,4 +1,4 @@
-const API_URL = "https://webuser.itis.pr.it/~sBAREZZI/fantacalcio/server"
+import { API_URL } from "./lib.js";
 
 let listaGiocatoriElement = document.getElementById("lista_giocatori");
 
@@ -30,7 +30,7 @@ async function main() {
     let html = `
 		<table>
 			<tr>
-				<th>Cognome Nome</th>
+				<th>Nome</th>
 				<th>Data di nascita</th>
 				<th>Posizione</th>
 				<th>Crediti iniziali</th>
@@ -48,7 +48,7 @@ async function main() {
 				<td>${giocatore.posizione}</td>
 				<td>${giocatore.crediti_iniziali}</td>
 				<td>${giocatore.crediti_finali}</td>
-				<td>${giocatore.nazionalita}</td>
+				<td>${giocatore.nazionalita.join(", ")}</td>
 				<td>${squadra_id_to_nome[giocatore.squadra_id]}</td>
 			</tr>
 		`;
