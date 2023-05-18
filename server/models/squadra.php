@@ -13,7 +13,12 @@ class Squadra extends Base {
     public $citta;
     public $anno_fondazione;
 
-    function __construct($squadra_id, $nome, $citta, $anno_fondazione) {
+    function __construct(
+        $squadra_id,
+        $nome,
+        $citta,
+        $anno_fondazione
+    ) {
         $this->squadra_id = $squadra_id;
         $this->nome = $nome;
         $this->citta = $citta;

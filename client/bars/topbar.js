@@ -14,11 +14,24 @@ export async function showLogin() {
 	// Crea un dialogo per poter fare login
 	let dialog = document.createElement("dialog");
 	dialog.innerHTML = `
+		<style>
+			form {
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
 		<form method="dialog">
-			<input type="text" placeholder="Username" required>
-			<input type="password" placeholder="Password" required>
+			<label for="username">Username</label>
+			<input id="username" type="text" placeholder="Username" required>
+			<br>
+
+			<label for="password">Password</label>
+			<input id="password" type="password" placeholder="Password" required>
+			<br>
+
 			<button type="submit">Login</button>
 		</form>
+		<p>Non sei registrato? <a href="register.html">Registrati</a></p>
 	`;
 	document.body.appendChild(dialog);
 

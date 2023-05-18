@@ -18,7 +18,6 @@ async function main() {
         });
 
         if (response.ok) {
-            alert("Registrazione effettuata con successo");
             location.href = "index.html";
         } else {
             alert("Errore durante la registrazione");

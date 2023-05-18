@@ -16,7 +16,16 @@ class Giocatore extends Base {
     public $squadra_id;
     public $nazionalita;
 
-    function __construct($giocatore_id, $cognome_nome, $data_nascita, $posizione, $crediti_iniziali, $crediti_finali, $squadra_id, $nazionalita) {
+    function __construct(
+        $giocatore_id,
+        $cognome_nome,
+        $data_nascita,
+        $posizione,
+        $crediti_iniziali,
+        $crediti_finali,
+        $squadra_id,
+        $nazionalita
+    ) {
         $this->giocatore_id = $giocatore_id;
         $this->cognome_nome = $cognome_nome;
         $this->data_nascita = $data_nascita;

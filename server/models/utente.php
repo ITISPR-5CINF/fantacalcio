@@ -140,5 +140,32 @@ class Utente extends Base {
 
 		return Utente::from_username($username);
 	}
+
+	/**
+	 * Ottieni la lista delle fantaleghe di cui l'utente fa parte.
+	 */
+	function get_fantaleghe_utente() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT fantaleghe.fantalega_id".
+		       " FROM fantaleghe INNER JOIN fantasquadre ON fantasquadre.fantalega_id = fantaleghe.fantalega_id".
+			   " WHERE fantasquadre.utente_id = $this->utente_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		$fantaleghe = array();
+		while ($row = $query->fetch_assoc()) {
+			$fantaleghe[] = Fantalega::from_id($row['fantalega_id']);
+		}
+
+		$conn->close();
+
+		return $fantaleghe;
+	}
 }
 ?>
