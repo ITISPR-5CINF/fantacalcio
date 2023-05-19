@@ -130,6 +130,28 @@ class Utente extends Base {
 			return null;
 		}
 
+		// Lock table
+		$sql = "LOCK TABLES utenti WRITE";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		// Controlla se l'utente esiste già
+		$sql = "SELECT *".
+		       " FROM utenti".
+			   " WHERE utenti.username = '$username' OR utenti.email = '$email'";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows > 0) {
+			// Utente già esistente
+			$conn->close();
+			return null;
+		}
+
 		$sql = "INSERT INTO utenti (username, password, nome, cognome, email) VALUES ('$username', '$password', '$nome', '$cognome', '$email')";
 		$query = $conn->query($sql);
 		if (!$query) {
@@ -151,8 +173,8 @@ class Utente extends Base {
 		}
 
 		$sql = "SELECT fantaleghe.fantalega_id".
-		       " FROM fantaleghe INNER JOIN fantasquadre ON fantasquadre.fantalega_id = fantaleghe.fantalega_id".
-			   " WHERE fantasquadre.utente_id = $this->utente_id";
+		       " FROM fantaleghe LEFT JOIN fantasquadre ON fantasquadre.fantalega_id = fantaleghe.fantalega_id".
+			   " WHERE fantasquadre.utente_id = $this->utente_id OR fantaleghe.admin_id = $this->utente_id";
 		$query = $conn->query($sql);
 		if (!$query) {
 			return null;

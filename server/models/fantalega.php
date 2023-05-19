@@ -51,5 +51,28 @@ class Fantalega extends Base {
 			$admin_id
 		);
 	}
+
+	static function from_id($fantalega_id) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT * FROM fantaleghe WHERE fantalega_id = $fantalega_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		$fantalega = $query->fetch_assoc();
+
+		$conn->close();
+
+		return new Fantalega(
+			$fantalega["fantalega_id"],
+			$fantalega["nome"],
+			$fantalega["admin_id"]
+		);
+	}
 }
 ?>

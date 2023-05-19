@@ -22,14 +22,14 @@ async function main() {
 
     let html = `
         <h1>Ciao ${utente.nome}!</h1>
-        <h2>Le tue fantaleghe</h2>
+        <h2>Le tue fantaleghe <a href="crea_fantalega.html">+</a></h2>
     `;
 
     if (fantaleghe.length > 0) {
         for (let fantalega of fantaleghe) {
             html += `
                 <div>
-                    <a href="fantalega.html?id=${fantalega.fantalega_id}">${fantalega.nome}</a>
+                    <a href="visualizza_fantalega.html?fantalega_id=${fantalega.fantalega_id}">${fantalega.nome}</a>
                 </div>
             `;
         }
