@@ -2,16 +2,17 @@
 require_once "models/giocatore.php";
 
 if (!isset($_GET['giocatore_id'])) {
-	die("No id provided");
+	http_response_code(400);
+	return;
 }
 
 $giocatore_id = $_GET['giocatore_id'];
-$giocatore = Giocatore::from_id($giocatore_id);
 
-if ($giocatore == null) {
+$giocatore = Giocatore::from_id($giocatore_id);
+if (!$giocatore) {
 	http_response_code(404);
 	return;
 }
 
-echo $giocatore->to_json();
+print($giocatore->to_json());
 ?>

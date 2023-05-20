@@ -64,7 +64,9 @@ class Utente extends Base {
 			return null;
 		}
 
-		$sql = "SELECT * FROM utenti WHERE utenti.username = '$username'";
+		$sql = "SELECT *".
+		       " FROM utenti".
+			   " WHERE utenti.username = '$username'";
 		$query = $conn->query($sql);
 		if (!$query) {
 			return null;
@@ -86,6 +88,52 @@ class Utente extends Base {
 		$conn->close();
 
 		return $utente;
+	}
+
+	static function from_email($email) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT *".
+		       " FROM utenti".
+			   " WHERE utenti.email = '$email'";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows == 0) {
+			return null;
+		}
+
+		$row = $query->fetch_assoc();
+		$utente = new Utente(
+			$row['utente_id'],
+			$row['username'],
+			$row['nome'],
+			$row['cognome'],
+			$row['email'],
+		);
+
+		$conn->close();
+
+		return $utente;
+	}
+
+	static function from_username_or_email($username_or_email) {
+		$utente = Utente::from_username($username_or_email);
+		if ($utente) {
+			return $utente;
+		}
+
+		$utente = Utente::from_email($username_or_email);
+		if ($utente) {
+			return $utente;
+		}
+
+		return null;
 	}
 
 	static function login($username, $password) {

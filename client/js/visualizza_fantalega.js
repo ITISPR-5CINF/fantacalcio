@@ -1,9 +1,11 @@
-import { API_URL } from "./lib.js";
+import { API_URL, getInfoUtente } from "./lib.js";
 
 let infoFantalegaElement = document.getElementById("info-fantalega");
 let listaFantasquadreElement = document.getElementById("lista-fantasquadre");
 
 async function main() {
+    let utente = await getInfoUtente();
+
     let params = new URLSearchParams(window.location.search);
 
 	if (!params.has('fantalega_id')) {
@@ -33,7 +35,12 @@ async function main() {
     }
 
     let html = `
-        <h2>Squadre</h2>
+        <h2>Squadre ${
+            utente && utente.utente_id == fantalega.admin_id ? `
+                <a href="invita_utente.html?fantalega_id=${fantalega_id}">Invita</a>
+            ` : ``
+        }
+        </h2>
         <table>
             <tr>
                 <th>Nome</th>
