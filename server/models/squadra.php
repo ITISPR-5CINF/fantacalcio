@@ -1,5 +1,4 @@
 <?php
-
 require_once "base.php";
 require_once "giocatore.php";
 require_once __DIR__."/../database/database.php";

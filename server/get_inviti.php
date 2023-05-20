@@ -14,7 +14,7 @@ if (!$utente) {
 	return;
 }
 
-$fantasquadre = $utente->get_fantaleghe_utente();
+$inviti = $utente->get_inviti_attivi();
 
-print(json_encode($fantasquadre));
+print(json_encode($inviti));
 ?>

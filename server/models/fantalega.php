@@ -1,6 +1,7 @@
 <?php
 require_once "base.php";
 require_once __DIR__."/../database/database.php";
+require_once "invito.php";
 require_once "utente.php";
 
 /**
@@ -20,7 +21,7 @@ class Fantalega extends Base {
 		$this->nome = $nome;
 		$this->admin_id = $admin_id;
 	}
-    
+
 	/**
 	 * Ottieni informazioni sull'utente admin della fantalega.
 	 * @return null|Utente utente admin della fantalega, null se non trovato
@@ -28,6 +29,14 @@ class Fantalega extends Base {
     function get_utente_admin() {
 		return Utente::from_id($this->admin_id);
     }
+
+	/**
+	 * Ottieni la lista di inviti attivi della fantalega.
+	 * @return null|Invito[] lista di inviti attivi della fantalega, null se non trovata
+	 */
+	function get_inviti_attivi() {
+		return Invito::get_inviti_fantalega($this->fantalega_id);
+	}
 
 	static function crea_fantalega($nome, $admin_id) {
 		$conn = Database::get_connection();

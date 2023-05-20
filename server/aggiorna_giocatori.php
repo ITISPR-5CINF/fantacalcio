@@ -8,7 +8,7 @@
 
 <body>
 	<?php
-	require "database/Database.php";
+	require_once "database/Database.php";
 
 	$connect = Database::get_connection();
 	if ($connect->connect_error) {

@@ -1,7 +1,7 @@
 <?php
-
 require_once "base.php";
 require_once __DIR__."/../database/database.php";
+require_once "fantalega.php";
 
 /**
  * Classe che rappresenta un utente del sito.
@@ -188,6 +188,10 @@ class Utente extends Base {
 		$conn->close();
 
 		return $fantaleghe;
+	}
+
+	function get_inviti_attivi() {
+		return Invito::get_inviti_utente($this->utente_id);
 	}
 }
 ?>
