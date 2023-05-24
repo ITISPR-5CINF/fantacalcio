@@ -1,4 +1,4 @@
-import { API_URL } from "../js/lib.js";
+import { API_URL } from "./lib.js";
 
 const topbarElement = document.getElementById("topbar");
 
@@ -131,16 +131,18 @@ async function injectTopbar() {
 				<li><a href="${PAGES[page]}" class="${window.location.pathname === PAGES[page] ? "active" : ""}">${page}</a></li>
 			`).join("")}
 
-			${loginInfo ? `
-				<li style="float:right;">
+			<li style="float:right;">
+				${loginInfo ? `
 					<a href="${ROOT}/account_info.html" class="${
 						window.location.pathname === `${ROOT}/account_info.html` ? "active" : ""
 					}">${loginInfo.nome} ${loginInfo.cognome}</a>
 					<a id="logoutButton">Logout</a>
-				</li>
-			` : `
-				<li style="float:right"><a id="loginButton">Login</a></li>
-			`}
+				` : `
+					<li style="float:right">
+						<a id="loginButton">Login</a>
+					</li>
+				`}
+			</li>
 		</ul>
 	`;
 

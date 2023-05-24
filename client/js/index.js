@@ -2,29 +2,18 @@ import { API_URL, getInfoUtente } from "./lib.js";
 
 let mainContentElement = document.getElementById("main-content");
 
-async function accettaInvito(invito_id) {
-	let response = await fetch(`${API_URL}/accetta_invito.php`, {
-		method: "POST",
-		body: JSON.stringify({
-			invito_id,
-		})
-	});
-
-	if (response.ok) {
-		location.reload();
-	} else {
-		alert("Errore durante l'accettazione dell'invito");
-	}
+async function accettaInvito(fantalega_id) {
+	window.location.href = `accetta_invito.html?fantalega_id=${fantalega_id}`;
 }
 
-async function rifiutaInvito(invito_id) {
+async function rifiutaInvito(fantalega_id) {
 	let response = await fetch(`${API_URL}/rifiuta_invito.php`, {
 		method: "POST",
 		body: JSON.stringify({
-			invito_id,
+			fantalega_id,
 		})
 	});
-	
+
 	if (response.ok) {
 		location.reload();
 	} else {
@@ -33,6 +22,10 @@ async function rifiutaInvito(invito_id) {
 }
 
 async function main() {
+	// Aggiungi le funzioni per accettare/rifiutare inviti a livello globale
+	window.accettaInvito = accettaInvito;
+	window.rifiutaInvito = rifiutaInvito;
+
 	let html = "";
 
 	let utente = await getInfoUtente();
@@ -41,7 +34,6 @@ async function main() {
 			<h2>Non sei loggato</h2>
 			<p><a href="login.html">Effettua il login</a></p>
 		`;
-		return;
 	} else {
 		html = `
 			<h1>Ciao ${utente.nome}!</h1>
@@ -78,11 +70,10 @@ async function main() {
 				html += `
 					<div>
 						<a href="visualizza_fantalega.html?fantalega_id=${invito.fantalega_id}">${fantalega.nome} (da ${admin.nome} ${admin.cognome})</a>
-						<button onclick="accettaInvito(${invito.invito_id})">Accetta</button>
-						<button onclick="rifiutaInvito(${invito.invito_id})">Rifiuta</button>
+						<button onclick="accettaInvito(${invito.fantalega_id})">Accetta</button>
+						<button onclick="rifiutaInvito(${invito.fantalega_id})">Rifiuta</button>
 					</div>
 				`;
-
 			}
 		}
 

@@ -3,6 +3,7 @@ require_once "base.php";
 require_once __DIR__."/../database/database.php";
 require_once "invito.php";
 require_once "utente.php";
+require_once "fantasquadra.php";
 
 /**
  * Classe che rappresenta una fantalega.
@@ -36,6 +37,30 @@ class Fantalega extends Base {
 	 */
 	function get_inviti_attivi() {
 		return Invito::get_inviti_fantalega($this->fantalega_id);
+	}
+
+	function get_fantasquadre() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT fantasquadre.fantasquadra_id AS fantasquadra_id".
+		       " FROM fantasquadre".
+			   " WHERE fantasquadre.fantalega_id = $this->fantalega_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		$fantasquadre = array();
+		while ($fantasquadra = $query->fetch_assoc()) {
+			$fantasquadre[] = Fantasquadra::from_id($fantasquadra["fantasquadra_id"]);
+		}
+
+		$conn->close();
+
+		return $fantasquadre;
 	}
 
 	static function crea_fantalega($nome, $admin_id) {
@@ -82,6 +107,26 @@ class Fantalega extends Base {
 			$fantalega["nome"],
 			$fantalega["admin_id"]
 		);
+	}
+
+	/**
+	 * elimina la fantalega dal database
+	 */
+	function elimina() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return false;
+		}
+
+		$sql = "DELETE FROM fantaleghe WHERE fantalega_id = $this->fantalega_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return false;
+		}
+
+		$conn->close();
+
+		return true;
 	}
 }
 ?>

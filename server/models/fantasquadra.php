@@ -3,6 +3,7 @@ require_once "base.php";
 require_once __DIR__."/../database/database.php";
 require_once "fantalega.php";
 require_once "utente.php";
+require_once "invito.php";
 
 class Fantasquadra extends Base {
 	public $fantasquadra_id;
@@ -64,6 +65,66 @@ class Fantasquadra extends Base {
 		$conn->close();
 
 		return $giocatori;
+	}
+
+	static function from_id($fantasquadra_id) {
+		$fantasquadra_id = intval($fantasquadra_id);
+
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT *".
+		       " FROM fantasquadre".
+			   " WHERE fantasquadre.fantasquadra_id = $fantasquadra_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($query->num_rows == 0) {
+			return null;
+		}
+
+		$row = $query->fetch_assoc();
+
+		$conn->close();
+
+		return new Fantasquadra(
+			$fantasquadra_id,
+			$row["nome"],
+			$row["fantalega_id"],
+			$row["utente_id"]
+		);
+	}
+
+	static function crea_fantasquadra(
+		$nome,
+		$fantalega_id,
+		$utente_id
+	) {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "INSERT INTO fantasquadre (nome, fantalega_id, utente_id) VALUES ('$nome', $fantalega_id, $utente_id)";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		$fantasquadra_id = $conn->insert_id;
+
+		$conn->close();
+
+		return new Fantasquadra(
+			$fantasquadra_id,
+			$nome,
+			$fantalega_id,
+			$utente_id
+		);
 	}
 }
 ?>

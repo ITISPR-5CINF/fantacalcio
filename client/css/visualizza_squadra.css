@@ -1,5 +1,20 @@
 @import url('common.css');
 
+#info-squadra {
+	display: flex;
+	flex-direction: row;
+}
+
+#squadra-info {
+	overflow: hidden;
+	flex: 1;
+}
+
+#squadra-logo img {
+	width: 100%;
+	height: auto;
+}
+
 /* Data di nascita */
 tr th:nth-child(2),
 tr td:nth-child(2) {

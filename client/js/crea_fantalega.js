@@ -12,17 +12,20 @@ async function main() {
     creaFantalegaForm.addEventListener("submit", async (event) => {
         event.preventDefault();
 
-        let nome = document.getElementById("nome").value;
+        let nome_fantalega = document.getElementById("nome_fantalega").value;
+        let nome_fantasquadra = document.getElementById("nome_fantasquadra").value;
 
         let response = await fetch(`${API_URL}/crea_fantalega.php`, {
             method: "POST",
             body: JSON.stringify({
-                nome,
+                nome_fantalega,
+                nome_fantasquadra,
             })
         });
 
         if (response.ok) {
-            location.href = "index.html";
+            let fantalega = await response.json();
+            location.href = `visualizza_fantalega.html?fantalega_id=${fantalega.fantalega_id}`;
         } else {
             alert("Errore durante la creazione della fantalega");
         }

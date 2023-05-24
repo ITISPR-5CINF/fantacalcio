@@ -1,7 +1,7 @@
-import { API_URL } from "./lib.js";
+import { API_URL, getLogoSquadra } from "./lib.js";
 
-let infoSquadraElement = document.getElementById("info_squadra");
-let listaGiocatoriElement = document.getElementById("lista_giocatori");
+let infoSquadraElement = document.getElementById("info-squadra");
+let listaGiocatoriElement = document.getElementById("lista-giocatori");
 
 async function main() {
 	let params = new URLSearchParams(window.location.search);
@@ -21,10 +21,16 @@ async function main() {
 	let squadra = await response.json();
 
 	infoSquadraElement.innerHTML = `
-		<h2>${squadra.nome}</h2>
-		<p>Nome: ${squadra.nome}</p>
-		<p>Città: ${squadra.citta}</p>
-		<p>Anno fondazione: ${squadra.anno_fondazione}</p>
+		<div id="squadra-info">
+			<h2>${squadra.nome}</h2>
+			<p>Nome: ${squadra.nome}</p>
+			<p>Città: ${squadra.citta}</p>
+			<p>Anno fondazione: ${squadra.anno_fondazione}</p>
+		</div>
+
+		<div id="squadra-logo">
+			<img src="${getLogoSquadra(squadra.nome)}" alt="${squadra.nome}">
+		</div>
 	`
 
 	response = await fetch(`${API_URL}/get_giocatori.php?squadra_id=${squadra_id}`);
@@ -35,11 +41,22 @@ async function main() {
 
 	let giocatori = await response.json();
 
+	// Ordina per posizione, poi per crediti finali
+	// P, D, C, A
+	giocatori.sort((a, b) => {
+		if (a.posizione == b.posizione) {
+			return b.crediti_finali - a.crediti_finali;
+		}
+
+		let ordinePosizioni = ["P", "D", "C", "A"];
+		return ordinePosizioni.indexOf(a.posizione) - ordinePosizioni.indexOf(b.posizione);
+	});
+
 	let html = `
 		<h2>Giocatori</h2>
 		<table>
 			<tr>
-				<th>Cognome Nome</th>
+				<th>Nome</th>
 				<th>Data di nascita</th>
 				<th>Posizione</th>
 				<th>Crediti iniziali</th>

@@ -15,6 +15,27 @@ class Invito extends Base {
 	}
 
 	/**
+	 * Elimina un invito.
+	 */
+	function elimina_invito() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "DELETE FROM inviti".
+		       " WHERE inviti.utente_id = $this->utente_id AND inviti.fantalega_id = $this->fantalega_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return false;
+		}
+
+		$conn->close();
+
+		return true;
+	}
+
+	/**
 	 * Restituisce tutte gli inviti.
 	 */
 	static function get_all() {
@@ -41,6 +62,37 @@ class Invito extends Base {
 		$conn->close();
 
 		return $inviti;
+	}
+
+	static function get_invito($utente_id, $fantalega_id) {
+		$utente_id = intval($utente_id);
+		$fantalega_id = intval($fantalega_id);
+
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
+
+		$sql = "SELECT *".
+		       " FROM inviti".
+		       " WHERE inviti.utente_id = $utente_id AND inviti.fantalega_id = $fantalega_id";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
+
+		if ($row = $query->fetch_assoc()) {
+			$invito = new Invito(
+				$row['utente_id'],
+				$row['fantalega_id']
+			);
+		} else {
+			$invito = null;
+		}
+
+		$conn->close();
+
+		return $invito;	
 	}
 
 	static function get_inviti_utente($utente_id) {

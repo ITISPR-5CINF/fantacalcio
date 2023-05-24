@@ -24,7 +24,7 @@ $email = $data['email'];
 
 $utente = Utente::register($username, $password, $nome, $cognome, $email);
 if (!$utente) {
-	http_response_code(401);
+	http_response_code(400);
 	return;
 }
 
