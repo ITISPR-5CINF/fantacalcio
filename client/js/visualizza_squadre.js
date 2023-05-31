@@ -1,13 +1,6 @@
 import { API_URL, getLogoSquadra } from "./lib.js";
 
-const IMG_ROOT = "https://sport.virgilio.it/img/loghi"
-const FIX_SQUADRA_IMG = {
-	"Hellas Verona": "verona"
-}
-
-let listaSquadreElement = document.getElementById("lista_squadre");
-
-let squadre;
+let listaSquadreElement = document.getElementById("lista-squadre");
 
 async function main() {
 	let	response = await fetch(`${API_URL}/get_squadre.php`);
@@ -16,7 +9,7 @@ async function main() {
 		return;
 	}
 
-	squadre = await response.json();
+	let squadre = await response.json();
 	squadre.sort((a, b) => a.nome.localeCompare(b.nome));
 
 	let html = `

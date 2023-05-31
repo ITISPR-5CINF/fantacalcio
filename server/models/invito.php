@@ -37,6 +37,7 @@ class Invito extends Base {
 
 	/**
 	 * Restituisce tutte gli inviti.
+	 * @return array un array di oggetti Invito
 	 */
 	static function get_all() {
 		$conn = Database::get_connection();
@@ -64,6 +65,12 @@ class Invito extends Base {
 		return $inviti;
 	}
 
+	/**
+	 * Restituisce un invito dato l'ID dell'utente e l'ID della fantalega a cui è stato invitato.
+	 * @param int $utente_id l'ID dell'utente
+	 * @param int $fantalega_id l'ID della fantalega
+	 * @return null|Invito l'invito, null se non esiste
+	 */
 	static function get_invito($utente_id, $fantalega_id) {
 		$utente_id = intval($utente_id);
 		$fantalega_id = intval($fantalega_id);
@@ -75,13 +82,17 @@ class Invito extends Base {
 
 		$sql = "SELECT *".
 		       " FROM inviti".
-		       " WHERE inviti.utente_id = $utente_id AND inviti.fantalega_id = $fantalega_id";
-		$query = $conn->query($sql);
-		if (!$query) {
+		       " WHERE inviti.utente_id = ? AND inviti.fantalega_id = ?";
+        $statement = $conn->prepare($sql);
+        $statement->bind_param("ii", $utente_id, $fantalega_id);
+        $statement->execute();
+
+        $result = $statement->get_result();
+		if (!$result) {
 			return null;
 		}
 
-		if ($row = $query->fetch_assoc()) {
+		if ($row = $result->fetch_assoc()) {
 			$invito = new Invito(
 				$row['utente_id'],
 				$row['fantalega_id']
@@ -95,6 +106,11 @@ class Invito extends Base {
 		return $invito;	
 	}
 
+	/**
+	 * Restituisce tutti gli inviti di un utente.
+	 * @param int $utente_id l'id dell'utente
+	 * @return array un array di oggetti Invito
+	 */
 	static function get_inviti_utente($utente_id) {
 		$utente_id = intval($utente_id);
 
@@ -105,14 +121,18 @@ class Invito extends Base {
 
 		$sql = "SELECT *".
 		       " FROM inviti".
-		       " WHERE inviti.utente_id = $utente_id";
-		$query = $conn->query($sql);
-		if (!$query) {
+		       " WHERE inviti.utente_id = ?";
+        $statement = $conn->prepare($sql);
+        $statement->bind_param("i", $utente_id);
+        $statement->execute();
+
+        $result = $statement->get_result();
+		if (!$result) {
 			return null;
 		}
 
 		$inviti = array();
-		while ($row = $query->fetch_assoc()) {
+		while ($row = $result->fetch_assoc()) {
 			$inviti[] = new Invito(
 				$row['utente_id'],
 				$row['fantalega_id']
@@ -124,6 +144,11 @@ class Invito extends Base {
 		return $inviti;
 	}
 
+	/**
+	 * Restituisce tutti gli inviti ad una fantalega.
+	 * @param int $fantalega_id l'id della fantalega
+	 * @return array un array di oggetti Invito
+	 */
 	static function get_inviti_fantalega($fantalega_id) {
 		$fantalega_id = intval($fantalega_id);
 
@@ -134,14 +159,18 @@ class Invito extends Base {
 
 		$sql = "SELECT *".
 		       " FROM inviti".
-		       " WHERE inviti.fantalega_id = $fantalega_id";
-		$query = $conn->query($sql);
-		if (!$query) {
+		       " WHERE inviti.fantalega_id = ?";
+        $statement = $conn->prepare($sql);
+        $statement->bind_param("i", $fantalega_id);
+        $statement->execute();
+
+        $result = $statement->get_result();
+		if (!$result) {
 			return null;
 		}
 
 		$inviti = array();
-		while ($row = $query->fetch_assoc()) {
+		while ($row = $result->fetch_assoc()) {
 			$inviti[] = new Invito(
 				$row['utente_id'],
 				$row['fantalega_id']
@@ -153,6 +182,12 @@ class Invito extends Base {
 		return $inviti;
 	}
 
+	/**
+	 * Crea un invito dato l'ID dell'utente e l'ID della fantalega a cui è stato invitato.
+	 * @param int $utente_id l'ID dell'utente
+	 * @param int $fantalega_id l'ID della fantalega
+	 * @return null|Invito l'invito, null se non è stato creato
+	 */
 	static function crea_invito($utente_id, $fantalega_id) {
 		$utente_id = intval($utente_id);
 		$fantalega_id = intval($fantalega_id);
@@ -162,11 +197,10 @@ class Invito extends Base {
 			return null;
 		}
 
-		$sql = "INSERT INTO inviti (utente_id, fantalega_id) VALUES ($utente_id, $fantalega_id)";
-		$query = $conn->query($sql);
-		if (!$query) {
-			return null;
-		}
+		$sql = "INSERT INTO inviti (utente_id, fantalega_id) VALUES (?, ?)";
+        $statement = $conn->prepare($sql);
+        $statement->bind_param("ii", $utente_id, $fantalega_id);
+        $statement->execute();
 
 		$conn->close();
 

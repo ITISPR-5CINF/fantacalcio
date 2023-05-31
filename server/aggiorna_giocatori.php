@@ -3,30 +3,31 @@ require_once "database/Database.php";
 
 $connect = Database::get_connection();
 if (!$connect) {
-	exit("Errore connessione: " . $connect->connect_error);
+	exit("Errore connessione: $connect->connect_error");
 }
 
 $upload_ok = 1;
 
 // Check file size
 if ($_FILES["json"]["size"] > 500000) {
-	echo "Sorry, your file is too large.";
+	print("File troppo grande");
 	$upload_ok = 0;
 }
 
 // Check if $upload_ok is set to 0 by an error
 if ($upload_ok == 0) {
-	echo "Sorry, your file was not uploaded.";
+	print("File non caricato");
 	exit(1);
 }
 
 $json = json_decode(file_get_contents($_FILES["json"]["tmp_name"]), true);
 if (!$json) {
-	echo "Sorry, there was an error uploading your file.";
+	print("Errore durante la decodifica del file JSON");
 	exit(1);
 }
 
 $squadre = array();
+
 $sql = "SELECT * FROM squadre";
 $result = $connect->query($sql);
 while ($row = $result->fetch_assoc()) {
@@ -38,7 +39,7 @@ $sql = "DELETE FROM giocatori";
 $result = $connect->query($sql);
 $error = $connect->error;
 if ($error) {
-	echo "Errore durante l'eliminazione dei giocatori: $error";
+	print("Errore durante l'eliminazione dei giocatori: $error");
 	exit(1);
 }
 
@@ -47,7 +48,7 @@ $sql = 'ALTER TABLE nazionalita_giocatori MODIFY COLUMN nazione ENUM("'.implode(
 $result = $connect->query($sql);
 $error = $connect->error;
 if ($error) {
-	echo "Errore durante l'aggiornamento delle nazioni: $error";
+	print("Errore durante l'aggiornamento delle nazioni: $error");
 	exit(1);
 }
 
@@ -56,7 +57,7 @@ $sql = "INSERT INTO giocatori (cognome_nome, data_nascita, posizione, crediti_in
 	"VALUES (?, STR_TO_DATE(?, '%Y-%m-%d'), ?, ?, ?, ?)";
 $statement = $connect->prepare($sql);
 if (!$statement) {
-	echo "Errore durante la preparazione dello statement: $mysqli->error";
+	print("Errore durante la preparazione dello statement: $mysqli->error");
 	exit(1);
 }
 $statement->bind_param("ssssii", $cognome_nome, $data_nascita, $posizione, $crediti_iniziali, $crediti_finali, $squadra_id);
@@ -65,7 +66,7 @@ $statement->bind_param("ssssii", $cognome_nome, $data_nascita, $posizione, $cred
 $sql = "INSERT INTO nazionalita_giocatori (giocatore_id, nazione) VALUES (?, ?)";
 $statement_nazionalita = $connect->prepare($sql);
 if (!$statement_nazionalita) {
-	echo "Errore durante la preparazione dello statement: $mysqli->error";
+	print("Errore durante la preparazione dello statement: $mysqli->error");
 	exit(1);
 }
 $statement_nazionalita->bind_param("is", $giocatore_id, $nazione);
@@ -82,7 +83,7 @@ foreach ($json["giocatori"] as $giocatore) {
 
 	// Squadra è una stringa, quindi deve essere convertita in id
 	if (!array_key_exists($squadra, $squadre)) {
-		echo "Errore: squadra $squadra non trovata";
+		print("Errore: squadra $squadra non trovata");
 		exit(1);
 	}
 
@@ -92,7 +93,7 @@ foreach ($json["giocatori"] as $giocatore) {
 	$statement->execute();
 	$error = $statement->error;
 	if ($error) {
-		echo "Errore durante l'aggiunta di $cognome_nome: $error";
+		print("Errore durante l'aggiunta di $cognome_nome: $error");
 		exit(1);
 	}
 
@@ -103,7 +104,7 @@ foreach ($json["giocatori"] as $giocatore) {
 		$statement_nazionalita->execute();
 		$error = $statement_nazionalita->error;
 		if ($error) {
-			echo "Errore durante l'aggiunta della nazionalità di $cognome_nome $nazione: $error";
+			print("Errore durante l'aggiunta della nazionalità di $cognome_nome $nazione: $error");
 			exit(1);
 		}
 	}

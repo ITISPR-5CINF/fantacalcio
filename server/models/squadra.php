@@ -7,103 +7,135 @@ require_once __DIR__."/../database/database.php";
  * Classe che rappresenta una squadra di Serie A TIM.
  */
 class Squadra extends Base {
-    public $squadra_id;
-    public $nome;
-    public $citta;
-    public $anno_fondazione;
+	public $squadra_id;
+	public $nome;
+	public $citta;
+	public $anno_fondazione;
 
-    function __construct(
-        $squadra_id,
-        $nome,
-        $citta,
-        $anno_fondazione
-    ) {
-        $this->squadra_id = $squadra_id;
-        $this->nome = $nome;
-        $this->citta = $citta;
-        $this->anno_fondazione = $anno_fondazione;
-    }
+	function __construct(
+		$squadra_id,
+		$nome,
+		$citta,
+		$anno_fondazione
+	) {
+		$this->squadra_id = $squadra_id;
+		$this->nome = $nome;
+		$this->citta = $citta;
+		$this->anno_fondazione = $anno_fondazione;
+	}
 
-    function get_giocatori() {
-        $conn = Database::get_connection();
-        if (!$conn) {
-            return null;
-        }
+	/**
+	 * Restituisce tutti i giocatori di una squadra
+	 * @return null|Giocatore[] array di giocatori, null in caso di errore 
+	 */
+	function get_giocatori() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
 
-        $sql = "SELECT giocatori.giocatore_id AS giocatore_id FROM giocatori WHERE giocatori.squadra_id = $this->squadra_id";
-        $query = $conn->query($sql);
-        if (!$query) {
-            return null;
-        }
+		$sql = "SELECT giocatori.*".
+			   " FROM giocatori".
+			   " WHERE giocatori.squadra_id = ?";
+		$statement = $conn->prepare($sql);
+		$statement->bind_param("i", $this->squadra_id);
+		$statement->execute();
 
-        $giocatori = array();
+		$result = $statement->get_result();
+		if (!$result) {
+			return null;
+		}
 
-        while ($row = $query->fetch_assoc()) {
-            $giocatori[] = Giocatore::from_id($row["giocatore_id"]);
-        }
+		$giocatori = array();
 
-        $conn->close();
+		while ($row = $result->fetch_assoc()) {
+			$giocatori[] = Giocatore::from_assoc_array($row);
+		}
 
-        return $giocatori;
-    }
+		$conn->close();
 
-    /**
-     * Restituisce una squadra dato il suo id.
-     * @param $squadra_id id della squadra da cercare
-     * @return null|Squadra squadra trovato, null se non trovata
-     */
-    static function from_id($squadra_id) {
-        $squadra_id = intval($squadra_id);
+		return $giocatori;
+	}
 
-        $conn = Database::get_connection();
-        if (!$conn) {
-            return null;
-        }
+	/**
+	 * Restituisce una squadra dato un array associativo.
+	 * @param $array array associativo con i dati della squadra
+	 * @return Squadra squadra creata
+	 */
+	static function from_assoc_array($array) {
+		return new Squadra(
+			$array["squadra_id"],
+			$array["nome"],
+			$array["citta"],
+			$array["anno_fondazione"]
+		);
+	}
 
-        $sql = "SELECT * FROM squadre WHERE squadre.squadra_id = $squadra_id";
-        $query = $conn->query($sql);
-        if (!$query) {
-            return null;
-        } else if ($query->num_rows == 0) {
-            return null;
-        } else if ($query->num_rows > 1) {
-            // ??
-            return null;
-        }
+	/**
+	 * Restituisce una squadra dato il suo id.
+	 * @param $squadra_id id della squadra da cercare
+	 * @return null|Squadra squadra trovato, null se non trovata
+	 */
+	static function from_id($squadra_id) {
+		$squadra_id = intval($squadra_id);
 
-        $squadra = $query->fetch_assoc();
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
 
-        $conn->close();
+		$sql = "SELECT squadre.* FROM squadre WHERE squadre.squadra_id = ?";
+		$statement = $conn->prepare($sql);
+		$statement->bind_param("i", $squadra_id);
+		$statement->execute();
 
-        return new Squadra(
-            $squadra["squadra_id"],
-            $squadra["nome"],
-            $squadra["citta"],
-            $squadra["anno_fondazione"]
-        );
-    }
+		$result = $statement->get_result();
+		if (!$result) {
+			return null;
+		} else if ($result->num_rows == 0) {
+			return null;
+		} else if ($result->num_rows > 1) {
+			// ??
+			return null;
+		}
 
-    static function get_all() {
-        $conn = Database::get_connection();
-        if (!$conn) {
-            return null;
-        }
+		$squadra = $result->fetch_assoc();
 
-        $sql = "SELECT squadre.squadra_id AS squadra_id FROM squadre";
-        $query = $conn->query($sql);
-        if (!$query) {
-            return null;
-        }
+		$conn->close();
 
-        $squadre = array();
+		return new Squadra(
+			$squadra["squadra_id"],
+			$squadra["nome"],
+			$squadra["citta"],
+			$squadra["anno_fondazione"]
+		);
+	}
 
-        while ($row = $query->fetch_assoc()) {
-            $squadre[] = Squadra::from_id($row["squadra_id"]);
-        }
+	/**
+	 * restituisce tutte le squadre presenti nel database
+	 * @return null|Squadra[] array di squadre, null in caso di errore
+	 */
+	static function get_all() {
+		$conn = Database::get_connection();
+		if (!$conn) {
+			return null;
+		}
 
-        $conn->close();
+		$sql = "SELECT squadre.* FROM squadre";
+		$query = $conn->query($sql);
+		if (!$query) {
+			return null;
+		}
 
-        return $squadre;
-    }
+		$squadre = array();
+
+		while ($row = $query->fetch_assoc()) {
+			$squadre[] = Squadra::from_assoc_array($row);
+		}
+
+		$conn->close();
+
+		return $squadre;
+	}
 }
 ?>

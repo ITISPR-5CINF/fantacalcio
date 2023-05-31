@@ -6,6 +6,7 @@ if (!isset($_GET['squadra_id'])) {
 }
 
 $squadra_id = $_GET['squadra_id'];
+
 $squadra = Squadra::from_id($squadra_id);
 
 if ($squadra == null) {

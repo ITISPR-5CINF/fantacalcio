@@ -12,7 +12,7 @@ async function main() {
 	let params = new URLSearchParams(window.location.search);
 
 	if (!params.has('fantalega_id')) {
-		invitaUtenteForm.innerHTML = `ID fantalega non specificato`;
+		invitaUtenteForm.innerHTML = "ID fantalega non specificato";
 		return;
 	}
 

@@ -1,4 +1,4 @@
-import { API_URL, getInfoUtente, getUtente } from "./lib.js";
+import { API_URL, getInfoUtente, getUtente, setTitoloPagina } from "./lib.js";
 
 let infoFantalegaElement = document.getElementById("info-fantalega");
 let listaFantasquadreElement = document.getElementById("lista-fantasquadre");
@@ -9,7 +9,7 @@ async function main() {
 	let params = new URLSearchParams(window.location.search);
 
 	if (!params.has('fantalega_id')) {
-		infoFantalegaElement.innerHTML = `ID fantalega non specificato`;
+		infoFantalegaElement.innerHTML = "ID fantalega non specificato";
 		return;
 	}
 
@@ -22,6 +22,9 @@ async function main() {
 
 	let fantalega = await response.json();
 
+	// Imposta il titolo della pagina
+	setTitoloPagina(fantalega.nome);
+
 	// Ottieni informazioni sull'admin della fantalega
 	let admin = await getUtente(fantalega.admin_id);
 	if (!admin) {
@@ -32,6 +35,12 @@ async function main() {
 	infoFantalegaElement.innerHTML = `
 		<h2>${fantalega.nome}</h2>
 		<p>Admin: <a href="visualizza_utente.html?utente_id=${admin.utente_id}">${admin.nome} ${admin.cognome} (@${admin.username})</a></p>
+        <p>Crediti iniziali: ${fantalega.crediti_iniziali}</p>
+        <p>Numero portieri: ${fantalega.numero_portieri}</p>
+        <p>Numero difensori: ${fantalega.numero_difensori}</p>
+        <p>Numero centrocampisti: ${fantalega.numero_centrocampisti}</p>
+        <p>Numero attaccanti: ${fantalega.numero_attaccanti}</p>
+        <h3 id="asta-button"><a href="asta.html?fantalega_id=${fantalega.fantalega_id}">Inizia asta</a></h3>
 	`
 
 	// Ottieni la lista di squadre
@@ -42,7 +51,7 @@ async function main() {
 	}
 
 	let html = `
-		<h2>Squadre ${
+		<h2>Fantasquadre ${
 			utente && utente.utente_id == fantalega.admin_id ? `
 				<a href="invita_utente.html?fantalega_id=${fantalega_id}">Invita</a>
 			` : ``
@@ -60,7 +69,11 @@ async function main() {
 
 			html += `
 				<tr>
-					<td>${fantasquadra.nome}</td>
+					<td>
+						<a href="visualizza_fantasquadra.html?fantasquadra_id=${fantasquadra.fantasquadra_id}">
+							${fantasquadra.nome}
+						</a>
+					</td>
 					<td>
 						<a href="visualizza_utente.html?utente_id=${utente_fantasquadra.utente_id}">
 							${utente_fantasquadra.nome} ${utente_fantasquadra.cognome} (@${utente_fantasquadra.username})

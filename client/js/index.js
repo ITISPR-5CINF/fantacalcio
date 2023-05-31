@@ -79,7 +79,7 @@ async function main() {
 
 		// Ottieni la lista di fantaleghe a cui l'utente partecipa
 		html += `
-			<h2>Le tue fantaleghe <a href="crea_fantalega.html">+</a></h2>
+			<h2>Le tue fantaleghe <a href="crea_fantalega.html">+ Crea</a></h2>
 		`;
 		let fantaleghe = [];
 		response = await fetch(`${API_URL}/get_fantaleghe_utente.php`);

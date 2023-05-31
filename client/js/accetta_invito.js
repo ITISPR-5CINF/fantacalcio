@@ -5,7 +5,7 @@ let accettaInvitoFormElement = document.getElementById("accetta-invito-form");
 async function main() {
 	let utente = await getInfoUtente();
 	if (!utente) {
-		window.location.href = "login.html";
+		goToLogin();
 		return;
 	}
 
@@ -16,7 +16,7 @@ async function main() {
 		return;
 	}
 
-	let fantalega_id = params.get('fantalega_id');
+	let fantalegaId = params.get('fantalega_id');
 
 	accettaInvitoFormElement.addEventListener("submit", async (event) => {
 		event.preventDefault();
@@ -26,13 +26,13 @@ async function main() {
 		let response = await fetch(`${API_URL}/accetta_invito.php`, {
 			method: "POST",
 			body: JSON.stringify({
-				fantalega_id,
+				fantalega_id: fantalegaId,
 				nome_fantasquadra,
 			})
 		});
 
 		if (response.ok) {
-			location.href = `visualizza_fantalega.html?fantalega_id=${fantalega_id}`;
+			location.href = `visualizza_fantalega.html?fantalega_id=${fantalegaId}`;
 		} else if (response.status == 403) {
 			alert("Non sei stato invitato a questa fantalega");
 		} else {

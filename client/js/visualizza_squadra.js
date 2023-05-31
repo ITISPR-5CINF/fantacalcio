@@ -1,4 +1,4 @@
-import { API_URL, getLogoSquadra } from "./lib.js";
+import { API_URL, getLogoSquadra, defaultGiocatoriComparator, setTitoloPagina } from "./lib.js";
 
 let infoSquadraElement = document.getElementById("info-squadra");
 let listaGiocatoriElement = document.getElementById("lista-giocatori");
@@ -7,6 +7,7 @@ async function main() {
 	let params = new URLSearchParams(window.location.search);
 
 	if (!params.has('squadra_id')) {
+		infoSquadraElement.innerHTML = "Errore: nessuna squadra specificata";
 		return;
 	}
 
@@ -20,10 +21,12 @@ async function main() {
 
 	let squadra = await response.json();
 
+	// Imposta il titolo della pagina
+	setTitoloPagina(squadra.nome);
+
 	infoSquadraElement.innerHTML = `
 		<div id="squadra-info">
 			<h2>${squadra.nome}</h2>
-			<p>Nome: ${squadra.nome}</p>
 			<p>Città: ${squadra.citta}</p>
 			<p>Anno fondazione: ${squadra.anno_fondazione}</p>
 		</div>
@@ -41,16 +44,8 @@ async function main() {
 
 	let giocatori = await response.json();
 
-	// Ordina per posizione, poi per crediti finali
-	// P, D, C, A
-	giocatori.sort((a, b) => {
-		if (a.posizione == b.posizione) {
-			return b.crediti_finali - a.crediti_finali;
-		}
-
-		let ordinePosizioni = ["P", "D", "C", "A"];
-		return ordinePosizioni.indexOf(a.posizione) - ordinePosizioni.indexOf(b.posizione);
-	});
+	// Ordina i giocatori
+	giocatori.sort((a, b) => defaultGiocatoriComparator(a, b));
 
 	let html = `
 		<h2>Giocatori</h2>
@@ -68,7 +63,11 @@ async function main() {
 	for (let giocatore of giocatori) {
 		html += `
 			<tr>
-				<td>${giocatore.cognome_nome}</td>
+				<td>
+					<a href="visualizza_giocatore.html?giocatore_id=${giocatore.giocatore_id}">	
+						${giocatore.cognome_nome}
+					</a>
+				</td>
 				<td>${giocatore.data_nascita}</td>
 				<td>${giocatore.posizione}</td>
 				<td>${giocatore.crediti_iniziali}</td>

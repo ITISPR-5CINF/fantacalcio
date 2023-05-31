@@ -135,12 +135,10 @@ async function injectTopbar() {
 				${loginInfo ? `
 					<a href="${ROOT}/account_info.html" class="${
 						window.location.pathname === `${ROOT}/account_info.html` ? "active" : ""
-					}">${loginInfo.nome} ${loginInfo.cognome}</a>
+					}">${loginInfo.nome} ${loginInfo.cognome} (@${loginInfo.username})</a>
 					<a id="logoutButton">Logout</a>
 				` : `
-					<li style="float:right">
-						<a id="loginButton">Login</a>
-					</li>
+					<a id="loginButton">Login</a>
 				`}
 			</li>
 		</ul>

@@ -3,8 +3,12 @@
  * Classe astratta per tutti i modelli
  */
 abstract class Base {
-    public function to_json() {
-        return json_encode($this);
-    }
+    /**
+     * Restituisce una rappresentazione JSON dell'oggetto
+     * @return string una stringa JSON
+     */
+	public function to_json() {
+		return json_encode($this);
+	}
 }
 ?>
