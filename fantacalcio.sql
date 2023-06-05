@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Apr 29, 2023 alle 00:46
+-- Creato il: Giu 05, 2023 alle 15:52
 -- Versione del server: 10.3.16-MariaDB
 -- Versione PHP: 7.3.6
 
@@ -33,7 +33,12 @@ USE `fantacalcio`;
 CREATE TABLE `fantaleghe` (
   `fantalega_id` int(11) NOT NULL,
   `nome` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `admin_id` int(11) NOT NULL
+  `admin_id` int(11) NOT NULL,
+  `crediti_iniziali` int(11) NOT NULL,
+  `numero_portieri` tinyint(4) NOT NULL,
+  `numero_difensori` tinyint(4) NOT NULL,
+  `numero_centrocampisti` tinyint(4) NOT NULL,
+  `numero_attaccanti` tinyint(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -46,7 +51,8 @@ CREATE TABLE `fantasquadre` (
   `fantasquadra_id` int(11) NOT NULL,
   `nome` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `fantalega_id` int(11) NOT NULL,
-  `utente_id` int(11) NOT NULL
+  `utente_id` int(11) NOT NULL,
+  `crediti` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -80,12 +86,23 @@ CREATE TABLE `giocatori_in_fantasquadre` (
 -- --------------------------------------------------------
 
 --
+-- Struttura della tabella `inviti`
+--
+
+CREATE TABLE `inviti` (
+  `utente_id` int(11) NOT NULL,
+  `fantalega_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `nazionalita_giocatori`
 --
 
 CREATE TABLE `nazionalita_giocatori` (
   `giocatore_id` int(11) NOT NULL,
-  `nazione` enum('Albania','Algeria','Angola','Argentina','Armenia','Aruba','Australia','Austria','Belgio','Bosnia Erzegovina','Brasile','Bulgaria','Burkina Faso','Camerun','Canada','Cile','Cipro','Colombia','Corea Del Sud','Costa D''Avorio','Croazia','Danimarca','Egitto','Finlandia','Francia','Galles','Gambia','Georgia','Germania','Ghana','Grecia','Guadalupa','Guinea','Guinea Bissau','Guinea Equatoriale','Guyana Francese','Indonesia','Inghilterra','Iraq','Irlanda','Islanda','Israele','Italia','Kenya','Kosovo','Lettonia','Lituania','Lussemburgo','Macedonia Del Nord','Mali','Marocco','Martinica','Messico','Moldavia','Montenegro','Nigeria','Norvegia','Nuova Zelanda','Olanda','Paraguay','Polonia','Portogallo','Repubblica Ceca','Repubblica Centrafricana','Repubblica Democratica Del Congo','Romania','Russia','Scozia','Senegal','Serbia','Sierra Leone','Slovacchia','Slovenia','Spagna','Stati Uniti','Suriname','Svezia','Svizzera','Togo','Tunisia','Turchia','Ucraina','Uganda','Ungheria','Uruguay','Uzbekistan','Venezuela','Zambia') COLLATE utf8_unicode_ci NOT NULL
+  `nazione` enum('Albania','Algeria','Angola','Argentina','Armenia','Aruba','Australia','Austria','Belgio','Bosnia Erzegovina','Brasile','Bulgaria','Burkina Faso','Camerun','Canada','Cile','Cipro','Colombia','Corea Del Sud','Costa D''Avorio','Croazia','Danimarca','Egitto','Finlandia','Francia','Galles','Gambia','Georgia','Germania','Ghana','Grecia','Guadalupa','Guinea','Guinea Bissau','Guinea Equatoriale','Guyana Francese','Indonesia','Inghilterra','Irlanda','Islanda','Italia','Kenya','Kosovo','Lettonia','Lituania','Lussemburgo','Macedonia Del Nord','Mali','Marocco','Messico','Montenegro','Nigeria','Norvegia','Nuova Zelanda','Olanda','Paraguay','Polonia','Portogallo','Repubblica Ceca','Repubblica Centrafricana','Repubblica Democratica Del Congo','Romania','Russia','Scozia','Senegal','Serbia','Sierra Leone','Slovacchia','Slovenia','Spagna','Stati Uniti','Suriname','Svezia','Svizzera','Togo','Tunisia','Turchia','Ucraina','Uruguay','Uzbekistan','Venezuela','Zambia') COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -124,7 +141,7 @@ INSERT INTO `squadre` (`squadra_id`, `nome`, `citta`, `anno_fondazione`) VALUES
 (16, 'Sampdoria', 'Genova', 1946),
 (17, 'Sassuolo', 'Modena', 1920),
 (18, 'Spezia', 'La Spezia', 1906),
-(29, 'Torino', 'Torino', 1906),
+(19, 'Torino', 'Torino', 1906),
 (20, 'Udinese', 'Udine', 1896);
 
 -- --------------------------------------------------------
@@ -135,6 +152,7 @@ INSERT INTO `squadre` (`squadra_id`, `nome`, `citta`, `anno_fondazione`) VALUES
 
 CREATE TABLE `utenti` (
   `utente_id` int(11) NOT NULL,
+  `username` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `nome` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `cognome` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
@@ -173,6 +191,13 @@ ALTER TABLE `giocatori`
 ALTER TABLE `giocatori_in_fantasquadre`
   ADD PRIMARY KEY (`fantasquadra_id`,`giocatore_id`),
   ADD KEY `fk_giocatori_in_fantasquadre_giocatore_id` (`giocatore_id`);
+
+--
+-- Indici per le tabelle `inviti`
+--
+ALTER TABLE `inviti`
+  ADD PRIMARY KEY (`fantalega_id`,`utente_id`) USING BTREE,
+  ADD KEY `fk_inviti_utente_id` (`utente_id`);
 
 --
 -- Indici per le tabelle `nazionalita_giocatori`
@@ -255,6 +280,13 @@ ALTER TABLE `giocatori`
 ALTER TABLE `giocatori_in_fantasquadre`
   ADD CONSTRAINT `fk_giocatori_in_fantasquadre_fantasquadra_id` FOREIGN KEY (`fantasquadra_id`) REFERENCES `fantasquadre` (`fantasquadra_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `fk_giocatori_in_fantasquadre_giocatore_id` FOREIGN KEY (`giocatore_id`) REFERENCES `giocatori` (`giocatore_id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Limiti per la tabella `inviti`
+--
+ALTER TABLE `inviti`
+  ADD CONSTRAINT `fk_inviti_fantalega_id` FOREIGN KEY (`fantalega_id`) REFERENCES `fantaleghe` (`fantalega_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_inviti_utente_id` FOREIGN KEY (`utente_id`) REFERENCES `utenti` (`utente_id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limiti per la tabella `nazionalita_giocatori`
