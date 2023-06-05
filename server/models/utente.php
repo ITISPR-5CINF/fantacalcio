@@ -60,6 +60,16 @@ class Utente extends Base {
 		return Invito::get_inviti_utente($this->utente_id);
 	}
 
+	static function from_assoc_array($array) {
+		return new Utente(
+			$array['utente_id'],
+			$array['username'],
+			$array['nome'],
+			$array['cognome'],
+			$array['email'],
+		);
+	}
+
 	/**
 	 * Restituisce un utente dato il suo id.
 	 * @param $utente_id id del giocatore da cercare
@@ -73,7 +83,9 @@ class Utente extends Base {
 			return null;
 		}
 
-		$sql = "SELECT utenti.* FROM utenti WHERE utenti.utente_id = ?";
+		$sql = "SELECT utenti.*".
+			   " FROM utenti".
+			   " WHERE utenti.utente_id = ?";
 		$statement = $conn->prepare($sql);
 		$statement->bind_param("i", $utente_id);
 		$statement->execute();
@@ -88,17 +100,10 @@ class Utente extends Base {
 		}
 
 		$row = $result->fetch_assoc();
-		$utente = new Utente(
-			$row['utente_id'],
-			$row['username'],
-			$row['nome'],
-			$row['cognome'],
-			$row['email'],
-		);
 
 		$conn->close();
 
-		return $utente;
+		return Utente::from_assoc_array($row);
 	}
 
 	/**
@@ -217,17 +222,10 @@ class Utente extends Base {
 		}
 
 		$row = $result->fetch_assoc();
-		$utente = new Utente(
-			$row['utente_id'],
-			$row['username'],
-			$row['nome'],
-			$row['cognome'],
-			$row['email'],
-		);
 
 		$conn->close();
 
-		return $utente;
+		return Utente::from_assoc_array($row);
 	}
 
 	/**

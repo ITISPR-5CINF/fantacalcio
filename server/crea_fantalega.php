@@ -41,11 +41,11 @@ $numero_attaccanti = $data['numero_attaccanti'];
 
 $fantalega = Fantalega::crea_fantalega($nome_fantalega, $admin_id, $crediti_iniziali, $numero_portieri, $numero_difensori, $numero_centrocampisti, $numero_attaccanti);
 if (!$fantalega) {
-	http_response_code(401);
+	http_response_code(400);
 	return;
 }
 
-$fantasquadra = Fantasquadra::crea_fantasquadra($nome_fantasquadra, $fantalega->fantalega_id, $admin_id);
+$fantasquadra = $fantalega->crea_fantasquadra($nome_fantasquadra, $admin_id);
 if (!$fantasquadra) {
 	http_response_code(500);
 	return;

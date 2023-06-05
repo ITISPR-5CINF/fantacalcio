@@ -40,21 +40,6 @@ class Asta {
 	 * @returns {Promise<void>}
 	 */
 	async start() {
-		// Inizializza i crediti di ogni squadra
-		let response = await fetch(`${API_URL}/inizializza_crediti_fantasquadre.php`,
-			{
-				method: "POST",
-				body: JSON.stringify({
-					fantalega_id: this.fantalegaId,
-					crediti: this.creditiIniziali,
-				})
-			}
-		);
-		if (!response.ok) {
-			mainContentElement.innerHTML = "Errore durante l'inizializzazione dei crediti";
-			return;
-		}
-
 		// Aggiorna le informazioni sulle fantasquadre
 		await this.updateInfoFantasquadre();
 
@@ -115,8 +100,6 @@ class Asta {
 	 * @returns {Promise<void>}
 	 */
 	async apriSchedaGiocatore(giocatoreId) {
-		let astaMainElement = document.getElementById("asta-main");
-
 		// Selezione del giocatore
 		this.giocatoreInAsta = giocatoreId;
 
@@ -307,12 +290,12 @@ class Asta {
 		}
 
 		let fantasquadre = await response.json();
-	
+
 		let html = `
 			<h2>Squadre</h2>
 			<div id="fantasquadre">
 		`;
-	
+
 		for (let fantasquadra of fantasquadre) {
 			response = await fetch(`${API_URL}/get_giocatori_fantasquadra.php?fantasquadra_id=${fantasquadra.fantasquadra_id}`);
 			if (!response.ok) {
@@ -359,7 +342,7 @@ class Asta {
 		html += `
 			</div>
 		`;
-	
+
 		infoFantasquadreElement.innerHTML = html;
 	}
 }

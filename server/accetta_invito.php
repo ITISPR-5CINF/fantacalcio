@@ -1,4 +1,5 @@
 <?php
+require_once "models/fantalega.php";
 require_once "models/fantasquadra.php";
 require_once "models/invito.php";
 require_once "models/utente.php";
@@ -29,6 +30,12 @@ if (
 $fantalega_id = $data['fantalega_id'];
 $nome_fantasquadra = $data['nome_fantasquadra'];
 
+$fantalega = Fantalega::from_id($fantalega_id);
+if (!$fantalega) {
+	http_response_code(404);
+	return;
+}
+
 // Controlla se l'utente ha un invito attivo per la lega
 $invito = Invito::get_invito($utente->utente_id, $fantalega_id);
 if (!$invito) {
@@ -38,7 +45,7 @@ if (!$invito) {
 
 $invito->elimina_invito();
 
-$fantasquadra = Fantasquadra::crea_fantasquadra($nome_fantasquadra, $fantalega_id, $utente->utente_id);
+$fantasquadra = $fantalega->crea_fantasquadra($nome_fantasquadra, $utente->utente_id);
 if (!$fantasquadra) {
 	http_response_code(500);
 	return;

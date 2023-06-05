@@ -1,41 +1,5 @@
 @import url('common.css');
 
-/*#main-content {
-	display: flex;
-	flex-direction: column;
-}
-
-#main-content > div {
-	flex: 50%;
-}
-
-#info-fantasquadre {
-	display: flex;
-	flex-direction: column;
-}
-
-#info-fantasquadre > div {
-	flex: 100%;
-}
-
-#fantasquadre {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	align-content: flex-start;
-	overflow-x: auto;
-}
-
-.fantasquadra {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	flex-grow: 1;
-}
-*/
-
 /* Main Content */
 #main-content {
 	display: flex;

@@ -10,6 +10,10 @@
 	flex: 1;
 }
 
+#squadra-logo {
+	padding: 20px 0px;
+}
+
 #squadra-logo img {
 	width: 100%;
 	height: auto;

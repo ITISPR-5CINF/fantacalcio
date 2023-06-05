@@ -188,6 +188,22 @@ class Fantalega extends Base {
 			return null;
 		}
 
+		// Controlla che non esista già una fantalega con lo stesso nome
+		$sql = "SELECT fantaleghe.*".
+			   " FROM fantaleghe".
+			   " WHERE fantaleghe.nome = ?";
+		$statement = $conn->prepare($sql);
+		$statement->bind_param("s", $nome);
+		$statement->execute();
+
+		$result = $statement->get_result();
+		if (!$result) {
+			return null;
+		}
+		if ($result->num_rows > 0) {
+			return null;
+		}
+
 		$sql = "INSERT INTO fantaleghe (nome, admin_id, crediti_iniziali, numero_portieri, numero_difensori, numero_centrocampisti, numero_attaccanti)".
 			   " VALUES (?, ?, ?, ?, ?, ?, ?)";
 		$statement = $conn->prepare($sql);
@@ -198,16 +214,7 @@ class Fantalega extends Base {
 
 		$conn->close();
 
-		return new Fantalega(
-			$fantalega_id,
-			$nome,
-			$admin_id,
-			$crediti_iniziali,
-			$numero_portieri,
-			$numero_difensori,
-			$numero_centrocampisti,
-			$numero_attaccanti
-		);
+		return Fantalega::from_id($fantalega_id);
 	}
 }
 ?>

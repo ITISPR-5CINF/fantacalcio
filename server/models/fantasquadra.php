@@ -141,7 +141,7 @@ class Fantasquadra extends Base {
 	 * @param int $crediti_spesi crediti spesi per il giocatore
 	 * @return bool true se l'assegnazione è andata a buon fine, false altrimenti
 	 */
-	function assegna_giocatore($fantasquadra_id, $giocatore_id, $crediti_spesi) {
+	function assegna_giocatore($giocatore_id, $crediti_spesi) {
 		$fantasquadra_id = intval($fantasquadra_id);
 		$giocatore_id = intval($giocatore_id);
 		$crediti_spesi = intval($crediti_spesi);
@@ -157,7 +157,7 @@ class Fantasquadra extends Base {
 			   "                                INNER JOIN fantaleghe ON fantaleghe.fantalega_id = fantasquadre.fantalega_id".
 				" WHERE giocatori_in_fantasquadre.giocatore_id = ? AND fantaleghe.fantalega_id = (SELECT fantalega_id FROM fantasquadre WHERE fantasquadra_id = ?)";
 		$statement = $conn->prepare($sql);
-		$statement->bind_param("ii", $giocatore_id, $fantasquadra_id);
+		$statement->bind_param("ii", $giocatore_id, $this->fantasquadra_id);
 		$statement->execute();
 
 		$result = $statement->get_result();
@@ -171,12 +171,12 @@ class Fantasquadra extends Base {
 
 		$sql = "INSERT INTO giocatori_in_fantasquadre (fantasquadra_id, giocatore_id, crediti_spesi) VALUES (?, ?, ?)";
 		$statement = $conn->prepare($sql);
-		$statement->bind_param("iii", $fantasquadra_id, $giocatore_id, $crediti_spesi);
+		$statement->bind_param("iii", $this->fantasquadra_id, $giocatore_id, $crediti_spesi);
 		$statement->execute();
 
 		$sql = "UPDATE fantasquadre SET crediti = crediti - ? WHERE fantasquadra_id = ?";
 		$statement = $conn->prepare($sql);
-		$statement->bind_param("ii", $crediti_spesi, $fantasquadra_id);
+		$statement->bind_param("ii", $crediti_spesi, $this->fantasquadra_id);
 		$statement->execute();
 
 		$conn->close();
@@ -291,11 +291,6 @@ class Fantasquadra extends Base {
 		$statement = $conn->prepare($sql);
 		$statement->bind_param("siii", $nome, $fantalega_id, $utente_id, $crediti);
 		$statement->execute();
-
-		$result = $statement->get_result();
-		if (!$result) {
-			return null;
-		}
 
 		$fantasquadra_id = $conn->insert_id;
 
