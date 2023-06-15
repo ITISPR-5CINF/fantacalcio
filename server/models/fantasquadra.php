@@ -136,13 +136,11 @@ class Fantasquadra extends Base {
 
 	/**
 	 * Assegna un giocatore alla fantasquadra.
-	 * @param int $fantasquadra_id id della fantasquadra
 	 * @param int $giocatore_id id del giocatore
 	 * @param int $crediti_spesi crediti spesi per il giocatore
 	 * @return bool true se l'assegnazione è andata a buon fine, false altrimenti
 	 */
 	function assegna_giocatore($giocatore_id, $crediti_spesi) {
-		$fantasquadra_id = intval($fantasquadra_id);
 		$giocatore_id = intval($giocatore_id);
 		$crediti_spesi = intval($crediti_spesi);
 
